@@ -1,0 +1,51 @@
+.intro-bg    {
+    display: table;
+    width: 100%;
+    margin-top: 60px;
+    padding: 0;
+    background: url(../../images/clark-uni.jpg) center center no-repeat;
+    background-color: #e5e5e5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro-bg .overlay {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.intro-bg h3 {
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.intro-bg h1 span {
+    font-weight: 600;
+    color: #5ca9fb;
+}
+
+.intro-bg p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+#header-bg .intro-text {
+    padding-top: 200px;
+    text-align: justify;
+    padding-bottom: 150px;
+}
+.play-btn{
+    font-size: 70px;
+    color:white;
+    margin-bottom: 30px;
+}

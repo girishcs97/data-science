@@ -1,0 +1,125 @@
+.intro {
+    display: table;
+    width: 100%;
+    padding: 0;
+    background: url(../../images/data-science-hero.png) center center no-repeat;
+    background-color: #e5e5e5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro .overlay {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.intro h1 {
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.intro h1 span {
+    font-weight: 600;
+    color: #5ca9fb;
+}
+
+.intro p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+#header .intro-text {
+    padding-top: 300px;
+    text-align: justify;
+    padding-bottom: 150px;
+}
+
+.features__inner {
+    border-radius: 10px;
+    margin-top: -70px;
+    padding: 40px 60px 10px;
+    -ms-box-shadow: 0 30px 50px rgba(26, 31, 35, .07);
+    -o-box-shadow: 0 30px 50px rgba(26, 31, 35, .07);
+    box-shadow: 0 30px 50px rgba(26, 31, 35, .07);
+}
+
+.white-bg {
+    background: white;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.z-index-1 {
+    z-index: 1;
+}
+
+.features__border-right {
+    position: relative;
+}
+.features__item {
+    padding-right: 55px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+@media (min-width: 576px) {
+    .d-sm-flex {
+        display: flex !important;
+    }
+}
+
+.align-items-start {
+    align-items: flex-start !important;
+}
+.mr-25 {
+    margin-right: 25px;
+}
+.features__title {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.features__title a:hover {
+    color: #cf2e2e;
+}
+.features__title a {
+    color: black;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    color: #cf2e2e;
+}
+.link-btn{
+    color: black;
+    text-decoration: none;
+}
+.link-btn:hover {
+    color: #cf2e2e
+}
+.features__border-right:after {
+    position: absolute;
+    content: "";
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(3, 18, 32, .1);
+    height: 120px;
+    width: 1px;
+}

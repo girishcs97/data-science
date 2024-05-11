@@ -1,0 +1,18 @@
+.img-logo{
+    height: 62px;
+    width: 62px;
+    margin-right:10px;
+}
+
+.clark-edu{
+    display: flex;
+    justify-content: center;
+    padding-left: 15px !important;
+    background-color: #cf2e2e;
+    text-transform: uppercase;
+    color: white;
+}
+
+.nav-con{
+    margin-top: -15px;
+}

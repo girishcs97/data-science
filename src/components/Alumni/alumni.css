@@ -1,0 +1,51 @@
+.prof-logo {
+    height: 68px;
+    object-fit: cover;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: transform .3s;
+    width: 68px;
+    -webkit-transition: transform .3s;
+}
+.subtitle {
+    color: #cf2e2e;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.111em;
+}
+
+.display-title {
+    color: #0b1829;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.182em;
+}
+.testinomial {
+    color:#4b5b70;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.7em;
+}
+
+.test-name {
+    font-weight: 500;
+    font-size:15px;
+    text-transform: uppercase;
+}
+
+.card-con {
+    border: 1px solid #e5e8ec;
+    background-color: #ffffff;
+    box-shadow: 0 2px 7px 0 #14142b14;
+    overflow: hidden;
+    align-items: flex-start;
+    padding: 40px 34px 48px;
+    display: flex;
+}
+
+.margin-top-40{
+    margin-top:40px;
+}
