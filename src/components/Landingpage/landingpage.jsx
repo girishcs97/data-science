@@ -32,7 +32,7 @@ const LandingPage = (props) => {
                                         <a href="/about">UnderGraduate Programs</a>
                                     </h3>
                                     <p style={{fontSize:'13px'}}>Pathways for diverse academic and career pursuits.</p>
-                                    <a class="link-btn" href="/about">Learn More <i class="fa-regular fa-arrow-right"></i>
+                                    <a class="link-btn" href="/about">Learn More
                                     </a>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ const LandingPage = (props) => {
                                         <a href="/about">Research</a>
                                     </h3>
                                     <p style={{fontSize:'13px'}}>Matching skills with industry demands and aspirations.</p>
-                                    <a class="link-btn" href="/about">Learn More <i class="fa-regular fa-arrow-right"></i>
+                                    <a class="link-btn" href="/about">Learn More
                                     </a>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@ const LandingPage = (props) => {
                                     <h3 class="features__title">
                                         <a href="/about">Careers and Internships</a>
                                     </h3><p style={{fontSize:'13px'}}>Matching skills with industry demands and aspirations.</p>
-                                    <a class="link-btn" href="/about">Learn More <i class="fa-regular fa-arrow-right"></i>
+                                    <a class="link-btn" href="/about">Learn More
                                     </a></div>
                             </div>
                         </div>

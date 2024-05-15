@@ -1,20 +1,23 @@
 import React from 'react';
 import Header from './components/Header/header';
-import LandingPage from './components/Landingpage/landingpage';
-import Mission from './components/Mission/mission';
-import BackgroundVideo from './components/Video/bgvideo';
-import Alumni from './components/Alumni/alumni';
-import Articles from './components/Articles/articles';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import Opportunities from './components/Opportunities/opportunities';
+import Home from './components/Home/home';
+import Footer from './components/Footer/footer';
+import Research from './components/Research/research';
 
-const App = ()=>{
-  return(
+const App = () => {
+  return (
     <>
-    <Header/>
-    <LandingPage />
-    <Mission />
-    <BackgroundVideo />
-    <Alumni />
-    <Articles />
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/opportunities" element={<Opportunities />} />
+          <Route path="/research" element={<Research />} />
+        </Routes>
+      </Router>
+      <Footer />
     </>
   )
 }

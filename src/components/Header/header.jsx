@@ -1,10 +1,12 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { useNavigate } from 'react-router-dom'
 import Logo from '../../images/logo.svg'
 import './header.css'
 
 function Header() {
+    const history = useNavigate();
     return (
         <>
         <p className='p-2 clark-edu'>Clark University</p>
@@ -16,11 +18,11 @@ function Header() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#features">UnderGraduate Programs</Nav.Link>
-                        <Nav.Link href="#pricing">Research</Nav.Link>
-                        <Nav.Link href="#features">Careers and Internships</Nav.Link>
-                        <Nav.Link href="#pricing">Opportunites</Nav.Link>
-                        <Nav.Link href="#features">Faculty</Nav.Link>
+                        <Nav.Link href="#programs-page" className='page-scroll'>UnderGraduate Programs</Nav.Link>
+                        <Nav.Link onClick={()=>{history("/research")}}>Research</Nav.Link>
+                        <Nav.Link>Careers and Internships</Nav.Link>
+                        <Nav.Link onClick={()=>{history("/opportunities")}}>Opportunites</Nav.Link>
+                        <Nav.Link>Faculty</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
