@@ -1,8 +1,8 @@
 .intro {
     display: table;
     width: 100%;
-    padding: 0;
-    background: url(../../images/data-science-hero.png) center center no-repeat;
+    padding: -10px;
+    background: url(../../images/data-science-hero.jpg) center center no-repeat;
     background-color: #e5e5e5;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -20,7 +20,7 @@
     font-size: 30px;
     font-weight: 500;
     text-transform: uppercase;
-    margin-top: 0;
+    margin-top: -20px;
     margin-bottom: 10px;
 }
 
@@ -39,9 +39,9 @@
 }
 
 #header .intro-text {
-    padding-top: 300px;
+    padding-top: 150px;
     text-align: justify;
-    padding-bottom: 150px;
+    padding-bottom: 200px;
 }
 
 .features__inner {

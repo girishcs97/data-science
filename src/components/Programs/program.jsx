@@ -13,7 +13,7 @@ const Program = () => {
                 <p style={{ fontSize: '16px', marginTop: '20px' }}>Our Data Science Program offers five tracks of study: computer science, economics, geography/GIS, management, and mathematics.</p>
             </div>
             <div className='row margin-top-40'>
-                <div className='col-md-4'>
+                <div className='col-md-4 mb-4'>
                     <div class="card shadow-02" style={{ "width": "18rem;" }}>
                         <img class="card-img-top" src={Major} alt="Card image cap" />
                         <div class="card-body">
@@ -22,7 +22,7 @@ const Program = () => {
                             <div class="divider mg---32px"></div>
                             <div className='d-flex justify-content-between'>
                                 <div className='d-flex flex-column'>
-                                    <span className='display-c'>8+</span>
+                                    <span className='display-c'>Explore</span>
                                     <span className='text-100 medium text-uppercase' style={{ 'color': 'black' }}>Courses</span>
                                 </div>
                                 <div>
@@ -33,7 +33,7 @@ const Program = () => {
 
                     </div>
                 </div>
-                <div className='col-md-4'>
+                <div className='col-md-4 mb-4'>
                     <div class="card shadow-02" style={{ "width": "18rem;" }}>
                         <img class="card-img-top" src={Minor} alt="Card image cap" />
                         <div class="card-body">
@@ -42,7 +42,7 @@ const Program = () => {
                             <div class="divider mg---32px"></div>
                             <div className='d-flex justify-content-between'>
                                 <div className='d-flex flex-column'>
-                                    <span className='display-c'>8+</span>
+                                    <span className='display-c'>Explore</span>
                                     <span className='text-100 medium text-uppercase' style={{ 'color': 'black' }}>Courses</span>
                                 </div>
                                 <div>
@@ -53,7 +53,7 @@ const Program = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-4'>
+                <div className='col-md-4 mb-4'>
                     <div class="card shadow-02" style={{ "width": "18rem;" }}>
                         <img class="card-img-top" src={Concentration} alt="Card image cap" />
                         <div class="card-body">
@@ -62,7 +62,7 @@ const Program = () => {
                             <div class="divider mg---32px"></div>
                             <div className='d-flex justify-content-between'>
                                 <div className='d-flex flex-column'>
-                                    <span className='display-c'>2+</span>
+                                    <span className='display-c'>Explore</span>
                                     <span className='text-100 medium text-uppercase' style={{ 'color': 'black' }}>Concentrations</span>
                                 </div>
                                 <div>

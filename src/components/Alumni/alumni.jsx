@@ -13,15 +13,18 @@ const Alumni = () => {
             </div>
             <div class="row margin-top-40 mb-4">
                 <div className="col-sm-1 d-flex align-items-center">
-                    <BsFillCaretLeftFill className='svg-ic' />
+                    {/* <BsFillCaretLeftFill className='svg-ic' /> */}
                 </div>
                 <div class="col-sm-5">
                     <div class="card-con">
                         <div class="card-body">
                             <div className="row">
-                                <div class="col-sm-2"><img src={Lihan} className='prof-logo mt-4' /></div>
-                                <div class="col-sm-10"> <p class="card-text testinomial">“Duis purus, fames dictum amet ut sem neque vitae mattis penatibus dolor accumsan id aliquet volutpat fermentum diam ullamcorper lorem urna fermentum bibendum pharetra.”</p>
-                                    <h6 className="test-name">Gitesh Sagvekar</h6>
+                                <div class="col-sm-12"> <p class="card-text testinomial">“The urban geography and economics double major
+                                    developed a comprehensive operations analysis for his
+                                    honors thesis that outlines ways to improve Worcester
+                                    Regional Transit Authority bus servicewhile reducing
+                                    operating costs.”</p>
+                                    <h6 className="test-name">Class of M.S. ’22</h6>
                                 </div>
                             </div>
                         </div>
@@ -31,16 +34,19 @@ const Alumni = () => {
                     <div class="card-con">
                         <div class="card-body">
                             <div className="row">
-                                <div class="col-sm-2"><img src={Lihan} className='prof-logo mt-4' /></div>
-                                <div class="col-sm-10"> <p class="card-text testinomial">“Duis purus, fames dictum amet ut sem neque vitae mattis penatibus dolor accumsan id aliquet volutpat fermentum diam ullamcorper lorem urna fermentum bibendum pharetra.”</p>
-                                    <h6 className="test-name">Girish C S</h6>
+                               
+                                <div class="col-sm-12"> <p class="card-text testinomial">“The supportive community, inspirational faculty,
+                                    interdisciplinary curriculum, and various research
+                                    opportunities at Clark have fostered my growth as
+                                    a data science student.”</p>
+                                    <h6 className="test-name">Class of ’23</h6>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="col-sm-1 d-flex align-items-center">
-                    <BsFillCaretRightFill className='svg-ic' />
+                    {/* <BsFillCaretRightFill className='svg-ic' /> */}
                 </div>
             </div>
         </div>

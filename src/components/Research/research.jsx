@@ -1,20 +1,25 @@
 import React from "react";
+import './research.css'
 import Img1 from '../../images/img-1.jpg';
 import Img2 from '../../images/img-2.jpg';
-import Opportunites from '../../images/opportunities.jpg';
+import research from '../../images/Research.jpg';
 
 const Research = () => {
     return (
-        <div className="container margin-top-40">
-            <div className="d-flex">
-                <p className="display-1">Research</p>
-                <p className="display-p">Clark University’s data science program offers diverse opportunities for students, including on-campus employment, participation in student clubs, attendance at conferences, and study abroad programs.</p>
+        <div className="container margin-top-40" id='research'>
+            <div className="row">
+                <div className='col-md-5'>
+                    <p className="display-1">Research</p>
+                </div>
+                <div className='col-md-7'>
+                    <p className="display-p">Clark University’s data science program offers diverse opportunities for students, including on-campus employment, participation in student clubs, attendance at conferences, and study abroad programs.</p>
+                </div>
             </div>
             <div className="margin-top-40">
-                <img src={Opportunites} className="image-cov" />
+                <img src={research} className="image-cov" />
             </div>
             <div className="container opp-content">
-                Welcome to Clark University’s esteemed Data Science program, offering a plethora of enriching opportunities for aspiring data scientists. Through our comprehensive curriculum and dedicated faculty, you’ll delve into cutting-edge research. Engage in on-campus employment, contributing to practical projects that enhance your skills. Participate in Data Science student clubs, fostering collaborative learning and networking with peers.
+            Welcome to Clark Research: Pioneering Discoveries, Shaping Tomorrow. As leaders in scientific exploration and innovation, we are dedicated to pushing the boundaries of knowledge and driving positive change in the world. Explore our website to learn more about our groundbreaking research projects and the talented team behind them.
             </div>
             <div className='container mart-top'>
                 <div className='row'>
@@ -30,12 +35,10 @@ const Research = () => {
                     </div>
                     <div className='col-md-5 mart-top'>
                         <div class="line mg-bottom-32px"></div>
-                        <h2 style={{ lineHeight: '1.182em' }}>Explore On-Campus Employment</h2>
-                        <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>On-campus opportunities at Clark University are crucial as they provide data science students with practical experience, fostering their professional growth. Being teaching assistants, research assistants, or working with ITS Help Desk and Academic Technology Services allows students to apply their knowledge, develop essential skills, and become valuable contributors to the university community. Stay vigilant for exciting employment opportunities on Handshake!</p>
+                        <h2 style={{ lineHeight: '1.182em' }}>Data Science Research In Biology</h2>
+                        <p><b>by Javir Tabima Restrepo | Tabima Lab</b></p>
+                        <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Welcome to the forefront of scientific exploration where biology meets data science. At Clark Research, our Data Science Research in Biology team is dedicated to leveraging cutting-edge computational techniques and big data analytics to unravel the mysteries of the living world. By harnessing the power of data, we are driving groundbreaking discoveries, revolutionizing healthcare, and advancing our understanding of biological systems.</p>
                         <br />
-                        <div className='d-flex flex-row'>
-                            <button className="btn btn-outline-danger custom-btn">Office of Student Employment</button>
-                        </div>
                     </div>
                 </div>
 
@@ -44,12 +47,10 @@ const Research = () => {
                 <div className='row'>
                     <div className='col-md-6 mart-top'>
                         <div class="line mg-bottom-32px"></div>
-                        <h2 style={{ lineHeight: '1.182em' }}>Student Clubs</h2>
-                        <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Clark University’s student clubs are vibrant, active, and resourceful, offering a welcoming environment for students to get involved. Joining these clubs allows students to forge meaningful friendships, build a sense of community, and engage in various enriching activities and events.</p>
+                        <h2 style={{ lineHeight: '1.182em' }}>Data Science Research In Biochemistry</h2>
+                        <p><b>by Charles Jakobsche | Jakobsche Group</b></p>
+                        <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Welcome to the forefront of interdisciplinary research where biochemistry intersects with data science. At Clark Research, our Data Science Research in Biochemistry team is dedicated to pushing the boundaries of scientific discovery by integrating biochemical experimentation with advanced computational techniques. Through our innovative approach, we aim to unravel the complexities of biomolecular processes, accelerate drug discovery, and address critical challenges in healthcare and biotechnology.</p>
                         <br />
-                        <div className='d-flex flex-row'>
-                            <button className="btn btn-outline-danger custom-btn">STUDENT CLUBS AND ORGANIZATION</button>
-                        </div>
                     </div>
                     <div className="col-md-1"></div>
                     <div className='col-md-5'>
@@ -79,12 +80,10 @@ const Research = () => {
                     </div>
                     <div className='col-md-5 mart-top'>
                         <div class="line mg-bottom-32px"></div>
-                        <h2 style={{ lineHeight: '1.182em' }}>Study Abroad</h2>
-                        <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Embark on a transformative global experience during your undergraduate studies. Explore a multitude of credit-bearing opportunities beyond the Worcester campus, tailored to align with your academic and co-curricular interests. Our 50+ approved programs worldwide offer a diverse range of options, from Spanish immersion in Latin America to internships in Europe. Let us assist you in finding the perfect educational opportunity that goes beyond the boundaries of Worcester, enriching your academic journey and broadening your horizons.</p>
+                        <h2 style={{ lineHeight: '1.182em' }}>Data Science Research In Computer Science</h2>
+                        <p><b>by Shuo Niu | Department of Computer Science</b></p>
+                        <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Welcome to the forefront of computational innovation where computer science intersects with data science. At Clark Research, our Data Science Research in Computer Science team is dedicated to advancing the frontiers of knowledge and technology through cutting-edge research in data-driven algorithms, artificial intelligence, and machine learning. By harnessing the power of data, we aim to tackle complex challenges, drive innovation, and shape the future of computing.</p>
                         <br />
-                        <div className='d-flex flex-row'>
-                            <button className="btn btn-outline-danger custom-btn">Office of Study Abroad</button>
-                        </div>
                     </div>
                 </div>
 
@@ -93,11 +92,12 @@ const Research = () => {
                 <div className='row'>
                     <div className='col-md-6 mart-top'>
                         <div class="line mg-bottom-32px"></div>
-                        <h2 style={{ lineHeight: '1.182em' }}>Academic Conferences</h2>
-                        <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>We strongly support students’ passion for knowledge and provide them with opportunities to attend national and international conferences relevant to their interests. As part of this commitment, we offer scholarships to send motivated students to prestigious events like the Grace Hopper Celebration and the Tapia conference. Embracing these experiences, students expand their horizons, foster academic growth, and make invaluable connections in their fields of interest.</p>
+                        <h2 style={{ lineHeight: '1.182em' }}>Data Science Research In Economics</h2>
+                        <p><b>by Junfu Zhang | Department of Economics</b></p>
+                        <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Welcome to the forefront of economic research where data science meets economic theory. At Clark Research, our Data Science Research in Economics team is dedicated to advancing our understanding of complex economic phenomena, informing policy decisions, and driving innovation in economic analysis. Through the integration of economic theory, statistical methods, and computational techniques, we aim to tackle pressing economic challenges and contribute to evidence-based policymaking.</p>
                         <br />
                         <div className='d-flex flex-row'>
-                            <button className="btn btn-outline-danger custom-btn">ACAMEDIC CONFERENCES</button>
+                            <button className="btn btn-outline-danger custom-btn">LEARN MORE</button>
                         </div>
                     </div>
                     <div className="col-md-1"></div>

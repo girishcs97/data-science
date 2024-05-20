@@ -37,12 +37,12 @@
 }
 
 .card-con {
-    border: 1px solid #e5e8ec;
     background-color: #ffffff;
     box-shadow: 0 2px 7px 0 #14142b14;
     overflow: hidden;
     align-items: flex-start;
     padding: 40px 34px 48px;
+    margin-bottom: 15px;
     display: flex;
 }
 

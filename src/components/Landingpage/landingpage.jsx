@@ -1,6 +1,8 @@
 import './landingpage.css';
+import { useNavigate } from 'react-router-dom'
 
 const LandingPage = (props) => {
+    const history = useNavigate();
     return (
         <>
             <header id="header">
@@ -29,9 +31,9 @@ const LandingPage = (props) => {
                                 </div>
                                 <div class="features__content">
                                     <h3 class="features__title">
-                                        <a href="/about">UnderGraduate Programs</a>
+                                        <a href="">UnderGraduate Programs</a>
                                     </h3>
-                                    <p style={{fontSize:'13px'}}>Pathways for diverse academic and career pursuits.</p>
+                                    <p style={{ fontSize: '13px' }}>Pathways for diverse academic and career pursuits.</p>
                                     <a class="link-btn" href="/about">Learn More
                                     </a>
                                 </div>
@@ -43,10 +45,10 @@ const LandingPage = (props) => {
                                 </div>
                                 <div class="features__content">
                                     <h3 class="features__title">
-                                        <a href="/about">Research</a>
+                                        <a href="">Research</a>
                                     </h3>
-                                    <p style={{fontSize:'13px'}}>Matching skills with industry demands and aspirations.</p>
-                                    <a class="link-btn" href="/about">Learn More
+                                    <p style={{ fontSize: '13px' }}>Matching skills with industry demands and aspirations.</p>
+                                    <a class="link-btn" onClick={() => { history("/research") }}>Learn More
                                     </a>
                                 </div>
                             </div>
@@ -57,9 +59,9 @@ const LandingPage = (props) => {
                                 </div>
                                 <div class="features__content">
                                     <h3 class="features__title">
-                                        <a href="/about">Careers and Internships</a>
-                                    </h3><p style={{fontSize:'13px'}}>Matching skills with industry demands and aspirations.</p>
-                                    <a class="link-btn" href="/about">Learn More
+                                        <a href='' >Careers and Internships</a>
+                                    </h3><p style={{ fontSize: '13px' }}>Matching skills with industry demands and aspirations.</p>
+                                    <a class="link-btn" onClick={() => { history("/career") }}>Learn More
                                     </a></div>
                             </div>
                         </div>

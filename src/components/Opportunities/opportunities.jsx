@@ -7,9 +7,13 @@ import Opportunites from '../../images/opportunities.jpg';
 const Opportunities = () => {
     return (
         <div className="container margin-top-40" id='opportunities'>
-            <div className="d-flex">
-                <p className="display-1">Opportunities</p>
-                <p className="display-p">Clark University’s data science program offers diverse opportunities for students, including on-campus employment, participation in student clubs, attendance at conferences, and study abroad programs.</p>
+            <div className="row">
+                <div className='col-md-5'>
+                    <p className="display-1">Opportunities</p>
+                </div>
+                <div className='col-md-7'>
+                    <p className="display-p">Clark University’s data science program offers diverse opportunities for students, including on-campus employment, participation in student clubs, attendance at conferences, and study abroad programs.</p>
+                </div>
             </div>
             <div className="margin-top-40">
                 <img src={Opportunites} className="image-cov" alt="Custom"/>

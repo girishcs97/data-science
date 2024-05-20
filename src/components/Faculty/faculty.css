@@ -1,0 +1,28 @@
+.image-cover {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex: 1;
+    transition: 0.3s;
+}
+
+.image-cover:hover {
+    transform: scale(1.1);
+}
+
+.img-wrapper {
+    overflow: hidden;
+}
+.line .size-52px .grow {
+    max-width: 52px;
+}
+.line {
+    width: 180px;
+    height: 2px;
+    min-height: 2px;
+    background-color: #cf2e2e;
+}
+.prof-name:hover{
+    cursor: pointer;
+    color:#cf2e2e;
+}

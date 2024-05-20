@@ -12,17 +12,17 @@ function Header() {
         <p className='p-2 clark-edu'>Clark University</p>
         <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary nav-con">
             <Container>
-                <Navbar.Brand href="#home">
+                <Navbar.Brand onClick={()=>{history("/")}}>
                     <img src={Logo} alt={'Logo'} className='img-logo'/>
-                    <span style={{fontWeight:'600'}}>Data Science Program</span></Navbar.Brand>
+                    <span style={{fontWeight:'600',cursor:'pointer'}}>Data Science Program</span></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="me-auto">
+                    <Nav className="">
                         <Nav.Link href="#programs-page" className='page-scroll'>UnderGraduate Programs</Nav.Link>
                         <Nav.Link onClick={()=>{history("/research")}}>Research</Nav.Link>
-                        <Nav.Link>Careers and Internships</Nav.Link>
+                        <Nav.Link onClick={()=>{history("/career")}}>Careers and Internships</Nav.Link>
                         <Nav.Link onClick={()=>{history("/opportunities")}}>Opportunites</Nav.Link>
-                        <Nav.Link>Faculty</Nav.Link>
+                        <Nav.Link onClick={()=>{history("/faculty")}}>Faculty</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

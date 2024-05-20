@@ -18,20 +18,11 @@ const Mission = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-5 mart-top'>
+                <div className='col-md-5 mart-top-1'>
                     <div class="line mg-bottom-32px"></div>
                     <h2 style={{ lineHeight: '1.182em' }}>Transforming data knowledge for ethical innovation.</h2>
                     <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70' }}>Clark University's Data Science Program offers a dynamic curriculum focused on advanced data analysis, machine learning, and statistical methods. Students engage in interdisciplinary research, gaining practical skills to address real-world challenges. Graduates emerge as ethical data leaders driving innovation in diverse industries.</p>
                     <br />
-                    <div className='d-flex flex-row'>
-                        <div>
-                            <img src={Lihan} className='prof-logo' />
-                        </div>
-                        <div style={{ marginLeft: '15px' }}>
-                            <p className='prof-name'>Li Han</p>
-                            <p className='prof-title'>Program Director of Data Science</p>
-                        </div>
-                    </div>
                 </div>
             </div>
 
