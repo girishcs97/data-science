@@ -21,6 +21,9 @@
     box-shadow: -49px -43px 1px 1px #cf2e2e;
     flex: 1;
 }
+.image{
+    margin-top: 40px
+}
 
 .opp-content{
     color: #4b5b70;
