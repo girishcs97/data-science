@@ -28,7 +28,7 @@ function Header() {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="justify-content-end" style={{ width: "100%" }}>
-                            <Nav.Link href="#programs-page" className='page-scroll'>UnderGraduate Programs</Nav.Link>
+                            <Nav.Link onClick={() => { history("/program") }} className='page-scroll'>Undergraduate Program</Nav.Link>
                             <Nav.Link onClick={() => { history("/research") }}>Research</Nav.Link>
                             <Nav.Link onClick={() => { history("/career") }}>Careers and Internships</Nav.Link>
                             <Nav.Link onClick={() => { history("/opportunities") }}>Opportunites</Nav.Link>

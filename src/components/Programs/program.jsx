@@ -7,6 +7,11 @@ import Concentration from '../../images/concentration.jpeg';
 import { Fade } from 'react-reveal';
 
 const Program = () => {
+
+    const openInNewTab = (url) => {
+        const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+        if (newWindow) newWindow.opener = null
+      }
     return (
         <div className='container margin-top-40' id={'programs-page'}>
             <div className="text-center mb-4">
@@ -23,11 +28,11 @@ const Program = () => {
                                 <p class="card-bod">Data Science distills knowledge from data, combining Statistics, Math, and Computer Science. Applicable to Economics, Business Analytics, GIS, Biology, Chemistry, Physics, and more. Clark offers a Data Science major with diversified tracks.</p>
                                 <div class="divider mg---32px"></div>
                                 <div className='d-flex justify-content-between'>
-                                    <div className='d-flex flex-column'>
+                                    <div className='d-flex flex-column' style={{'cursor':'pointer'}} onClick={() => openInNewTab('https://catalog.clarku.edu/preview_program.php?catoid=32&poid=6519&returnto=2750&_gl=1*6a9kdm*_gcl_au*MTU5MjI1NDY4MC4xNzEyNTQ5MjY4')}>
                                         <span className='display-c'>Explore</span>
                                         <span className='text-100 medium text-uppercase' style={{ 'color': 'black' }}>Courses</span>
                                     </div>
-                                    <div>
+                                    <div onClick={() => openInNewTab('https://catalog.clarku.edu/preview_program.php?catoid=32&poid=6519&returnto=2750&_gl=1*6a9kdm*_gcl_au*MTU5MjI1NDY4MC4xNzEyNTQ5MjY4')}>
                                         <BsArrowRightSquareFill className='svg-ic' />
                                     </div>
                                 </div>
@@ -45,11 +50,11 @@ const Program = () => {
                                 <p class="card-bod">Our Data Science minor offers fundamental skills in extracting insights from data and blending data science with its applications. Enhance quantitative aspects of diverse disciplines with applicable knowledge and Research</p>
                                 <div class="divider mg---32px"></div>
                                 <div className='d-flex justify-content-between'>
-                                    <div className='d-flex flex-column'>
+                                    <div className='d-flex flex-column' style={{'cursor':'pointer'}} onClick={() => openInNewTab('https://catalog.clarku.edu/preview_program.php?catoid=32&poid=6493&returnto=2750&_gl=1*1721qx4*_gcl_au*MTU5MjI1NDY4MC4xNzEyNTQ5MjY4')}>
                                         <span className='display-c'>Explore</span>
                                         <span className='text-100 medium text-uppercase' style={{ 'color': 'black' }}>Courses</span>
                                     </div>
-                                    <div>
+                                    <div onClick={() => openInNewTab('https://catalog.clarku.edu/preview_program.php?catoid=32&poid=6493&returnto=2750&_gl=1*1721qx4*_gcl_au*MTU5MjI1NDY4MC4xNzEyNTQ5MjY4')}>
                                         <BsArrowRightSquareFill className='svg-ic' />
                                     </div>
                                 </div>

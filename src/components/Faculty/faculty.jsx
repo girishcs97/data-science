@@ -4,13 +4,14 @@ import Fac2 from '../../images/Javier.jpg';
 import Fac3 from '../../images/Charles.png';
 import Fac4 from '../../images/Edouard.jpg';
 import Fac5 from '../../images/Christopher.jpeg';
-import Fac6 from '../../images/terrasa.jpg';
+import Fac6 from '../../images/Terrasa-Ulm.jpg';
 import Fac7 from '../../images/Lyndon.png';
 import Fac8 from '../../images/Hamidreza.jpeg';
 import Fac9 from '../../images/Michael.jpg';
 import Fac10 from '../../images/Barbara.jpg';
 import Fac11 from '../../images/Andrew.jpeg';
 import Fac12 from '../../images/Yelena.jpg';
+import Fade from "react-reveal/Fade";
 import './faculty.css'
 
 
@@ -31,6 +32,7 @@ const Faculty = () => {
                     <p className="display-p">Explore our diverse and talented faculty and staff who are committed to excellence in teaching, research, and student support. Meet the individuals who bring expertise, passion, and innovation to our university community, shaping the future of education and discovery.</p>
                 </div>
                 <div className='row margin-top-40'>
+                 <Fade bottom duration={800}>
                     <div className='col-md-3 margin-bottom-35'>
                         <div className='img-wrapper'>
                             <img src={Fac1} className='image-cover' /></div>
@@ -116,6 +118,7 @@ const Faculty = () => {
                         <div class="line size-52px grow"></div>
                         <div class="text-uppercase mt-2">Professor, <br/>Sustainability and Social Justice</div>
                     </div>
+                    </Fade>
                 </div>
             </div>
         </div>

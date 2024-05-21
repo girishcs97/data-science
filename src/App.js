@@ -7,6 +7,7 @@ import Footer from './components/Footer/footer';
 import Research from './components/Research/research';
 import Faculty from './components/Faculty/faculty';
 import Career from './components/Career/career'
+import UGProgram from './components/Programs/ug-program';
 
 const App = () => {
   return (
@@ -19,9 +20,10 @@ const App = () => {
           <Route path="/research" element={<Research />} />
           <Route path="/faculty" element={<Faculty />} />
           <Route path="/career" element={<Career />} />
+          <Route path="/program" element={<UGProgram />} />
         </Routes>
       </Router>
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

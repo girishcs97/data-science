@@ -43,6 +43,11 @@ const Footer = () => {
                     <button className="btn btn-outline-light">Contact Us</button>
                 </div>
             </div>
+            <p className='p-2 clark-edu justify-content-center clark-footer'>
+                <div className=''>
+                    Clark University
+                </div>
+            </p>
         </footer>
     );
 };
