@@ -3,6 +3,7 @@ import Img1 from '../../images/img-1.jpg';
 import Img2 from '../../images/img-2.jpg';
 import Lihan from '../../images/li-han.jpg';
 import './mission.css';
+import { Fade } from 'react-reveal';
 
 const Mission = () => {
     return (
@@ -11,10 +12,14 @@ const Mission = () => {
                 <div className='col-md-7'>
                     <div className='row'>
                         <div className='col-md-5 mr-1'>
+                        <Fade bottom duration={800}>
                             <img src={Img1} className='img-1-class mt-4' />
+                            </Fade>
                         </div>
                         <div className='col-md-6'>
+                        <Fade bottom duration={800}>
                             <img src={Img2} className='img-1-class mt-4' />
+                            </Fade>
                         </div>
                     </div>
                 </div>

@@ -38,6 +38,7 @@
 
 .card-con {
     background-color: #ffffff;
+    border: 1px solid #14142b14;
     box-shadow: 0 2px 7px 0 #14142b14;
     overflow: hidden;
     align-items: flex-start;
@@ -48,4 +49,10 @@
 
 .margin-top-40{
     margin-top:40px;
+}
+
+@media (min-width: 576px) {
+    .card-con{
+        max-height: 205px;
+    }
 }

@@ -7,26 +7,36 @@ import './header.css'
 
 function Header() {
     const history = useNavigate();
+
+    const openInNewTab = (url) => {
+        const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+        if (newWindow) newWindow.opener = null
+      }
+
     return (
         <>
-        <p className='p-2 clark-edu'>Clark University</p>
-        <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary nav-con">
-            <Container>
-                <Navbar.Brand onClick={()=>{history("/")}}>
-                    <img src={Logo} alt={'Logo'} className='img-logo'/>
-                    <span style={{fontWeight:'600',cursor:'pointer'}}>Data Science Program</span></Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="">
-                        <Nav.Link href="#programs-page" className='page-scroll'>UnderGraduate Programs</Nav.Link>
-                        <Nav.Link onClick={()=>{history("/research")}}>Research</Nav.Link>
-                        <Nav.Link onClick={()=>{history("/career")}}>Careers and Internships</Nav.Link>
-                        <Nav.Link onClick={()=>{history("/opportunities")}}>Opportunites</Nav.Link>
-                        <Nav.Link onClick={()=>{history("/faculty")}}>Faculty</Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
+            <p className='p-2 clark-edu'>
+                <div className='container' onClick={() => openInNewTab('https://www.clarku.edu')}>
+                    Clark University
+                </div>
+            </p>
+            <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary nav-con">
+                <Container>
+                    <Navbar.Brand onClick={() => { history("/") }}>
+                        <img src={Logo} alt={'Logo'} className='img-logo' />
+                        <span style={{ fontWeight: '600', cursor: 'pointer' }}>Data Science Program</span></Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="justify-content-end" style={{ width: "100%" }}>
+                            <Nav.Link href="#programs-page" className='page-scroll'>UnderGraduate Programs</Nav.Link>
+                            <Nav.Link onClick={() => { history("/research") }}>Research</Nav.Link>
+                            <Nav.Link onClick={() => { history("/career") }}>Careers and Internships</Nav.Link>
+                            <Nav.Link onClick={() => { history("/opportunities") }}>Opportunites</Nav.Link>
+                            <Nav.Link onClick={() => { history("/faculty") }}>Faculty</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
         </>
     );
 }

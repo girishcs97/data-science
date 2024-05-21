@@ -21,7 +21,6 @@ const App = () => {
           <Route path="/career" element={<Career />} />
         </Routes>
       </Router>
-
       {/* <Footer /> */}
     </>
   )

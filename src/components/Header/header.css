@@ -6,7 +6,8 @@
 
 .clark-edu{
     display: flex;
-    justify-content: center;
+    cursor: pointer;
+    justify-content: left;
     padding-left: 15px !important;
     background-color: #cf2e2e;
     text-transform: uppercase;

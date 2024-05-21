@@ -1,5 +1,6 @@
 import './landingpage.css';
 import { useNavigate } from 'react-router-dom'
+import Fade from "react-reveal/Fade";
 
 const LandingPage = (props) => {
     const history = useNavigate();
@@ -10,12 +11,15 @@ const LandingPage = (props) => {
                     <div className="overlay">
                         <div className="container">
                             <div className="row">
-                                <div className="col-md-8 col-md-offset-2 intro-text">
-                                    <h1>
-                                        Welcome to Data Science Program
-                                    </h1>
-                                    <p>Today’s increasingly digital world supplies an endless stream of information and data. Clark’s Data Science Program will equip you with the necessary skills to analyze information and harness data — in virtually any discipline. From mathematics to economics, you’ll learn to think with a critical mind and identify trends to inform sound decisions.</p>
-                                </div>
+                                <Fade bottom duration={800}>
+                                    <div className="col-md-8 col-md-offset-2 intro-text">
+                                        <div class="line-white mg-bottom-32px"></div>
+                                        <h1 style={{ fontSize: '50px', fontWeight: '400', lineHeight: '1.098em',marginTop:'15px' }}>
+                                            Welcome to <br />Data Science Program
+                                        </h1>
+                                        <p>Today’s increasingly digital world supplies an endless stream of information and data. Clark’s Data Science Program will equip you with the necessary skills to analyze information and harness data — in virtually any discipline. From mathematics to economics, you’ll learn to think with a critical mind and identify trends to inform sound decisions.</p>
+                                    </div>
+                                </Fade>
                             </div>
                         </div>
                     </div>
@@ -33,7 +37,7 @@ const LandingPage = (props) => {
                                     <h3 class="features__title">
                                         <a href="">UnderGraduate Programs</a>
                                     </h3>
-                                    <p style={{ fontSize: '13px' }}>Pathways for diverse academic and career pursuits.</p>
+                                    <p style={{ fontSize: '14px' }}>Pathways for diverse academic and career pursuits.</p>
                                     <a class="link-btn" href="/about">Learn More
                                     </a>
                                 </div>
@@ -47,7 +51,7 @@ const LandingPage = (props) => {
                                     <h3 class="features__title">
                                         <a href="">Research</a>
                                     </h3>
-                                    <p style={{ fontSize: '13px' }}>Matching skills with industry demands and aspirations.</p>
+                                    <p style={{ fontSize: '14px' }}>Matching skills with industry demands and aspirations.</p>
                                     <a class="link-btn" onClick={() => { history("/research") }}>Learn More
                                     </a>
                                 </div>
@@ -60,7 +64,7 @@ const LandingPage = (props) => {
                                 <div class="features__content">
                                     <h3 class="features__title">
                                         <a href='' >Careers and Internships</a>
-                                    </h3><p style={{ fontSize: '13px' }}>Matching skills with industry demands and aspirations.</p>
+                                    </h3><p style={{ fontSize: '14px' }}>Matching skills with industry demands and aspirations.</p>
                                     <a class="link-btn" onClick={() => { history("/career") }}>Learn More
                                     </a></div>
                             </div>
