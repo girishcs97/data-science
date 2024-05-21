@@ -2,11 +2,6 @@
   background-color: #333;
 }
 
-.footer-title {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-
 .social-icons a {
   font-size: 1.5rem;
   margin-right: 10px;
@@ -27,6 +22,59 @@
   background-color: #ccc;
   color: #333;
 }
-.clark-footer{
-  margin-bottom: 120px !important;
+
+.clark-title-con {
+  font-size: 12px;
+  letter-spacing: .14em;
+  line-height: 18px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.address-cl {
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.btn-design {
+  font-size: 16px;
+  line-height: 22px;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 0px !important;
+}
+
+.follow-u {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .0666667em;
+  line-height: 18px;
+  padding: 0 0 20px;
+  margin-left: 50px;
+  text-transform: uppercase;
+}
+
+.icon-dsgn {
+  padding: 15px 20px;
+  margin: 5px;
+}
+
+.icon-dsgn:hover {
+  color: #3b5998;
+}
+
+.helpful-links {
+  border-bottom: 1px solid #fff;
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .0666667em;
+  line-height: 18px;
+  max-width: 80%;
+  margin-bottom: 20px;
+  padding: 0 0 20px;
+  text-transform: uppercase;
+
 }

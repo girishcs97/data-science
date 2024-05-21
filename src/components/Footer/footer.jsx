@@ -1,53 +1,45 @@
 import React from 'react';
 import './footer.css';
-
+import FooterImg from '../../images/footer-logo.svg'
 const Footer = () => {
     return (
         <footer className="footer bg-dark text-white">
             <div className="container py-4">
                 <div className="row">
                     <div className="col-md-4 mb-3">
-                        <h5 className="footer-title">Clark University</h5>
-                        <p>Challenge Convention. Change Our World.</p>
-                        <p><i className="fa fa-phone"></i> 508-793-7711</p>
-                        <p><i className="fa fa-map-marker"></i> 950 Main Street Worcester, MA 01610</p>
+                        <img src={FooterImg} style={{ maxWidth: '200px', maxHeight: '58px', marginBottom: '20px' }} />
+                        <p className='clark-title-con'>Challenge Convention.<br /> Change Our World.</p>
+                        <p className='address-cl'><i className="fa fa-phone" style={{ 'marginRight': '10px' }}></i> 508-793-7711</p>
+                        <p className='address-cl'><i className="fa fa-map-marker" style={{ 'marginRight': '10px' }}></i> 950 Main Street Worcester, MA 01610</p>
                     </div>
-                    <div className="col-md-4 mb-3">
-                        <h5 className="footer-title">Helpful Links</h5>
+                    <div className="col-md-5 mb-3 mt-4">
+                        <h5 className="helpful-links">Helpful Links</h5>
                         <ul className="list-unstyled">
-                            <li><a href="#" className="text-white">Report a Concern</a></li>
-                            <li><a href="#" className="text-white">Campus Safety</a></li>
-                            <li><a href="#" className="text-white">Events</a></li>
-                            <li><a href="#" className="text-white">Offices</a></li>
-                            <li><a href="#" className="text-white">Employment</a></li>
-                            <li><a href="#" className="text-white">Website Feedback</a></li>
+                            <div className='row'>
+                                <div className='col-md-4'><li>Report a Concern</li></div>
+                                <div className='col-md-4'><li>Campus Safety</li></div>
+                                <div className='col-md-4'><li>Events</li><br /></div>
+                            </div>
+                            <div className='row'>
+                                <div className='col-md-4'><li>Offices</li></div>
+                                <div className='col-md-4'><li>Employment</li></div>
+                                <div className='col-md-4'> <li>Website Feedback</li></div>
+                            </div>
                         </ul>
                     </div>
-                    <div className="col-md-4 mb-3">
-                        <h5 className="footer-title">Follow Us</h5>
-                        <div className="social-icons">
-                            <a href="#" className="text-white"><i className="fa fa-facebook"></i></a>
-                            <a href="#" className="text-white"><i className="fa fa-twitter"></i></a>
-                            <a href="#" className="text-white"><i className="fa fa-instagram"></i></a>
-                            <a href="#" className="text-white"><i className="fa fa-tiktok"></i></a>
-                            <a href="#" className="text-white"><i className="fa fa-youtube"></i></a>
-                            <a href="#" className="text-white"><i className="fa fa-linkedin"></i></a>
-                            <a href="#" className="text-white"><i className="fa fa-goodreads"></i></a>
+                    <div className="col-md-3 mb-3 mt-4">
+                        <h5 className="follow-u ml-4">Follow Us</h5>
+                        <div className="social-icons text-center">
+                            <a href="#" className="text-white"><i className="fa fa-facebook icon-dsgn"></i></a>
+                            <a href="#" className="text-white"><i className="fa fa-twitter icon-dsgn"></i></a>
+                            <a href="#" className="text-white"><i className="fa fa-instagram icon-dsgn"></i></a>
+                            <a href="#" className="text-white"><i className="fa fa-tiktok icon-dsgn"></i></a>
+                            <a href="#" className="text-white"><i className="fa fa-youtube icon-dsgn"></i></a>
+                            <a href="#" className="text-white"><i className="fa fa-linkedin icon-dsgn"></i></a>
                         </div>
                     </div>
                 </div>
-                <div className="text-center mt-4">
-                    <button className="btn btn-outline-light mr-2">Apply Undergrad</button>
-                    <button className="btn btn-outline-light mr-2">Apply Grad</button>
-                    <button className="btn btn-outline-light mr-2">Give</button>
-                    <button className="btn btn-outline-light">Contact Us</button>
-                </div>
             </div>
-            <p className='p-2 clark-edu justify-content-center clark-footer'>
-                <div className=''>
-                    Clark University
-                </div>
-            </p>
         </footer>
     );
 };

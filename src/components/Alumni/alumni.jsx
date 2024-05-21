@@ -1,7 +1,7 @@
 import React from "react";
 import Lihan from '../../images/li-han.jpg';
 import './alumni.css';
-import { BsFillCaretLeftFill, BsFillCaretRightFill } from "react-icons/bs";
+import Fade from "react-reveal/Fade";
 
 const Alumni = () => {
     return (
@@ -19,32 +19,37 @@ const Alumni = () => {
                     <div class="card-con">
                         <div class="card-body">
                             <div className="row">
-                                <div class="col-sm-12"> <p class="card-text testinomial">“The urban geography and economics double major
-                                    developed a comprehensive operations analysis for his
-                                    honors thesis that outlines ways to improve Worcester
-                                    Regional Transit Authority bus servicewhile reducing
-                                    operating costs.”</p>
+                                <div class="col-sm-12">
+                                     <p class="card-text testinomial">“The urban geography and economics double major
+                                        developed a comprehensive operations analysis for his
+                                        honors thesis that outlines ways to improve Worcester
+                                        Regional Transit Authority bus servicewhile reducing
+                                        operating costs.”</p>
                                     <h6 className="test-name">Class of M.S. ’22</h6>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
+
                 <div class="col-sm-5">
+
                     <div class="card-con">
                         <div class="card-body">
                             <div className="row">
-                               
-                                <div class="col-sm-12"> <p class="card-text testinomial">“The supportive community, inspirational faculty,
-                                    interdisciplinary curriculum, and various research
-                                    opportunities at Clark have fostered my growth as
-                                    a data science student.”</p>
+                                <div class="col-sm-12">
+                                     <p class="card-text testinomial">“The supportive community, inspirational faculty,
+                                        interdisciplinary curriculum, and various research
+                                        opportunities at Clark have fostered my growth as
+                                        a data science student.”</p>
                                     <h6 className="test-name">Class of ’23</h6>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div className="col-sm-1 d-flex align-items-center">
                     {/* <BsFillCaretRightFill className='svg-ic' /> */}
                 </div>
