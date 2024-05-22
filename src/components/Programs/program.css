@@ -101,3 +101,48 @@
     font-weight: 400;
     line-height: 1.667em;
 }
+
+
+  /* tpn card style */
+.demo_title h1,h6{
+    color:#15151C;
+  }
+
+
+  .tpn_card{
+    background: #f8f9fa;
+    padding: 23px;
+    border-radius:27px;
+  }
+  
+  .tpn_card img{
+    border-radius:23px;
+    box-shadow: 1px 7px 13px #C5C5CC;
+  }
+  
+  .tpn_card h5{
+    color: #35353C;
+  }
+  
+  .tpn_card p{
+    color: #55555C;
+    font-weight:400;
+    margin-bottom:24px;
+  }
+  
+  .tpn_card .tpn_btn{
+    padding:13px 27px !important;
+    line-height: normal;
+    background: #35353C;
+    border-radius:17px;
+    text-decoration:none;
+    color: #FFF;
+    box-shadow: 1px 7px 13px #C5C5CC;
+    transition: all .7s ease;
+  }
+  
+  .tpn_card .tpn_btn:hover{
+    background:#cf2e2e;
+    box-shadow: none;
+  }
+  
