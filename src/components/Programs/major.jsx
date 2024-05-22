@@ -1,5 +1,15 @@
 import React from 'react';
 import Biology from '../../images/biology.png'
+import T2 from '../../images/Track2.png'
+import T3 from '../../images/Track3.jpg'
+import T4 from '../../images/Track4.png'
+import T5 from '../../images/Track5.png'
+import T6 from '../../images/Track6.png'
+import T7 from '../../images/Track7.png'
+import T8 from '../../images/Track8.png'
+import T9 from '../../images/Track9.png'
+import T10 from '../../images/Track10.png'
+import T11 from '../../images/Track11.png'
 import { Fade } from 'react-reveal';
 
 const Major = () => {
@@ -65,37 +75,15 @@ const Major = () => {
                     <a href="javascript:;" class="btn tpn_btn">Explore</a>
                 </div>
                 <div class="tpn_card">
-                    <img src={Biology} class="w-100 mb-4" />
-                    <h5>Biology Track</h5>
-                    <p>Analyze biological data, study genetics.</p>
+                    <img src={T2} class="w-100 mb-4" />
+                    <h5>Biochemistry Track</h5>
+                    <p>Merge data science with biochemistry research.</p>
                     <a href="javascript:;" class="btn tpn_btn">Explore</a>
                 </div>
                 <div class="tpn_card">
-                    <img src={Biology} class="w-100 mb-4" />
-                    <h5>Biology Track</h5>
-                    <p>Analyze biological data, study genetics.</p>
-                    <a href="javascript:;" class="btn tpn_btn">Explore</a>
-                </div>
-            </div>
-        </div>
-        <div className='container'>
-            <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 mt-5">
-                <div class="tpn_card">
-                    <img src={Biology} class="w-100 mb-4" />
-                    <h5>Biology Track</h5>
-                    <p>Analyze biological data, study genetics.</p>
-                    <a href="javascript:;" class="btn tpn_btn">Explore</a>
-                </div>
-                <div class="tpn_card">
-                    <img src={Biology} class="w-100 mb-4" />
-                    <h5>Biology Track</h5>
-                    <p>Analyze biological data, study genetics.</p>
-                    <a href="javascript:;" class="btn tpn_btn">Explore</a>
-                </div>
-                <div class="tpn_card">
-                    <img src={Biology} class="w-100 mb-4" />
-                    <h5>Biology Track</h5>
-                    <p>Analyze biological data, study genetics.</p>
+                    <img src={T3} class="w-100 mb-4" />
+                    <h5>Computer Science Track</h5>
+                    <p>Study algorithms, artificial intelligence, robotics, computer vision, theory, and more.</p>
                     <a href="javascript:;" class="btn tpn_btn">Explore</a>
                 </div>
             </div>
@@ -103,21 +91,43 @@ const Major = () => {
         <div className='container'>
             <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 mt-5">
                 <div class="tpn_card">
-                    <img src={Biology} class="w-100 mb-4" />
-                    <h5>Biology Track</h5>
-                    <p>Analyze biological data, study genetics.</p>
+                    <img src={T4} class="w-100 mb-4" />
+                    <h5>Economics Track</h5>
+                    <p>Explore game theory, statistical analysis and other areas where economics and data science combine.</p>
                     <a href="javascript:;" class="btn tpn_btn">Explore</a>
                 </div>
                 <div class="tpn_card">
-                    <img src={Biology} class="w-100 mb-4" />
-                    <h5>Biology Track</h5>
-                    <p>Analyze biological data, study genetics.</p>
+                    <img src={T5} class="w-100 mb-4" />
+                    <h5>Environmental Science Track</h5>
+                    <p>Utilize DS to and address environmental issues like climate change, pollution & conservation.</p>
                     <a href="javascript:;" class="btn tpn_btn">Explore</a>
                 </div>
                 <div class="tpn_card">
-                    <img src={Biology} class="w-100 mb-4" />
-                    <h5>Biology Track</h5>
-                    <p>Analyze biological data, study genetics.</p>
+                    <img src={T6} class="w-100 mb-4" />
+                    <h5>Game Design Track</h5>
+                    <p>Learn how to use data analysis to improve game mechanics, user experience, and overall game design.</p>
+                    <a href="javascript:;" class="btn tpn_btn">Explore</a>
+                </div>
+            </div>
+        </div>
+        <div className='container'>
+            <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 mt-5">
+                <div class="tpn_card">
+                    <img src={T7} class="w-100 mb-4" />
+                    <h5>Geography Track</h5>
+                    <p>Gain the skills and experience in GIS and use data science to interpret what you find.</p>
+                    <a href="javascript:;" class="btn tpn_btn">Explore</a>
+                </div>
+                <div class="tpn_card">
+                    <img src={T8} class="w-100 mb-4" />
+                    <h5>Management Track</h5>
+                    <p>Analyze business analytics for decision-making.</p>
+                    <a href="javascript:;" class="btn tpn_btn">Explore</a>
+                </div>
+                <div class="tpn_card">
+                    <img src={T9} class="w-100 mb-4" />
+                    <h5>Mathematics Track</h5>
+                    <p>Apply math to model sports, health, business.</p>
                     <a href="javascript:;" class="btn tpn_btn">Explore</a>
                 </div>
             </div>
@@ -125,15 +135,15 @@ const Major = () => {
         <div className='container mb-4'>
             <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 mt-5">
                 <div class="tpn_card">
-                    <img src={Biology} class="w-100 mb-4" />
-                    <h5>Biology Track</h5>
-                    <p>Analyze biological data, study genetics.</p>
+                    <img src={T10} class="w-100 mb-4" />
+                    <h5>Physics Track</h5>
+                    <p>Analyze physical phenomena, develop simulations.</p>
                     <a href="javascript:;" class="btn tpn_btn">Explore</a>
                 </div>
                 <div class="tpn_card">
-                    <img src={Biology} class="w-100 mb-4" />
-                    <h5>Biology Track</h5>
-                    <p>Analyze biological data, study genetics.</p>
+                    <img src={T11} class="w-100 mb-4" />
+                    <h5>Psychology Track</h5>
+                    <p>Study human behavior using data-driven approaches.</p>
                     <a href="javascript:;" class="btn tpn_btn">Explore</a>
                 </div>
                 <div class="tpn_card">

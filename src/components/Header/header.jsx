@@ -30,8 +30,8 @@ function Header() {
                         <Nav className="justify-content-end" style={{ width: "100%" }}>
                             <Nav.Link onClick={() => { history("/program") }} className='page-scroll'>Undergraduate Program</Nav.Link>
                             <Nav.Link onClick={() => { history("/research") }}>Research</Nav.Link>
-                            <Nav.Link onClick={() => { history("/career") }}>Careers and Internships</Nav.Link>
-                            <Nav.Link onClick={() => { history("/opportunities") }}>Opportunites</Nav.Link>
+                            {/* <Nav.Link onClick={() => { history("/career") }}>Careers and Internships</Nav.Link> */}
+                            <Nav.Link onClick={() => { history("/opportunities") }}>Opportunites and Services</Nav.Link>
                             <Nav.Link onClick={() => { history("/faculty") }}>Faculty</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
