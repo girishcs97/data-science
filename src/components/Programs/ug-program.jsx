@@ -1,5 +1,8 @@
 import React from 'react';
 import Program from './program';
+import DS1 from '../../images/Data 1.jpg';
+import DS2 from '../../images/Global data.jpg';
+import DS3 from '../../images/research-1.jpg';
 import Img1 from '../../images/research-1.jpg';
 import Img2 from '../../images/research-2.jpg';
 import Img3 from '../../images/research-3.jpg';
@@ -17,11 +20,10 @@ const UGProgram = () => {
             </Fade>
         </div>
         <div className='container-fluid margin-top-40'>
-            <Fade bottom duration={1000}>
-                <div className='row'>
+        <Fade bottom duration={1000}>
+        <div className='row'>
                     <div className='col-md-1'></div>
                     <div className='col-md-10'>
-                        <div class="line size-150px mg-bottom-28px"></div>
                         <h2 class="display-data">Learn about our Program</h2>
                         <br />
                         <p className='p-content' style={{ color: '#4b5b70', textAlign: 'justify', fontSize: '17px' }}>Data is everywhere. Our increasingly global and digitized world produces massive amounts
@@ -46,9 +48,87 @@ const UGProgram = () => {
                             support.  </p>
                     </div>
                     <div className='col-md-2'></div>
-                </div>
-            </Fade>
+                </div> 
+                </Fade>
         </div>
+        
+        <Fade bottom duration={1000}>
+            <div className='row'>
+                <div className='col-md-1'></div>
+                <div className='col-md-10'>
+                    <h2 class="display-data">Why Data Science?</h2>
+                    <br />
+                    <div className='container mart-top mb-4'>
+                <div className='row'>
+                    <div className='col-md-7'>
+                        <div className='row'>
+                            <Fade bottom duration={800}>
+                                <img src={DS1} className='img-re-class margin-top-32' />
+                            </Fade>
+                        </div>
+                    </div>
+                    <div className='col-md-5 mart-top'>
+                        <Fade bottom duration={1000}>
+                            <div class="line mg-bottom-32px"></div>
+                            <h2 style={{ lineHeight: '1.182em' }}>Amount of Data Created Daily</h2>
+                            <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>You are on the internet almost daily. You check your email, send replies, maybe browse websites and even click on things. Every move you make online equates to data creation. So, have you ever wondered how much data is created every day? With around 4.66 billion active Internet users worldwide, the data produced daily surpasses the imagination. The statistics below explore how much data is created on the internet each day.</p>
+                            <br />
+                        </Fade>
+                    </div>
+                </div>
+            </div>
+            <div className="bg-grey mt-4">
+                <div className='container mart-top'>
+                    <div className='row'>
+                        <Fade bottom duration={800}>
+                            <div className='col-md-6 mart-top'>
+                                <div class="line mg-bottom-32px"></div>
+                                <h2 style={{ lineHeight: '1.182em' }}>Data Creation Growth Projections</h2>
+                                <p style={{ textAlign: 'justify', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>The amount of data generated annually has grown year-over-year since 2010. In fact, it is estimated that 90% of the world's data was generated in the last two years alone.
+In the space of 13 years, this figure has increased by an estimated 60x from just 2 zettabytes in 2010.
+The 120 zettabytes generated in 2023 are expected to increase by over 150% in 2025, hitting 181 zettabytes.
+</p>
+                                <br />
+                            </div>
+                        </Fade>
+                        <div className="col-md-1"></div>
+                        <div className='col-md-5'>
+                            <div className='row'>
+                                <Fade bottom duration={1000}>
+                                    <img src={DS2} className='img-re-class' style={{ marginTop: '60px' }} />
+                                </Fade>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div className='container mart-top'>
+                <div className='row'>
+                    <div className='col-md-7'>
+                        <div className='row'>
+                            <Fade bottom duration={800}>
+                                <img src={Img3} className='img-re-class margin-top-32' />
+                            </Fade>
+                        </div>
+                    </div>
+                    <div className='col-md-5 mart-top'>
+                        <Fade bottom duration={800}>
+                        <div class="line mg-bottom-32px"></div>
+                            <h2 style={{ lineHeight: '1.182em' }}>Projected Growth and Recognized Importance</h2>
+                            {/* <p><b>by Shuo Niu | Department of Computer Science</b></p> */}
+                            <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Employment in data-related occupations is expected to grow 36% from 2021 to 2031, quicker than the average for all occupations. 95% of businesses cite that managing data is a challenge for their industry. Data Science in the New Economy is a new race for talent in the Fourth Industrial Revolution</p>
+                            <br />
+                        </Fade>
+                    </div>
+                </div>
+            </div>
+                </div>
+                <div className='col-md-2'></div>
+            </div>
+            </Fade>
+            
+                
         <div className="container margin-top-40" id='research'>
             <div className="text-center mb-4">
                 <p className="subtitle mb-2">Projects</p>
