@@ -9,21 +9,21 @@ const Footer = () => {
                     <div className="col-md-4 mb-3">
                         <img src={FooterImg} style={{ maxWidth: '200px', maxHeight: '58px', marginBottom: '20px' }} />
                         <p className='clark-title-con'>Challenge Convention.<br /> Change Our World.</p>
-                        <p className='address-cl'><i className="fa fa-phone" style={{ 'marginRight': '10px' }}></i> 508-793-7711</p>
+                        <p className='address-cl'><i className="fa fa-envelope" style={{ 'marginRight': '10px' }}></i>ds@clarku.edu</p>
                         <p className='address-cl'><i className="fa fa-map-marker" style={{ 'marginRight': '10px' }}></i> 950 Main Street Worcester, MA 01610</p>
                     </div>
                     <div className="col-md-5 mb-3 mt-4">
                         <h5 className="helpful-links">Helpful Links</h5>
                         <ul className="list-unstyled">
                             <div className='row'>
-                                <div className='col-md-4'><li>Report a Concern</li></div>
-                                <div className='col-md-4'><li>Campus Safety</li></div>
-                                <div className='col-md-4'><li>Events</li><br /></div>
+                                <div className='col-md-4'><li className='m-1'>Report a Concern</li></div>
+                                <div className='col-md-4'><li className='m-1'>Campus Safety</li></div>
+                                <div className='col-md-4'><li className='m-1'>Events</li><br /></div>
                             </div>
                             <div className='row'>
-                                <div className='col-md-4'><li>Offices</li></div>
-                                <div className='col-md-4'><li>Employment</li></div>
-                                <div className='col-md-4'> <li>Website Feedback</li></div>
+                                <div className='col-md-4'><li className='m-1'>Offices</li></div>
+                                <div className='col-md-4'><li className='m-1'>Employment</li></div>
+                                <div className='col-md-4'> <li className='m-1'>Website Feedback</li></div>
                             </div>
                         </ul>
                     </div>

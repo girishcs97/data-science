@@ -73,3 +73,31 @@
     margin-bottom: 20px;
     line-height: 1.182em;
 }
+
+.major-bg-red {
+    width: 100%;
+    padding: 180px;
+    background:  linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ), url(../../images/ug-program.jpg) center center no-repeat;
+    background-color: #e5e5e5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: white;
+}
+.explore-programs-card-content {
+    padding: 10px 15px 25px;
+}
+.shadow-02 {
+    box-shadow: 0 2px 12px 0 #14142b14;
+}
+.card-cont{
+    color: #4b5b70;
+    font-family: Satoshi, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.667em;
+}
