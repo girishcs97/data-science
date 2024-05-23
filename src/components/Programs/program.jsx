@@ -1,13 +1,14 @@
 import React from 'react';
 import Major from '../../images/major.jpeg';
 import './program.css';
+import { useNavigate } from 'react-router-dom'
 import Minor from '../../images/major.jpg';
 import { BsArrowRightSquareFill } from "react-icons/bs";
 import Concentration from '../../images/concentration.jpeg';
 import { Fade } from 'react-reveal';
 
 const Program = () => {
-
+    const history = useNavigate();
     const openInNewTab = (url) => {
         const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
         if (newWindow) newWindow.opener = null
@@ -30,11 +31,11 @@ const Program = () => {
                                     least one at the 200-level, as part of their electives.</p>
                                 <div class="divider mg---32px"></div>
                                 <div className='d-flex justify-content-between'>
-                                    <div className='d-flex flex-column' style={{ 'cursor': 'pointer' }} onClick={() => openInNewTab('https://catalog.clarku.edu/preview_program.php?catoid=32&poid=6519&returnto=2750&_gl=1*6a9kdm*_gcl_au*MTU5MjI1NDY4MC4xNzEyNTQ5MjY4')}>
+                                    <div className='d-flex flex-column' style={{ 'cursor': 'pointer' }} onClick={() => { history("/major") }}>
                                         <span className='display-c'>Explore</span>
                                         <span className='text-100 medium text-uppercase' style={{ 'color': 'black' }}>Courses</span>
                                     </div>
-                                    <div onClick={() => openInNewTab('https://catalog.clarku.edu/preview_program.php?catoid=32&poid=6519&returnto=2750&_gl=1*6a9kdm*_gcl_au*MTU5MjI1NDY4MC4xNzEyNTQ5MjY4')}>
+                                    <div onClick={() => { history("/major") }}>
                                         <BsArrowRightSquareFill className='svg-ic' />
                                     </div>
                                 </div>

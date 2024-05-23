@@ -134,10 +134,6 @@ const Opportunities = () => {
                         </div>
                     </div>
                 </div>
-
-            </div>
-            <div className="container opp-content">
-                With a degree in data science from Clark, you'll possess the analytical skills and technical expertise needed to excel in a variety of industries. Whether you're interested in uncovering insights from complex datasets as a data scientist, designing machine learning algorithms as a machine learning engineer, or providing strategic guidance as a business intelligence analyst, your opportunities are boundless.
             </div>
             <div className='container mart-top'>
                 <div className='row'>
@@ -151,6 +147,7 @@ const Opportunities = () => {
                         </div>
                     </div>
                     <div className='col-md-5 mart-top'>
+                    <div class="line mg-bottom-32px"></div>
                     <Fade bottom duration={800}>
                         <h2 style={{ lineHeight: '1.182em' }}>Career and Internship Opportunities</h2>
                         <div class="line mg-bottom-32px"></div>
@@ -168,6 +165,7 @@ const Opportunities = () => {
             <div className='container mart-top mb-4'>
                 <div className='row'>
                     <div className='col-md-6 mart-top'>
+                    <div class="line mg-bottom-32px"></div>
                     <Fade bottom duration={800}>
                         <h2 style={{ lineHeight: '1.182em' }}>Clark Funding for Internships</h2>
                         <div class="line mg-bottom-32px"></div>
@@ -190,7 +188,7 @@ const Opportunities = () => {
                     </div>
                 </div>
             </div>
-            <div className="customer-section margin-top-40">
+            <div className="customer-section margin-top-40 mb-4">
             <Fade bottom duration={800}>
                 <h2>OUR KEY RECRUITERS</h2>
                 <div className="customer-logos">

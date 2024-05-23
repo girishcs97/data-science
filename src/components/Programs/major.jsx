@@ -57,7 +57,7 @@ const Major = () => {
                     <div className='col-md-1'></div>
                     <div className='col-md-10'>
                         <div class="line size-150px mg-bottom-28px"></div>
-                        <h2 class="display-data">Explore Major Tracks</h2>
+                        <h2 class="display-data">Explore Major Elective Tracks</h2>
                         <br />
                         <p className='p-content' style={{ color: '#4b5b70', textAlign: 'justify', fontSize: '17px' }}>
                             The Data Science program at Clark University offers specialized tracks in Business Analytics, Computational Data Science, and Environmental Data Science. These tracks allow students to tailor their education to specific career goals and industry demands, enhancing their expertise in targeted areas of data science.</p>
@@ -71,13 +71,13 @@ const Major = () => {
                 <div class="tpn_card">
                     <img src={Biology} class="w-100 mb-4" />
                     <h5>Biology Track</h5>
-                    <p>Analyze biological data, study genetics.</p>
+                    <p>Analyze biological data, study genetics.<br/><br/></p>
                     <a href="javascript:;" class="btn tpn_btn">Explore</a>
                 </div>
                 <div class="tpn_card">
                     <img src={T2} class="w-100 mb-4" />
                     <h5>Biochemistry Track</h5>
-                    <p>Merge data science with biochemistry research.</p>
+                    <p>Merge data science with biochemistry research.<br/><br/></p>
                     <a href="javascript:;" class="btn tpn_btn">Explore</a>
                 </div>
                 <div class="tpn_card">
@@ -93,13 +93,13 @@ const Major = () => {
                 <div class="tpn_card">
                     <img src={T4} class="w-100 mb-4" />
                     <h5>Economics Track</h5>
-                    <p>Explore game theory, statistical analysis and other areas where economics and data science combine.</p>
+                    <p>Explore game theory, statistical analysis and other areas where economics and data science combine.<br/><br/></p>
                     <a href="javascript:;" class="btn tpn_btn">Explore</a>
                 </div>
                 <div class="tpn_card">
                     <img src={T5} class="w-100 mb-4" />
                     <h5>Environmental Science Track</h5>
-                    <p>Utilize DS to and address environmental issues like climate change, pollution & conservation.</p>
+                    <p>Utilize DS to and address environmental issues like climate change, pollution & conservation.<br/><br/></p>
                     <a href="javascript:;" class="btn tpn_btn">Explore</a>
                 </div>
                 <div class="tpn_card">
@@ -121,13 +121,13 @@ const Major = () => {
                 <div class="tpn_card">
                     <img src={T8} class="w-100 mb-4" />
                     <h5>Management Track</h5>
-                    <p>Analyze business analytics for decision-making.</p>
+                    <p>Analyze business analytics for decision-making.<br/><br/></p>
                     <a href="javascript:;" class="btn tpn_btn">Explore</a>
                 </div>
                 <div class="tpn_card">
                     <img src={T9} class="w-100 mb-4" />
                     <h5>Mathematics Track</h5>
-                    <p>Apply math to model sports, health, business.</p>
+                    <p>Apply math to model sports, health, business.<br/><br/></p>
                     <a href="javascript:;" class="btn tpn_btn">Explore</a>
                 </div>
             </div>
@@ -137,7 +137,7 @@ const Major = () => {
                 <div class="tpn_card">
                     <img src={T10} class="w-100 mb-4" />
                     <h5>Physics Track</h5>
-                    <p>Analyze physical phenomena, develop simulations.</p>
+                    <p>Analyze physical phenomena, develop simulations.<br/><br/></p>
                     <a href="javascript:;" class="btn tpn_btn">Explore</a>
                 </div>
                 <div class="tpn_card">
@@ -149,7 +149,7 @@ const Major = () => {
                 <div class="tpn_card">
                     <img src={Biology} class="w-100 mb-4" />
                     <h5>Biology Track</h5>
-                    <p>Analyze biological data, study genetics.</p>
+                    <p>Analyze biological data, study genetics.<br/><br/></p>
                     <a href="javascript:;" class="btn tpn_btn">Explore</a>
                 </div>
             </div>

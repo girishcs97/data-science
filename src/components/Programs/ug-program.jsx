@@ -24,6 +24,7 @@ const UGProgram = () => {
         <div className='row'>
                     <div className='col-md-1'></div>
                     <div className='col-md-10'>
+                    <div class="line size-150px mg-bottom-28px"></div>
                         <h2 class="display-data">Learn about our Program</h2>
                         <br />
                         <p className='p-content' style={{ color: '#4b5b70', textAlign: 'justify', fontSize: '17px' }}>Data is everywhere. Our increasingly global and digitized world produces massive amounts
@@ -53,9 +54,10 @@ const UGProgram = () => {
         </div>
         
         <Fade bottom duration={1000}>
-            <div className='row'>
+            <div className='row margin-top-40'>
                 <div className='col-md-1'></div>
                 <div className='col-md-10'>
+                <div class="line size-150px mg-bottom-28px"></div>
                     <h2 class="display-data">Why Data Science?</h2>
                     <br />
                     <div className='container mart-top mb-4'>
