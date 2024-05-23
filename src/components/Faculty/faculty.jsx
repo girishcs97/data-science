@@ -35,67 +35,10 @@ const Faculty = () => {
                  <Fade bottom duration={800}>
                     <div className='col-md-3 margin-bottom-35'>
                         <div className='img-wrapper'>
-                            <img src={Fac1} className='image-cover' /></div>
-                            <h6 className='mt-4 prof-name' onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/li-han/')}>Li Han</h6>
+                            <img src={Fac11} className='image-cover' /></div>
+                            <h6 className='mt-4 prof-name' onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/andrew-stewart/')}>Andrew Stewart</h6>
                             <div class="line size-52px grow"></div>
-                        <div class="text-uppercase mt-2">Professor,<br/> Computer Science</div>
-                    </div>
-                    <div className='col-md-3 margin-bottom-35'>
-                        <div className='img-wrapper'>
-                            <img src={Fac2} className='image-cover' /></div>
-                        <h6 className='mt-4 prof-name' onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/javier-tabima-restrepo/')}>Javier Tabima Restrepo​</h6>
-                        <div class="line size-52px grow"></div>
-                        <div class="text-uppercase mt-2">Associate Professor, <br/>Biology</div>
-                    </div>
-                    <div className='col-md-3 margin-bottom-35'>
-                        <div className='img-wrapper'>
-                            <img src={Fac3} className='image-cover' /></div>
-                        <h6 className='mt-4 prof-name' onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/charles-jakobsche/')}>Charles Jakobsche​</h6>
-                        <div class="line size-52px grow"></div>
-                        <div class="text-uppercase mt-2">Associate Professor, <br />Chemistry</div>
-                    </div>
-                    <div className='col-md-3 margin-bottom-35'>
-                        <div className='img-wrapper'>
-                            <img src={Fac4} className='image-cover' /></div>
-                        <h6 className='mt-4 prof-name' onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/edouard-wemy/')}>Edouard Wemy</h6>
-                        <div class="line size-52px grow"></div>
-                        <div class="text-uppercase mt-2">Associate Professor, <br/>Economics</div>
-                    </div>
-                    <div className='col-md-3 margin-bottom-35'>
-                        <div className='img-wrapper'>
-                            <img src={Fac5} className='image-cover' /></div>
-                        <h6 className='mt-4 prof-name'onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/christopher-williams/')}>Christopher Williams​</h6>
-                        <div class="line size-52px grow"></div>
-                        <div class="text-uppercase mt-2">Professor, <br/>Geography
-                        </div>
-                    </div>
-                    <div className='col-md-3 margin-bottom-35'>
-                        <div className='img-wrapper'>
-                            <img src={Fac6} className='image-cover' /></div>
-                        <h6 className='mt-4 prof-name' onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/terrasa-ulm/')}>Terrasa Ulm</h6>
-                        <div class="line size-52px grow"></div>
-                        <div class="text-uppercase mt-2">Associate Professor,<br/> Computer Science</div>
-                    </div>
-                    <div className='col-md-3 margin-bottom-35'>
-                        <div className='img-wrapper'>
-                            <img src={Fac7} className='image-cover' /></div>
-                            <h6 className='mt-4 prof-name' onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/lyndon-estes/')}>Lyndon Estes​</h6>
-                            <div class="line size-52px grow"></div>
-                        <div class="text-uppercase mt-2">Associate Professor, <br/>Geography</div>
-                    </div>
-                    <div className='col-md-3 margin-bottom-35'>
-                        <div className='img-wrapper'>
-                            <img src={Fac8} className='image-cover' /></div>
-                        <h6 className='mt-4 prof-name' onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/hamidreza-ahady-dolatsara/')}>Hamidreza Ahady Dolatsara​</h6>
-                        <div class="line size-52px grow"></div>
-                        <div class="text-uppercase mt-2">Assistant Professor, <br/>School of Management</div>
-                    </div>
-                    <div className='col-md-3 margin-bottom-35'>
-                        <div className='img-wrapper'>
-                            <img src={Fac9} className='image-cover' /></div>
-                        <h6 className='mt-4 prof-name' onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/michael-satz/')}>Michael Satz​​</h6>
-                        <div class="line size-52px grow"></div>
-                        <div class="text-uppercase mt-2">Teaching Professor, <br/>Mathematics</div>
+                        <div class="text-uppercase mt-2">Associate Professor, <br/>Psychology</div>
                     </div>
                     <div className='col-md-3 margin-bottom-35'>
                         <div className='img-wrapper'>
@@ -106,10 +49,66 @@ const Faculty = () => {
                     </div>
                     <div className='col-md-3 margin-bottom-35'>
                         <div className='img-wrapper'>
-                            <img src={Fac11} className='image-cover' /></div>
-                        <h6 className='mt-4 prof-name'onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/andrew-stewart/')}>Andrew Stewart​​</h6>
+                            <img src={Fac3} className='image-cover' /></div>
+                        <h6 className='mt-4 prof-name' onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/charles-jakobsche/')}>Charles Jakobsche​</h6>
                         <div class="line size-52px grow"></div>
-                        <div class="text-uppercase mt-2">Associate Professor, <br/>Psychology</div>
+                        <div class="text-uppercase mt-2">Associate Professor, <br />Chemistry</div>
+                    </div>
+                    <div className='col-md-3 margin-bottom-35'>
+                        <div className='img-wrapper'>
+                            <img src={Fac5} className='image-cover' /></div>
+                        <h6 className='mt-4 prof-name' onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/christopher-williams/')}>Christopher Williams</h6>
+                        <div class="line size-52px grow"></div>
+                        <div class="text-uppercase mt-2">Professor, <br/>Geography </div>
+                    </div>
+                    <div className='col-md-3 margin-bottom-35'>
+                        <div className='img-wrapper'>
+                            <img src={Fac4} className='image-cover' /></div>
+                        <h6 className='mt-4 prof-name'onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/edouard-wemy/')}>Edouard Wemy​</h6>
+                        <div class="line size-52px grow"></div>
+                        <div class="text-uppercase mt-2">Associate Professor, <br/>Economics</div>
+                    </div>
+                    <div className='col-md-3 margin-bottom-35'>
+                        <div className='img-wrapper'>
+                            <img src={Fac8} className='image-cover' /></div>
+                        <h6 className='mt-4 prof-name' onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/hamidreza-ahady-dolatsara/')}>Hamidreza Ahady Dolatsara</h6>
+                        <div class="line size-52px grow"></div>
+                        <div class="text-uppercase mt-2">Assistant Professor, <br/>School of Management</div>
+                    </div>
+                    <div className='col-md-3 margin-bottom-35'>
+                        <div className='img-wrapper'>
+                            <img src={Fac2} className='image-cover' /></div>
+                            <h6 className='mt-4 prof-name' onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/javier-tabima-restrepo/')}>Javier Tabima Restrepo​</h6>
+                            <div class="line size-52px grow"></div>
+                        <div class="text-uppercase mt-2">Associate Professor, <br/>Biology</div>
+                    </div>
+                    <div className='col-md-3 margin-bottom-35'>
+                        <div className='img-wrapper'>
+                            <img src={Fac1} className='image-cover' /></div>
+                        <h6 className='mt-4 prof-name' onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/li-han/')}>Li Han​</h6>
+                        <div class="line size-52px grow"></div>
+                        <div class="text-uppercase mt-2">Professor,<br/> Computer Science</div>
+                    </div>
+                    <div className='col-md-3 margin-bottom-35'>
+                        <div className='img-wrapper'>
+                            <img src={Fac7} className='image-cover' /></div>
+                        <h6 className='mt-4 prof-name' onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/lyndon-estes/')}>Lyndon Estes​</h6>
+                        <div class="line size-52px grow"></div>
+                        <div class="text-uppercase mt-2">Associate Professor, <br/>Geography</div>
+                    </div>
+                    <div className='col-md-3 margin-bottom-35'>
+                        <div className='img-wrapper'>
+                            <img src={Fac9} className='image-cover' /></div>
+                        <h6 className='mt-4 prof-name' onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/michael-satz/')}>Michael Satz</h6>
+                        <div class="line size-52px grow"></div>
+                        <div class="text-uppercase mt-2">Teaching Professor, <br/>Mathematics</div>
+                    </div>
+                    <div className='col-md-3 margin-bottom-35'>
+                        <div className='img-wrapper'>
+                            <img src={Fac6} className='image-cover' /></div>
+                        <h6 className='mt-4 prof-name'onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/terrasa-ulm/')}>Terrasa Ulm</h6>
+                        <div class="line size-52px grow"></div>
+                        <div class="text-uppercase mt-2">Associate Professor,<br/> Computer Science</div>
                     </div>
                     <div className='col-md-3 margin-bottom-35'>
                         <div className='img-wrapper'>
