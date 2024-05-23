@@ -125,12 +125,15 @@
   }
   
   .tpn_card p{
-    color: #55555C;
-    font-weight:400;
-    margin-bottom:24px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.5em;
+    color: #4b5b70;
   }
   
   .tpn_card .tpn_btn{
+    margin-top: 15px;
     padding:13px 27px !important;
     line-height: normal;
     background: #35353C;
