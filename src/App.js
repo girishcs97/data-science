@@ -4,6 +4,7 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Opportunities from './components/Opportunities/opportunities';
 import Home from './components/Home/home';
 import Footer from './components/Footer/footer';
+import FloatingButton from './components/FloatNeedAdvice/advice';
 import Research from './components/Research/research';
 import Faculty from './components/Faculty/faculty';
 import Career from './components/Career/career'
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/major" element={<Major />} />
         </Routes>
       </Router>
+      <FloatingButton />
       <Footer />
     </>
   )
