@@ -5,6 +5,7 @@ import Program from '../Programs/program';
 import BackgroundVideo from '../Video/bgvideo';
 import Alumni from '../Alumni/alumni';
 import Articles from '../Articles/articles';
+import ResearchLanding from '../Landingpage/researchLanding';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Mission />
             <Program />
             {/* <BackgroundVideo /> */}
+            <ResearchLanding />
             <Alumni />
             {/* <Articles /> */}
         </>
