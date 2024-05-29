@@ -47,7 +47,7 @@ const Faculty = () => {
                         <div class="line size-52px grow"></div>
                         <div class="text-uppercase mt-2">Associate Professor, <br/>Physics</div>
                     </div>
-                    <div className='col-md-3 margin-bottom-35'>
+                   <div className='col-md-3 margin-bottom-35'>
                         <div className='img-wrapper'>
                             <img src={Fac3} className='image-cover' /></div>
                         <h6 className='mt-4 prof-name' onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/charles-jakobsche/')}>Charles Jakobsche​</h6>
