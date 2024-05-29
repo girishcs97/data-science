@@ -58,7 +58,7 @@ const Program = () => {
                                         <span className='display-c'>Explore</span>
                                         <span className='text-100 medium text-uppercase' style={{ 'color': 'black' }}>Courses</span>
                                     </div>
-                                    <div onClick={() => openInNewTab('https://catalog.clarku.edu/preview_program.php?catoid=32&poid=6493&returnto=2750&_gl=1*1721qx4*_gcl_au*MTU5MjI1NDY4MC4xNzEyNTQ5MjY4')}>
+                                    <div onClick={() => { history("/minor") }}>
                                         <BsArrowRightSquareFill className='svg-ic' />
                                     </div>
                                 </div>

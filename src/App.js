@@ -10,6 +10,7 @@ import Faculty from './components/Faculty/faculty';
 import Career from './components/Career/career'
 import UGProgram from './components/Programs/ug-program';
 import Major from './components/Programs/major';
+import Minor from './components/Programs/minor';
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/career" element={<Career />} />
           <Route path="/program" element={<UGProgram />} />
           <Route path="/major" element={<Major />} />
+          <Route path="/minor" element={<Minor />} />
         </Routes>
       </Router>
       <FloatingButton />
