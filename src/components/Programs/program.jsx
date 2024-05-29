@@ -1,8 +1,8 @@
 import React from 'react';
-import Major from '../../images/major.jpeg';
+import Major from '../../images/major1.jpg';
 import './program.css';
 import { useNavigate } from 'react-router-dom'
-import Minor from '../../images/major.jpg';
+import Minor from '../../images/minor.jpg';
 import { BsArrowRightSquareFill } from "react-icons/bs";
 import Concentration from '../../images/concentration.jpeg';
 import { Fade } from 'react-reveal';
@@ -25,8 +25,10 @@ const Program = () => {
                         <div class="card shadow-02" style={{ "width": "18rem;" }}>
                             <img class="card-img-top" src={Major} alt="Card image cap" />
                             <div class="card-body">
+                                <br/>
+                                <br/>
                                 <h5 class="card-con-">Major</h5>
-                                <p class="card-bod text-justify">Our data science major includes 8 units of core requirements and 6 units of electives. Each
+                                <p class="card-bod text-justify">Our data science major includes 8 units of core requirements coursework and 6 units of electives. Each
                                     student must choose one of 11 tracks and at least four courses from the track, including at
                                     least one at the 200-level, as part of their electives.</p>
                                 <div class="divider mg---32px"></div>
@@ -49,6 +51,7 @@ const Program = () => {
                         <div class="card shadow-02" style={{ "width": "18rem;" }}>
                             <img class="card-img-top" src={Minor} alt="Card image cap" />
                             <div class="card-body">
+                                <br/>
                                 <h5 class="card-con-">Minor</h5>
                                 <p class="card-bod">Our Data Science minor offers fundamental skills in extracting insights from data and blending data science with its applications. Enhance quantitative aspects of diverse disciplines with applicable knowledge and Research</p>
                                 <div class="divider mg---32px"></div>
@@ -71,7 +74,8 @@ const Program = () => {
                         <div class="card shadow-02" style={{ "width": "18rem;" }}>
                             <img class="card-img-top" src={Concentration} alt="Card image cap" />
                             <div class="card-body">
-                                <h5 class="card-con-">Concentrations</h5>
+                                <br/>
+                                <h5 class="card-con-" style={{marginTop: '13px' }}>Concentrations</h5>
                                 <p class="card-bod">Discover specialized pathways in DS, including concentrations in business data analytics and geospatial data analytics. Gain expertise in analyzing business insights and interpreting geographic data, opening doors to diverse options</p>
                                 <div class="divider mg---32px"></div>
                                 <div className='d-flex justify-content-between'>

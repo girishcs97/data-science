@@ -12,6 +12,10 @@
     max-height: 366px;
     max-width: 516px;
 }
+.image-cov{
+    max-height: 500px;
+    max-width: 1250px; 
+}
 
 .margin-top-32{
     margin-top: 32px;

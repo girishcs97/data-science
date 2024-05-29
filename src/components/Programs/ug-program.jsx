@@ -2,14 +2,17 @@ import React from 'react';
 import Program from './program';
 import DS1 from '../../images/Data 1.jpg';
 import DS2 from '../../images/Global data.jpg';
-import DS3 from '../../images/research-1.jpg';
+import growth from '../../images/growth.jpg';
 import Img1 from '../../images/research-1.jpg';
 import Img2 from '../../images/research-2.jpg';
 import Img3 from '../../images/research-3.jpg';
 import Img4 from '../../images/research-4.jpg';
-import { Fade } from 'react-reveal';
+import {Fade} from 'react-reveal';
+
+
 
 const UGProgram = () => {
+
     return (<>
         <div className=' bg-red'>
             <Fade bottom duration={800}>
@@ -52,14 +55,14 @@ const UGProgram = () => {
                 </div> 
                 </Fade>
         </div>
-        
         <Fade bottom duration={1000}>
             <div className='row margin-top-40'>
                 <div className='col-md-1'></div>
                 <div className='col-md-10'>
                 <div class="line size-150px mg-bottom-28px"></div>
-                    <h2 class="display-data">Why Data Science?</h2>
+                    <h2 class="display-data">Why Data Science ?</h2>
                     <br />
+					
                     <div className='container mart-top mb-4'>
                 <div className='row'>
                     <div className='col-md-7'>
@@ -79,6 +82,8 @@ const UGProgram = () => {
                     </div>
                 </div>
             </div>
+			
+			
             <div className="bg-grey mt-4">
                 <div className='container mart-top'>
                     <div className='row'>
@@ -105,12 +110,14 @@ The 120 zettabytes generated in 2023 are expected to increase by over 150% in 20
 
                 </div>
             </div>
+			
+			
             <div className='container mart-top'>
                 <div className='row'>
                     <div className='col-md-7'>
                         <div className='row'>
                             <Fade bottom duration={800}>
-                                <img src={Img3} className='img-re-class margin-top-32' />
+                                <img src={growth} className='img-re-class margin-top-32' />
                             </Fade>
                         </div>
                     </div>
@@ -126,10 +133,11 @@ The 120 zettabytes generated in 2023 are expected to increase by over 150% in 20
                 </div>
             </div>
                 </div>
+				
+				
                 <div className='col-md-2'></div>
             </div>
-            </Fade>
-            
+            </Fade> 
                 
         <div className="container margin-top-40" id='research'>
             <div className="text-center mb-4">
