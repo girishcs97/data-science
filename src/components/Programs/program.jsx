@@ -20,13 +20,12 @@ const Program = () => {
                 <p style={{ fontSize: '16px', marginTop: '20px' }}>Our Data Science Program offers five tracks of study: computer science, economics, geography/GIS, management, and mathematics.</p>
             </div>
             <div className='row margin-top-40'>
+            <div className='col-md-2 mb-4'></div>
                 <Fade bottom duration={800}>
                     <div className='col-md-4 mb-4'>
                         <div class="card shadow-02" style={{ "width": "18rem;" }}>
-                            <img class="card-img-top" src={Major} alt="Card image cap" />
+                            <img class="card-img-top p-4" src={Major} alt="Card image cap" />
                             <div class="card-body">
-                                <br/>
-                                <br/>
                                 <h5 class="card-con-">Major</h5>
                                 <p class="card-bod text-justify">Our data science major includes 8 units of core requirements coursework and 6 units of electives. Each
                                     student must choose one of 11 tracks and at least four courses from the track, including at
@@ -51,7 +50,6 @@ const Program = () => {
                         <div class="card shadow-02" style={{ "width": "18rem;" }}>
                             <img class="card-img-top" src={Minor} alt="Card image cap" />
                             <div class="card-body">
-                                <br/>
                                 <h5 class="card-con-">Minor</h5>
                                 <p class="card-bod">Our Data Science minor offers fundamental skills in extracting insights from data and blending data science with its applications. Enhance quantitative aspects of diverse disciplines with applicable knowledge and Research</p>
                                 <div class="divider mg---32px"></div>
@@ -64,34 +62,11 @@ const Program = () => {
                                         <BsArrowRightSquareFill className='svg-ic' />
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </Fade>
-                <Fade bottom duration={1200}>
-                    <div className='col-md-4 mb-4'>
-                        <div class="card shadow-02" style={{ "width": "18rem;" }}>
-                            <img class="card-img-top" src={Concentration} alt="Card image cap" />
-                            <div class="card-body">
-                                <br/>
-                                <h5 class="card-con-" style={{marginTop: '13px' }}>Concentrations</h5>
-                                <p class="card-bod">Discover specialized pathways in DS, including concentrations in business data analytics and geospatial data analytics. Gain expertise in analyzing business insights and interpreting geographic data, opening doors to diverse options</p>
-                                <div class="divider mg---32px"></div>
-                                <div className='d-flex justify-content-between'>
-                                    <div className='d-flex flex-column'>
-                                        <span className='display-c'>Explore</span>
-                                        <span className='text-100 medium text-uppercase' style={{ 'color': 'black' }}>Concentrations</span>
-                                    </div>
-                                    <div>
-                                        <BsArrowRightSquareFill className='svg-ic' />
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </Fade>
+                <div className='col-md-2 mb-4'></div>
             </div>
 
         </div>
