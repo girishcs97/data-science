@@ -17,7 +17,7 @@ const Program = () => {
         <div className='container margin-top-40' id={'programs-page'}>
             <div className="text-center mb-4">
                 <p className="subtitle mb-2">Undergraduate Program</p>
-                <p style={{ fontSize: '16px', marginTop: '20px' }}>Our Data Science Program offers five tracks of study: computer science, economics, geography/GIS, management, and mathematics.</p>
+                <p style={{ fontSize: '16px', marginTop: '20px' }}>Our Data Science Program offers 11 tracks of study: Computer Science, Economics, Geography/GIS, Management, Biology, Biochemistry, Environmental Science, Game Design, Psychology, Mathematics and General Electives.</p>
             </div>
             <div className='row margin-top-40'>
             <div className='col-md-2 mb-4'></div>
@@ -34,7 +34,7 @@ const Program = () => {
                                 <div className='d-flex justify-content-between'>
                                     <div className='d-flex flex-column' style={{ 'cursor': 'pointer' }} onClick={() => { history("/major") }}>
                                         <span className='display-c'>Explore</span>
-                                        <span className='text-100 medium text-uppercase' style={{ 'color': 'black' }}>Courses</span>
+                                        {/* <span className='text-100 medium text-uppercase' style={{ 'color': 'black' }}>Courses</span> */}
                                     </div>
                                     <div onClick={() => { history("/major") }}>
                                         <BsArrowRightSquareFill className='svg-ic' />
@@ -50,13 +50,13 @@ const Program = () => {
                         <div class="card shadow-02" style={{ "width": "18rem;" }}>
                             <img class="card-img-top" src={Minor} alt="Card image cap" />
                             <div class="card-body">
-                                <h5 class="card-con-">Minor</h5>
+                                <h5 class="card-con-">Experential learning</h5>
                                 <p class="card-bod">Our Data Science minor offers fundamental skills in extracting insights from data and blending data science with its applications. Enhance quantitative aspects of diverse disciplines with applicable knowledge and Research</p>
                                 <div class="divider mg---32px"></div>
                                 <div className='d-flex justify-content-between'>
                                     <div className='d-flex flex-column' style={{ 'cursor': 'pointer' }} onClick={() => openInNewTab('https://catalog.clarku.edu/preview_program.php?catoid=32&poid=6493&returnto=2750&_gl=1*1721qx4*_gcl_au*MTU5MjI1NDY4MC4xNzEyNTQ5MjY4')}>
                                         <span className='display-c'>Explore</span>
-                                        <span className='text-100 medium text-uppercase' style={{ 'color': 'black' }}>Courses</span>
+                                        {/* <span className='text-100 medium text-uppercase' style={{ 'color': 'black' }}>Courses</span> */}
                                     </div>
                                     <div onClick={() => { history("/minor") }}>
                                         <BsArrowRightSquareFill className='svg-ic' />
@@ -66,9 +66,31 @@ const Program = () => {
                         </div>
                     </div>
                 </Fade>
-                <div className='col-md-2 mb-4'></div>
-            </div>
-
+                <Fade bottom duration={1200}>
+              <div className="col-md-4 mb-4">
+                <div className="card shadow-02" style={{ width: "18rem" }}>
+                  <img className="card-img-top p-4" src={Minor} alt="Card image cap" />
+                  <div className="card-body">
+                    <h5 className="card-con-">Experiential Learning</h5>
+                    <p className="card-bod text-justify">
+                      Our experiential learning opportunities provide hands-on experience in real-world settings. Engage in internships, co-ops, research projects, and community service to apply your knowledge and skills in practical environments.
+                    </p>
+                    <div className="divider mg---32px"></div>
+                    <div className="d-flex justify-content-between">
+                      <div className="d-flex flex-column" style={{ cursor: "pointer" }} onClick={() => { history("/experiential") }}>
+                        <span className="display-c">Explore</span>
+                        {/* <span className="text-100 medium text-uppercase" style={{ color: "black" }}>Programs</span> */}
+                      </div>
+                      <div onClick={() => { history("/experiential") }}>
+                        <BsArrowRightSquareFill className="svg-ic" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Fade>
+                    </div>
+                
         </div>
     )
 }
