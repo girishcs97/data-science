@@ -11,6 +11,7 @@ import Career from './components/Career/career'
 import UGProgram from './components/Programs/ug-program';
 import Major from './components/Programs/major';
 import Minor from './components/Programs/minor';
+import Learning from './components/Experiential Learning/learning';
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
           <Route path="/program" element={<UGProgram />} />
           <Route path="/major" element={<Major />} />
           <Route path="/minor" element={<Minor />} />
+          <Route path="/explearning" element={<Learning />} />
         </Routes>
       </Router>
       <FloatingButton />
