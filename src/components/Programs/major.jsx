@@ -19,6 +19,8 @@ import ADLE from "../../images/ADLE.jpg";
 import DS from "../../images/DS.jpg";
 import MI from "../../images/MI.png";
 import MII from "../../images/MII.jpg";
+import IDS from "../../images/IDS.jpeg";
+import HCI from "../../images/HCI.jpeg"
 import { Fade } from "react-reveal";
 import Accordion from "react-bootstrap/Accordion";
 
@@ -3047,7 +3049,38 @@ const Major = () => {
           </p>
         </>
       );
-    } else if (type == "MFDS") {
+    } 
+    else if (type == "IDS") {
+      return (
+        <>
+          <h5>DSCI 125 - Introduction to Data Science</h5>
+
+          <p>
+            The course introduces foundational statistical and computational concepts and skills in data-centered computing and applications. It provides hands-on opportunities for students to process and analyze real world datasets and extract information from the data. Social issues surrounding data science, such as data privacy, bias, fairness, and social impacts, will also be discussed.
+          </p>
+          <p>
+            <strong>Prerequisites:</strong>{" "}
+            <a href="http://example.com/CSCI120">CSCI 120</a> or{" "}
+            <a href="http://example.com/CSCI124">CSCI 124</a> and{" "}
+            <a href="http://example.com/MATH120">MATH 120</a> or{" "}
+            <a href="http://example.com/MATH124">MATH 124</a> or{" "}
+            <a href="http://example.com/GEOG110">GEOG 110</a> or{" "}
+            <a href="http://example.com/ECON160">ECON 160</a> or{" "}
+            <a href="http://example.com/SOC202">SOC 202</a> or{" "}
+            <a href="http://example.com/PSYC105">PSYC 105</a> or{" "}
+            <a href="http://example.com/PSCI107">PSCI 107</a> or{" "}
+            <a href="http://example.com/QBUS110">QBUS 110</a> (minimum grade of C- required for pre-reqs)
+          </p>
+          <p>
+            <strong>Course Designation/Attribute:</strong> POP
+          </p>
+          <p>
+            <strong>Anticipated Terms Offered:</strong> Fall 2019
+          </p>
+        </>
+      );
+    }    
+    else if (type == "MFDS") {
       return (
         <>
           <h5>DSCI 122 - Mathematical Foundations of Data Science</h5>
@@ -3104,7 +3137,27 @@ const Major = () => {
           </p>
         </>
       );
-    } else if (type == "SC") {
+      
+    } else if (type == "HCI") {
+      return (
+        <>
+          <h5>CSCI 124 - Honors Introduction to Computing</h5>
+          <p>
+          This accelerated course provides a comprehensive introduction to computing and its diverse applications, equipping students with the fundamental principles and problem-solving techniques necessary to tackle real-world challenges. Student will learn programming in Python, grasping a systematic approach to problem formulation, algorithm design, code development and testing. This course includes a project component where students will demonstrate their newly acquired skills through the design and implementation of a project of their choice. Success in the course requires strong analytical skills and a dedicated work ethic.  Prior programming experience is not necessary but may be helpful.
+          </p>
+          <p>
+            <strong>Prerequisites:</strong> Permission Only.
+          </p>
+          <p>
+            <strong>Course Designation/Attribute:</strong> SP
+          </p>
+          <p>
+            <strong>Anticipated Terms Offered:</strong> Offered every year
+          </p>
+        </>
+      );
+    }
+    else if (type == "SC") {
       return (
         <>
           <h5>DSCI 216 - Stochastic Computing</h5>
@@ -3475,6 +3528,35 @@ const Major = () => {
     <div className="col-md-4">
       <div class="card-c">
         <div class="img-container-c">
+          <img src={IDS} width="336" />
+        </div>
+        {/* <div class="tags-c">
+          <ul>
+            <li>POP</li>
+          </ul>
+        </div> */}
+        <br/>
+        <br/>
+        <br/>
+        <h5>DSCI 125 - Introduction to Data Science </h5>
+        <p>
+          This course provides foundational knowledge in statistical and computational concepts essential for data-centered computing and its applications.
+        </p>
+        <p
+          className="text-center"
+          style={{ cursor: "pointer" }}
+          onClick={() => {
+            setType("IDS");
+            handleShow();
+          }}
+        >
+          Explore
+        </p>
+      </div>
+    </div>
+    <div className="col-md-4">
+      <div class="card-c">
+        <div class="img-container-c">
           <img src={ADLE} width="336" />
         </div>
         <br />
@@ -3497,6 +3579,8 @@ const Major = () => {
         </p>
       </div>
     </div>
+    </div>
+    <div className="row mt-4">
     <div className="col-md-4">
       <div class="card-c">
         <div class="img-container-c">
@@ -3522,8 +3606,7 @@ const Major = () => {
         </p>
       </div>
     </div>
-  </div>
-  <div className="row mt-4">
+
     <div className="col-md-4">
       <div class="card-c">
         <div class="img-container-c">
@@ -3577,10 +3660,12 @@ const Major = () => {
         </p>
       </div>
     </div>
+    </div>
+    <div className="row mt-4">
     <div className="col-md-4">
       <div class="card-c">
         <div class="img-container-c">
-          <img src={IC} width="336" />
+          <img src={HCI} width="336" />
         </div>
         <div class="tags-c">
           <ul>
@@ -3606,8 +3691,36 @@ const Major = () => {
         </p>
       </div>
     </div>
-  </div>
-  <div className="row mt-4">
+ 
+  <div className="col-md-4">
+      <div class="card-c">
+        <div class="img-container-c">
+          <img src={IC} width="336" />
+        </div>
+        <div class="tags-c">
+          <ul>
+            <li>POP</li>
+          </ul>
+        </div>
+        <br/>
+        <h5>CSCI 124 - Honors Introduction to Computing</h5>
+        <p>
+        Honors Introduction to Computing is an accelerated course that provides a comprehensive introduction to computing and its diverse applications.
+        </p>
+        <p
+          className="text-center"
+          style={{ cursor: "pointer" }}
+          onClick={() => {
+            setType("IC");
+            handleShow();
+          }}
+        >
+          Explore
+        </p>
+      </div>
+    </div>
+  
+  
     <div className="col-md-4">
       <div class="card-c">
         <div class="img-container-c">
@@ -3619,6 +3732,7 @@ const Major = () => {
           </ul>
         </div>
         <h5>CSCI 121 - Data Structures</h5>
+        <br/>
         <p>
           Data Structures provides a comprehensive introduction to the
           fundamental data structures used in computer science. The course
@@ -3637,6 +3751,8 @@ const Major = () => {
         </p>
       </div>
     </div>
+    </div>
+    <div className="row mt-4">
     <div className="col-md-4">
       <div class="card-c">
         <div class="img-container-c">
@@ -3647,7 +3763,7 @@ const Major = () => {
             <li>POP</li>
           </ul>
         </div>
-        <h5>MATH 120 - Calculus I</h5>
+        <h5> MATH 120/MATH 124  (Calculus I)</h5>
         <p>
           Calculus I is often the first course in a standard calculus
           sequence and typically covers topics such as limits,
@@ -3677,7 +3793,7 @@ const Major = () => {
             <li>POP</li>
           </ul>
         </div>
-        <h5>MATH 121 - Calculus II</h5>
+        <h5>MATH 121/MATH 125 (Calculus II)</h5>
         <p>
           Calculus II, typically referred to as MATH 121, is the second
           course in a standard calculus sequence. It builds upon the
@@ -3697,8 +3813,9 @@ const Major = () => {
         </p>
       </div>
     </div>
+    </div>
   </div>
-</div>
+
       <div className="container-fluid margin-top-40">
         <Fade bottom duration={1000}>
           <div className="row">
@@ -3747,7 +3864,7 @@ const Major = () => {
             >
               Explore
             </a>
-          </div>
+                    </div>
           <div class="tpn_card">
             <img src={T2} class="w-100 mb-4" />
             <h5>Biochemistry Track</h5>
