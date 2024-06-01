@@ -1,35 +1,36 @@
 import React from 'react';
+import Cover from '../../images/explearning.jpg';
 import Img1 from '../../images/research-1.jpg';
 import Img2 from '../../images/research-2.jpg';
 import Img3 from '../../images/research-3.jpg';
 import Img4 from '../../images/research-4.jpg';
-import {Fade} from 'react-reveal';
+import { Fade } from 'react-reveal';
 
 const Learning = () => {
 
     return (<>
 
-<div className="container margin-top-40" id='research'>
+        <div className="container margin-top-40" id='learning'>
             <div className="row">
-            <Fade bottom duration={800}>
-                <div className='col-md-5'>
-                    <p className="display-1">Experiential Learning</p>
-                </div>
-                <div className='col-md-7'>
-                    <p className="display-p">Clark University places a strong emphasis on experiential learning, integrating hands-on experiences with academic coursework to enhance student learning and personal development. Through the Liberal Education and Effective Practice (LEEP) program, students are prepared for successful lives and careers by combining rigorous liberal arts education with real-world engagement.</p>
-                </div>
+                <Fade bottom duration={800}>
+                    <div className='col-md-5'>
+                        <p className="display-1">Experiential Learning</p>
+                    </div>
+                    <div className='col-md-7'>
+                        <p className="display-p">Clark University places a strong emphasis on experiential learning, integrating hands-on experiences with academic coursework to enhance student learning and personal development. Through the Liberal Education and Effective Practice (LEEP) program, students are prepared for successful lives and careers by combining rigorous liberal arts education with real-world engagement.</p>
+                    </div>
                 </Fade>
             </div>
             <div className="margin-top-40">
-            <Fade right duration={800}>
-                <img src={Img1} className="image-cov" alt="Custom"/>
-            </Fade>
+                <Fade right duration={800}>
+                    <img src={Cover} className="image-cov" alt="Custom" />
+                </Fade>
             </div>
             <div className="container opp-content">
-            Clark encourages community engagement and supports undergraduate research through faculty-led and student-led projects. Capstone projects in many academic programs allow students to integrate their learning into comprehensive, real-world applications. Study abroad and domestic study away programs immerse students in diverse cultural and professional environments, while the Clark Entrepreneurship Initiative and related courses foster innovation and entrepreneurial skills. These experiential learning initiatives ensure that Clark students graduate with the practical skills and experiences necessary to thrive in their careers and as active citizens.
+                Clark encourages community engagement and supports undergraduate research through faculty-led and student-led projects. Capstone projects in many academic programs allow students to integrate their learning into comprehensive, real-world applications. Study abroad and domestic study away programs immerse students in diverse cultural and professional environments, while the Clark Entrepreneurship Initiative and related courses foster innovation and entrepreneurial skills. These experiential learning initiatives ensure that Clark students graduate with the practical skills and experiences necessary to thrive in their careers and as active citizens.
             </div>
-           
-            <div className="text-center mb-4">
+
+            <div className="text-center margin-top-40">
                 <p className="subtitle mt-4">Experiential Learning Projects</p>
                 <p style={{ fontSize: '16px', marginTop: '20px' }}>The students in the Data Science undergraduate program have demonstrated exceptional dedication and skill in their projects.</p>
             </div>
@@ -118,9 +119,9 @@ const Learning = () => {
                 </div>
             </div>
         </div>
-    
-        </>
-        )
 
-    }
-    export default Learning
+    </>
+    )
+
+}
+export default Learning

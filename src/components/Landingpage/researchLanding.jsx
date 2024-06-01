@@ -1,13 +1,111 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './researchLanding.css';
+import SC from "../../images/SC.png";
+import ADA from "../../images/ADA.jpg";
 import Bio from '../../images/picBiology.jpg'
+import Modal from "react-bootstrap/Modal";
 
 const ResearchLanding = () => {
+    const [show, setShow] = useState(false);
+    const [type, setType] = useState("");
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
+    const handleData = () => {
+        if (type === "ADA") {
+            return (
+                <>
+                    <h5>DSCI 105 - Applied Data Analytics</h5>
+                    <br />
+                    <br />
+                    <p>
+                        An investigation into the fundamental techniques and practices of
+                        data analysis. The primary activities of the course will be a series
+                        of lectures and a corresponding series of lab sessions, programming
+                        projects, and written assignments. The course will focus on applying
+                        tools and techniques to practical problems of analysis,
+                        visualization, and discovery and will also introduce the student to
+                        a suite of modern tools for data analysis.{" "}
+                        <em>Formally DSCI 205.</em>
+                    </p>
+                    <p>Prerequisites for this course require a grade of C- or better.</p>
+                    <p>
+                        <strong>Prerequisites:</strong>
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="http://example.com/GEOG110">GEOG 110</a> or{" "}
+                            <a href="http://example.com/ECON160">ECON 160</a> or{" "}
+                            <a href="http://example.com/SOC202">SOC 202</a> or{" "}
+                            <a href="http://example.com/PSYC105">PSYC 105</a> or{" "}
+                            <a href="http://example.com/PSCI107">PSCI 107</a> or{" "}
+                            <a href="http://example.com/QBUS110">QBUS 110</a> or{" "}
+                            <a href="http://example.com/MATH120">MATH 120</a> or{" "}
+                            <a href="http://example.com/MATH124">MATH 124</a> and{" "}
+                            <a href="http://example.com/CSCI120">CSCI 120</a> (Minimum grade
+                            of C- required for pre-reqs)
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>Course Designation/Attribute:</strong> POP
+                    </p>
+                    <p>
+                        <strong>Anticipated Terms Offered:</strong> Spring 2021
+                    </p>
+                </>
+            );
+        } else if (type == "SC") {
+            return (
+                <>
+                    <h5>DSCI 216 - Stochastic Computing</h5>
+                    <p>
+                        This course is about dealing with uncertainty that appears in
+                        virtually all areas of data science and computer science. This will
+                        be accomplished with tools and techniques for its measurement,
+                        description, evaluation, and ultimately making decisions under
+                        uncertainty.
+                    </p>
+                    <p>
+                        The course will approach these goals using a three-fold approach,
+                        namely problem, theory, and prototype (PTP). We will motivate major
+                        topics by discussing a problem. The purpose of discussion of the
+                        problem is to give context behind why a particular supporting topic
+                        in probability was developed or what it is intended to address. The
+                        problem will be followed by theory. This concerns rigorous
+                        mathematical definition and tools for their manipulation in order to
+                        address the problem. Emphasis will be placed on approaches that are
+                        amenable to implementation. Finally, theory will be followed by
+                        prototype. The purpose of the prototype aspect of the course is to
+                        train students in the development of models that serve a useful
+                        purpose.
+                    </p>
+                    <p>
+                        <strong>Prerequisites:</strong>{" "}
+                        <a href="http://example.com/MATH121">MATH 121 - Calculus II</a> or{" "}
+                        <a href="http://example.com/MATH125">
+                            MATH 125 - Honors Calculus II
+                        </a>{" "}
+                        and{" "}
+                        <a href="http://example.com/CSCI121">CSCI 121 - Data Structures</a>{" "}
+                        or{" "}
+                        <a href="http://example.com/CSCI124">
+                            CSCI 124 - Honors Introduction to Computing
+                        </a>
+                    </p>
+                    <p>
+                        <strong>Anticipated Terms Offered:</strong> Fall 2021
+                    </p>
+                </>
+            );
+        }
+    }
+
     return (
         <>
             <div className='container margin-top-40' id={'programs-page'}>
                 <div className="text-center mb-4">
-                    <p className="subtitle mb-2">Faculty Research</p>
+                    <p className="subtitle mb-2">Faculty Research Spotlight</p>
                     <p style={{ fontSize: '16px', marginTop: '20px' }}>Our faculty, representing diverse disciplines, are increasingly integrating data science into their research.</p>
                 </div>
                 <div class="projcard projcard-blue">
@@ -22,8 +120,85 @@ const ResearchLanding = () => {
                     </div>
                 </div>
             </div>
-
-
+            <div className='container margin-top-40' id={'programs-page'}>
+                <div className="text-center mb-4">
+                    <p className="subtitle mb-2">Course Spotlight</p>
+                    <p style={{ fontSize: '16px', marginTop: '20px' }}>Explore the latest advancements and essential skills in data science through our comprehensive and hands-on course spotlight.</p>
+                </div>
+                <div className="container">
+                    <div className="row mt-4">
+                        <div className="col-md-2"></div>
+                        <div className="col-md-4">
+                            <div class="card-c">
+                                <div class="img-container-c">
+                                    <img src={ADA} width="336" />
+                                </div>
+                                <div class="tags-c">
+                                    <ul>
+                                        <li>POP</li>
+                                    </ul>
+                                </div>
+                                <h5>DS105 - Applied Data Analytics</h5>
+                                <p>
+                                    An investigation into the fundamental techniques and practices
+                                    of data analysis, this course focuses on applying tools and
+                                    techniques to practical problems of analysis, visualization, and
+                                    discovery.
+                                </p>
+                                <br />
+                                <br />
+                                <p
+                                    className="text-center"
+                                    style={{ cursor: "pointer" }}
+                                    onClick={() => {
+                                        setType("ADA");
+                                        handleShow();
+                                    }}
+                                >
+                                    Explore
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div class="card-c">
+                                <div class="img-container-c">
+                                    <img src={SC} width="336" />
+                                </div>
+                                <div class="tags-c">
+                                    <ul>
+                                        <li>POP</li>
+                                    </ul>
+                                </div>
+                                <h5>DSCI 216 - Stochastic Computing </h5>
+                                <p>
+                                    Stochastic Computing focuses on addressing the uncertainty
+                                    inherent in data science and computer science through a
+                                    combination of problem analysis, theoretical development, and
+                                    prototype creation.{" "}
+                                </p>
+                                <br/>
+                                <p
+                                    className="text-center"
+                                    style={{ cursor: "pointer" }}
+                                    onClick={() => {
+                                        setType("SC");
+                                        handleShow();
+                                    }}
+                                >
+                                    Explore
+                                </p>
+                            </div>
+                        </div>
+                        <div className="col-md-2"></div>
+                    </div>
+                </div>
+            </div>
+            <Modal show={show} onHide={handleClose}>
+                <Modal.Header closeButton>
+                    <Modal.Title></Modal.Title>
+                </Modal.Header>
+                <Modal.Body>{handleData()}</Modal.Body>
+            </Modal>
         </>
     )
 }

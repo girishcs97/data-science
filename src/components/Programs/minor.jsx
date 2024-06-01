@@ -3418,7 +3418,7 @@ const Major = () => {
             <div className="col-md-1"></div>
             <div className="col-md-10">
               <div class="line size-150px mg-bottom-28px"></div>
-              <h2 class="display-data">Explore Minor Requirements</h2>
+              <h2 class="display-data">Explore Core and Foundational Courses</h2>
               <br />
               <p
                 className="p-content"

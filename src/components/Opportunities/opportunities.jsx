@@ -22,6 +22,11 @@ import dell from '../../images/dell.jpeg';
 import Fade from "react-reveal/Fade";
 
 const Opportunities = () => {
+
+    const openInNewTab = (url) => {
+        const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+        if (newWindow) newWindow.opener = null
+    }
     return (
         <div className="container margin-top-40" id='opportunities'>
             <div className="row">
@@ -58,7 +63,7 @@ const Opportunities = () => {
                         <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>On-campus opportunities at Clark University are crucial as they provide data science students with practical experience, fostering their professional growth. Being teaching assistants, research assistants, or working with ITS Help Desk and Academic Technology Services allows students to apply their knowledge, develop essential skills, and become valuable contributors to the university community. Stay vigilant for exciting employment opportunities on Handshake!</p>
                         <br />
                         <div className='d-flex flex-row'>
-                            <button className="btn btn-outline-danger custom-btn">Office of Student Employment</button>
+                            <button className="btn btn-outline-danger custom-btn" onClick={() => openInNewTab('https://www.clarku.edu/offices/student-employment/')}>Office of Student Employment</button>
                         </div>
                     </Fade>
                     </div>
@@ -74,7 +79,7 @@ const Opportunities = () => {
                         <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Clark University’s student clubs are vibrant, active, and resourceful, offering a welcoming environment for students to get involved. Joining these clubs allows students to forge meaningful friendships, build a sense of community, and engage in various enriching activities and events.</p>
                         <br />
                         <div className='d-flex flex-row'>
-                            <button className="btn btn-outline-danger custom-btn">STUDENT CLUBS AND ORGANIZATION</button>
+                            <button className="btn btn-outline-danger custom-btn" onClick={() => openInNewTab('https://www.clarku.edu/life-at-clark/student-clubs-and-organizations/')}>STUDENT CLUBS AND ORGANIZATION</button>
                         </div>
                     </Fade>
                     </div>
@@ -105,7 +110,7 @@ const Opportunities = () => {
                         <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Embark on a transformative global experience during your undergraduate studies. Explore a multitude of credit-bearing opportunities beyond the Worcester campus, tailored to align with your academic and co-curricular interests. Our 50+ approved programs worldwide offer a diverse range of options, from Spanish immersion in Latin America to internships in Europe. Let us assist you in finding the perfect educational opportunity that goes beyond the boundaries of Worcester, enriching your academic journey and broadening your horizons.</p>
                         <br />
                         <div className='d-flex flex-row'>
-                            <button className="btn btn-outline-danger custom-btn">Office of Study Abroad</button>
+                            <button className="btn btn-outline-danger custom-btn" onClick={() => openInNewTab('https://www.clarku.edu/offices/studyabroad/')}>Office of Study Abroad</button>
                         </div>
                     </Fade>
                     </div>
@@ -120,9 +125,9 @@ const Opportunities = () => {
                         <h2 style={{ lineHeight: '1.182em' }}>Academic Conferences</h2>
                         <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>We strongly support students’ passion for knowledge and provide them with opportunities to attend national and international conferences relevant to their interests. As part of this commitment, we offer scholarships to send motivated students to prestigious events like the Grace Hopper Celebration and the Tapia conference. Embracing these experiences, students expand their horizons, foster academic growth, and make invaluable connections in their fields of interest.</p>
                         <br />
-                        <div className='d-flex flex-row'>
+                        {/* <div className='d-flex flex-row'>
                             <button className="btn btn-outline-danger custom-btn">ACAMEDIC CONFERENCES</button>
-                        </div>
+                        </div> */}
                     </Fade>
                     </div>
                     <div className="col-md-1"></div>
@@ -154,7 +159,7 @@ const Opportunities = () => {
                         <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>At Clark, we offer an array of career and internship opportunities designed to cultivate your talents and drive your aspirations forward. Whether you're a seasoned professional seeking new challenges or a student eager to gain hands-on experience, we invite you to explore the possibilities and join our vibrant community of changemakers.</p>
                         <br />
                         <div className='d-flex flex-row'>
-                            <button className="btn btn-outline-danger custom-btn">VISIT THE CENTER</button>
+                            <button className="btn btn-outline-danger custom-btn" onClick={() => openInNewTab('https://www.clarku.edu/offices/career-connections-center/')}>VISIT THE CENTER</button>
                         </div>
                     </Fade>
                     </div>
@@ -172,7 +177,7 @@ const Opportunities = () => {
                         <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>At Clark, we understand the importance of hands-on experience in shaping the future of our students. That's why we offer funding opportunities to support internships and experiential learning opportunities for our students. Our internship funding programs are designed to remove financial barriers and empower students to pursue valuable professional experiences that complement their academic studies.</p>
                         <br />
                         <div className='d-flex flex-row'>
-                            <button className="btn btn-outline-danger custom-btn">PURSUE FUNDING</button>
+                            <button className="btn btn-outline-danger custom-btn" onClick={() => openInNewTab('https://www.clarku.edu/offices/career-connections-center/gain-experience/funding-opportunities/')}>PURSUE FUNDING</button>
                         </div>
                     </Fade>
                     </div>
@@ -188,7 +193,7 @@ const Opportunities = () => {
                     </div>
                 </div>
             </div>
-            <div className="customer-section margin-top-40 mb-4">
+            {/* <div className="customer-section margin-top-40 mb-4">
             <Fade bottom duration={800}>
                 <h2>OUR KEY RECRUITERS</h2>
                 <div className="customer-logos">
@@ -214,7 +219,7 @@ const Opportunities = () => {
                         <img src={dell} alt="dell" /></Link>
                 </div>
             </Fade>
-            </div>
+            </div> */}
         </div>
 
     )

@@ -3390,10 +3390,10 @@ const Major = () => {
                 <br />
                 <br /> Beyond the core courses,
                 the program offers a wide selection of electives, requiring
-                students to complete 6 elective units. This flexibility allows
+                students to complete required elective units. This flexibility allows
                 students to select courses that align with their interests and
                 career aspirations. As part of their elective choices, students
-                must choose one of 11 distinct tracks, each requiring at least
+                must choose one of the distinct tracks available, each requiring at least
                 four courses, including one advanced course at the 200-level.
                 These tracks complement the core curriculum and enable students
                 to develop domain-specific knowledge necessary for effectively
