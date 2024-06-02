@@ -21,6 +21,7 @@ import MI from "../../images/MI.png";
 import MII from "../../images/MII.jpg";
 import IDS from "../../images/IDS.jpeg";
 import HCI from "../../images/HCI.jpeg"
+import Choose from "../../images/programsinfo.png"
 import { Fade } from "react-reveal";
 import Accordion from "react-bootstrap/Accordion";
 
@@ -4082,6 +4083,34 @@ const Major = () => {
             </a>
           </div>
         </div>
+      </div>
+      <div className="container-fluid margin-top-40">
+        <Fade bottom duration={1000}>
+          <div className="row">
+            <div className="col-md-1"></div>
+            <div className="col-md-10">
+              <div class="line size-150px mg-bottom-28px"></div>
+              <h2 class="display-data">Not sure which elective track to choose?</h2>
+              <br />
+              <p
+                className="p-content"
+                style={{
+                  color: "#4b5b70",
+                  textAlign: "justify",
+                  fontSize: "17px",
+                }}
+              >
+                Clark University offers a suite of  data science degree programs and courses to serve diverse student interests. We provide a comprehensive interdisciplinary education that seamlessly integrates core courses in data science and foundational courses in computer science and mathematics materials with specialized domain knowledge. The program is supported by dedicated faculty from diverse partner departments and schools, including Biology, Chemistry, Computer Science, Economics, Environmental Science, Geography, Interactive Media, Management, Mathematics, Psychology, Physics, and Sustainability and Social Justice. Refer to individual program pages for more information.
+              </p>
+            </div>
+            <div className="col-md-2"></div>
+          </div>
+          <div className="container text-center margin-top-32 mb-4">
+                <Fade right duration={800}>
+                    <img src={Choose} className="" />
+                </Fade>
+            </div>
+        </Fade>
       </div>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

@@ -13,25 +13,70 @@
 .img-wrapper {
     overflow: hidden;
 }
+
 .line .size-52px .grow {
     max-width: 52px;
 }
+
 .line {
     width: 180px;
     height: 2px;
     min-height: 2px;
     background-color: #cf2e2e;
 }
-.prof-name:hover{
+
+.prof-name:hover {
     cursor: pointer;
-    color:#cf2e2e;
+    color: #cf2e2e;
 }
-.prof-name{
+
+.prof-name {
     font-size: 18px;
 }
-.text-uppercase{
+
+.text-uppercase {
     font-size: 13px;
 }
-.margin-bottom-35{
+
+.margin-bottom-35 {
     margin-bottom: 35px;
+}
+
+@media (max-width: 767px) {
+    #about-me-box {
+        padding: 0 10px;
+    }
+
+    .hidden-xs {
+        display: none;
+    }
+
+    .max-width-xs {
+        width: 100%;
+    }
+}
+
+#title {
+    font-size: 50px;
+    font-family: 'Euphoria Script';
+}
+
+#about-me-box {
+    margin: 50px 0;
+    background-color: #fff;
+    box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 0 10px 0 0;
+}
+
+#check-this-out-box {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.max-width-xs {
+    width: 400px;
+    height: 400px;
 }

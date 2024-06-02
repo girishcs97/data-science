@@ -4,7 +4,7 @@ import './program.css';
 import { useNavigate } from 'react-router-dom'
 import Minor from '../../images/minor.jpg';
 import { BsArrowRightSquareFill } from "react-icons/bs";
-import ExpLearn from '../../images/exp-learn.jpg';
+import ExpLearn from '../../images/exp-learn.png';
 import { Fade } from 'react-reveal';
 
 const Program = () => {
