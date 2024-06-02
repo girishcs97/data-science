@@ -3855,6 +3855,7 @@ const Major = () => {
               <br />
               <br />
             </p>
+            <div class="btn-container">
             <a
               href="javascript:;"
               class="btn tpn_btn"
@@ -3865,6 +3866,15 @@ const Major = () => {
             >
               Explore
             </a>
+            <a
+      href="https://www.clarku.edu/faculty/profiles/javier-tabima-restrepo/"
+      class="faculty-link"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Primary Faculty
+    </a>
+    </div> 
                     </div>
           <div class="tpn_card">
             <img src={T2} class="w-100 mb-4" />
@@ -3874,6 +3884,7 @@ const Major = () => {
               <br />
               <br />
             </p>
+            <div class="btn-container">
             <a
               href="javascript:;"
               class="btn tpn_btn"
@@ -3884,6 +3895,15 @@ const Major = () => {
             >
               Explore
             </a>
+            <a
+      href="https://www.clarku.edu/faculty/profiles/charles-jakobsche/"
+      class="faculty-link"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Primary Faculty
+    </a>
+    </div> 
           </div>
           <div class="tpn_card">
             <img src={T3} class="w-100 mb-4" />
@@ -3892,6 +3912,7 @@ const Major = () => {
               Study algorithms, artificial intelligence, robotics, computer
               vision, theory, and more.
             </p>
+            <div class="btn-container">
             <a
               href="javascript:;"
               class="btn tpn_btn"
@@ -3902,6 +3923,15 @@ const Major = () => {
             >
               Explore
             </a>
+            <a
+      href="https://www.clarku.edu/faculty/profiles/li-han/"
+      class="faculty-link"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Primary Faculty
+    </a>
+    </div> 
           </div>
         </div>
       </div>
@@ -3916,6 +3946,7 @@ const Major = () => {
               <br />
               <br />
             </p>
+            <div class="btn-container">
             <a
               href="javascript:;"
               class="btn tpn_btn"
@@ -3926,6 +3957,15 @@ const Major = () => {
             >
               Explore
             </a>
+            <a
+      href="https://www.clarku.edu/faculty/profiles/edouard-wemy/"
+      class="faculty-link"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Primary Faculty
+    </a>
+    </div> 
           </div>
           <div class="tpn_card">
             <img src={T5} class="w-100 mb-4" />
@@ -3936,6 +3976,7 @@ const Major = () => {
               <br />
               <br />
             </p>
+            <div class="btn-container">
             <a
               href="javascript:;"
               class="btn tpn_btn"
@@ -3946,6 +3987,15 @@ const Major = () => {
             >
               Explore
             </a>
+            <a
+      href="https://www.clarku.edu/faculty/profiles/christopher-williams/"
+      class="faculty-link"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Primary Faculty
+    </a>
+    </div> 
           </div>
           <div class="tpn_card">
             <img src={T6} class="w-100 mb-4" />
@@ -3954,6 +4004,7 @@ const Major = () => {
               Learn how to use data analysis to improve game mechanics, user
               experience, and overall game design.
             </p>
+            <div class="btn-container">
             <a
               href="javascript:;"
               class="btn tpn_btn"
@@ -3964,6 +4015,15 @@ const Major = () => {
             >
               Explore
             </a>
+            <a
+      href="https://www.clarku.edu/faculty/profiles/elliot-epstein/"
+      class="faculty-link"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Primary Faculty
+    </a>
+    </div> 
           </div>
         </div>
       </div>
@@ -3976,6 +4036,7 @@ const Major = () => {
               Gain the skills and experience in GIS and use data science to
               interpret what you find.
             </p>
+            <div class="btn-container">
             <a
               href="javascript:;"
               class="btn tpn_btn"
@@ -3986,6 +4047,15 @@ const Major = () => {
             >
               Explore
             </a>
+            <a
+      href="https://www.clarku.edu/faculty/profiles/lyndon-estes/"
+      class="faculty-link"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Primary Faculty
+    </a>
+    </div> 
           </div>
           <div class="tpn_card">
             <img src={T8} class="w-100 mb-4" />
@@ -3995,6 +4065,7 @@ const Major = () => {
               <br />
               <br />
             </p>
+            <div class="btn-container">
             <a
               href="javascript:;"
               class="btn tpn_btn"
@@ -4005,6 +4076,15 @@ const Major = () => {
             >
               Explore
             </a>
+            <a
+      href="https://www.clarku.edu/faculty/profiles/hamidreza-ahady-dolatsara/"
+      class="faculty-link"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Primary Faculty
+    </a>
+    </div> 
           </div>
           <div class="tpn_card">
             <img src={T9} class="w-100 mb-4" />
@@ -4014,6 +4094,7 @@ const Major = () => {
               <br />
               <br />
             </p>
+            <div class="btn-container">
             <a
               href="javascript:;"
               class="btn tpn_btn"
@@ -4024,6 +4105,15 @@ const Major = () => {
             >
               Explore
             </a>
+            <a
+      href="https://www.clarku.edu/faculty/profiles/michael-satz/"
+      class="faculty-link"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Primary Faculty
+    </a>
+    </div> 
           </div>
         </div>
       </div>
@@ -4037,6 +4127,7 @@ const Major = () => {
               <br />
               <br />
             </p>
+            <div class="btn-container">
             <a
               href="javascript:;"
               class="btn tpn_btn"
@@ -4047,11 +4138,21 @@ const Major = () => {
             >
               Explore
             </a>
+            <a
+      href="https://www.clarku.edu/faculty/profiles/barbara-capogrosso-sansone/"
+      class="faculty-link"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Primary Faculty
+    </a>
+    </div> 
           </div>
           <div class="tpn_card">
             <img src={T11} class="w-100 mb-4" />
             <h5>Psychology Track</h5>
             <p>Study human behavior using data-driven approaches.</p>
+            <div class="btn-container">
             <a
               href="javascript:;"
               class="btn tpn_btn"
@@ -4062,6 +4163,15 @@ const Major = () => {
             >
               Explore
             </a>
+            <a
+      href="https://www.clarku.edu/faculty/profiles/andrew-stewart/"
+      class="faculty-link"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Primary Faculty
+    </a>
+    </div> 
           </div>
           <div class="tpn_card">
             <img src={Biology} class="w-100 mb-4" />
@@ -4071,6 +4181,7 @@ const Major = () => {
               <br />
               <br />
             </p>
+            <div class="btn-container">
             <a
               href="javascript:;"
               class="btn tpn_btn"
@@ -4081,6 +4192,15 @@ const Major = () => {
             >
               Explore
             </a>
+            <a
+      href="#"
+      class="faculty-link"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Primary Faculty
+    </a>
+    </div> 
           </div>
         </div>
       </div>

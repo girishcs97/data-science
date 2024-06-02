@@ -85,3 +85,17 @@
   border-color: black;
   position: absolute;
 }
+.faculty-link {
+  color: #ff0022;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.faculty-link:hover {
+  transform: scale(1.1);
+  color: #ff0022;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

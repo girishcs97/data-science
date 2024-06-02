@@ -62,7 +62,7 @@
     margin: 0;
     line-height: 1.5em;
     color: #4b5b70;
-    position: relative;
+    position:relative;
   }
   .card-c p:last-child{
     margin-top: 20px;

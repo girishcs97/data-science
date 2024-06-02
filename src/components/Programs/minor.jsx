@@ -1,15 +1,4 @@
 import React, { useState } from "react";
-import Biology from "../../images/biology.png";
-import T2 from "../../images/Track2.png";
-import T3 from "../../images/Track3.jpg";
-import T4 from "../../images/Track4.png";
-import T5 from "../../images/Track5.png";
-import T6 from "../../images/Track6.png";
-import T7 from "../../images/Track7.png";
-import T8 from "../../images/Track8.png";
-import T9 from "../../images/Track9.png";
-import T10 from "../../images/Track10.png";
-import T11 from "../../images/Track11.png";
 import ADA from "../../images/ADA.jpg";
 import MFDS from "../../images/MFDS.png";
 import IC from "../../images/IC.jpg";
@@ -19,6 +8,8 @@ import ADLE from "../../images/ADLE.jpg";
 import DS from "../../images/DS.jpg";
 import MI from "../../images/MI.png";
 import MII from "../../images/MII.jpg";
+import IDS from "../../images/IDS.jpeg";
+import HCI from "../../images/HCI.jpeg"
 import { Fade } from "react-reveal";
 import Accordion from "react-bootstrap/Accordion";
 
@@ -3047,7 +3038,38 @@ const Major = () => {
           </p>
         </>
       );
-    } else if (type == "MFDS") {
+    } 
+    else if (type == "IDS") {
+      return (
+        <>
+          <h5>DSCI 125 - Introduction to Data Science</h5>
+
+          <p>
+            The course introduces foundational statistical and computational concepts and skills in data-centered computing and applications. It provides hands-on opportunities for students to process and analyze real world datasets and extract information from the data. Social issues surrounding data science, such as data privacy, bias, fairness, and social impacts, will also be discussed.
+          </p>
+          <p>
+            <strong>Prerequisites:</strong>{" "}
+            <a href="http://example.com/CSCI120">CSCI 120</a> or{" "}
+            <a href="http://example.com/CSCI124">CSCI 124</a> and{" "}
+            <a href="http://example.com/MATH120">MATH 120</a> or{" "}
+            <a href="http://example.com/MATH124">MATH 124</a> or{" "}
+            <a href="http://example.com/GEOG110">GEOG 110</a> or{" "}
+            <a href="http://example.com/ECON160">ECON 160</a> or{" "}
+            <a href="http://example.com/SOC202">SOC 202</a> or{" "}
+            <a href="http://example.com/PSYC105">PSYC 105</a> or{" "}
+            <a href="http://example.com/PSCI107">PSCI 107</a> or{" "}
+            <a href="http://example.com/QBUS110">QBUS 110</a> (minimum grade of C- required for pre-reqs)
+          </p>
+          <p>
+            <strong>Course Designation/Attribute:</strong> POP
+          </p>
+          <p>
+            <strong>Anticipated Terms Offered:</strong> Fall 2019
+          </p>
+        </>
+      );
+    }   
+    else if (type == "MFDS") {
       return (
         <>
           <h5>DSCI 122 - Mathematical Foundations of Data Science</h5>
@@ -3104,7 +3126,27 @@ const Major = () => {
           </p>
         </>
       );
-    } else if (type == "SC") {
+    }
+    else if (type == "HCI") {
+      return (
+        <>
+          <h5>CSCI 124 - Honors Introduction to Computing</h5>
+          <p>
+          This accelerated course provides a comprehensive introduction to computing and its diverse applications, equipping students with the fundamental principles and problem-solving techniques necessary to tackle real-world challenges. Student will learn programming in Python, grasping a systematic approach to problem formulation, algorithm design, code development and testing. This course includes a project component where students will demonstrate their newly acquired skills through the design and implementation of a project of their choice. Success in the course requires strong analytical skills and a dedicated work ethic.  Prior programming experience is not necessary but may be helpful.
+          </p>
+          <p>
+            <strong>Prerequisites:</strong> Permission Only.
+          </p>
+          <p>
+            <strong>Course Designation/Attribute:</strong> SP
+          </p>
+          <p>
+            <strong>Anticipated Terms Offered:</strong> Offered every year
+          </p>
+        </>
+      );
+    }
+     else if (type == "SC") {
       return (
         <>
           <h5>DSCI 216 - Stochastic Computing</h5>
@@ -3439,263 +3481,384 @@ const Major = () => {
         </Fade>
       </div>
       <div className="container">
-        <div className="row mt-4">
-          <div className="col-md-4">
-            <div class="card-c">
-              <div class="img-container-c">
-                <img src={ADA} width="336" />
-              </div>
-              <div class="tags-c">
-                <ul>
-                  <li>POP</li>
-                </ul>
-              </div>
-              <h5>DS105 - Applied Data Analytics</h5>
-              <p>
-                An investigation into the fundamental techniques and practices
-                of data analysis, this course focuses on applying tools and
-                techniques to practical problems of analysis, visualization, and
-                discovery.
-              </p>
-              <br />
-              <br />
-              <p
-                className="text-center"
-                style={{ cursor: "pointer" }}
-                onClick={() => {
-                  setType("ADA");
-                  handleShow();
-                }}
-              >
-                Explore
-              </p>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div class="card-c">
-              <div class="img-container-c">
-                <img src={MFDS} width="336" />
-              </div>
-              <br />
-              <br />
-              <h5>DSCI 122 - Mathematical Foundations of Data Science </h5>
-              <p>
-                This course provides an introduction to the key mathematical
-                principles underlying data science. The course focuses on linear
-                algebra, probability, statistics, and calculus, as these areas
-                are crucial for understanding.
-              </p>
-              <p
-                className="text-center"
-                style={{ cursor: "pointer" }}
-                onClick={() => {
-                  setType("MFDS");
-                  handleShow();
-                }}
-              >
-                Explore
-              </p>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div class="card-c">
-              <div class="img-container-c">
-                <img src={IC} width="336" />
-              </div>
-              <div class="tags-c">
-                <ul>
-                  <li>POP</li>
-                </ul>
-              </div>
-              <h5>CSCI 120 - Introduction to Computing</h5>
-              <p>
-                Introduction to Computing is a foundational course designed to
-                develop computational problem-solving skills through programming
-                while introducing students to various essential topics in
-                computer science.
-              </p>
-              <p
-                className="text-center"
-                style={{ cursor: "pointer" }}
-                onClick={() => {
-                  setType("IC");
-                  handleShow();
-                }}
-              >
-                Explore
-              </p>
-            </div>
-          </div>
+  <div className="row mt-4">
+    <div className="col-md-4">
+      <div class="card-c">
+        <div class="img-container-c">
+          <img src={ADA} width="336" />
         </div>
-        <div className="row mt-4">
-          <div className="col-md-4">
-            <div class="card-c">
-              <div class="img-container-c">
-                <img src={SC} width="336" />
-              </div>
-              <br />
-              <br />
-              <h5>DSCI 216 - Stochastic Computing </h5>
-              <p>
-                Stochastic Computing focuses on addressing the uncertainty
-                inherent in data science and computer science through a
-                combination of problem analysis, theoretical development, and
-                prototype creation.{" "}
-              </p>
-              <p
-                className="text-center"
-                style={{ cursor: "pointer" }}
-                onClick={() => {
-                  setType("SC");
-                  handleShow();
-                }}
-              >
-                Explore
-              </p>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div class="card-c">
-              <div class="img-container-c">
-                <img src={AML} width="336" />
-              </div>
-              <br />
-              <br />
-              <h5>DSCI 225 - Applied Machine Learning</h5>
-              <p>
-                Applied Machine Learning explores the fundamental techniques and
-                practices of machine learning through a series of lectures, lab
-                sessions, programming projects, and written assignments.{" "}
-              </p>
-              <p
-                className="text-center"
-                style={{ cursor: "pointer" }}
-                onClick={() => {
-                  setType("AML");
-                  handleShow();
-                }}
-              >
-                Explore
-              </p>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div class="card-c">
-              <div class="img-container-c">
-                <img src={ADLE} width="336" />
-              </div>
-              <br />
-              <br />
-              <h5>DSCI 215 - Applying Deep Learning to Earth Observation </h5>
-              <p>
-                {" "}
-                Applying Deep Learning to Earth Observation delves into the
-                application of deep learning techniques to analyze and interpret
-                data from Earth observation systems.
-              </p>
-              <p
-                className="text-center"
-                style={{ cursor: "pointer" }}
-                onClick={() => {
-                  setType("ADL");
-                  handleShow();
-                }}
-              >
-                Explore
-              </p>
-            </div>
-          </div>
+        <div class="tags-c">
+          <ul>
+            <li>POP</li>
+          </ul>
         </div>
-        <div className="row mt-4 mb-4">
-          <div className="col-md-4">
-            <div class="card-c">
-              <div class="img-container-c">
-                <img src={DS} width="336" />
-              </div>
-              <div class="tags-c">
-                <ul>
-                  <li>POP</li>
-                </ul>
-              </div>
-              <h5>CSCI 121 - Data Structures</h5>
-              <p>
-                {" "}
-                Data Structures provides a comprehensive introduction to the
-                fundamental data structures used in computer science. The course
-                covers a range of data structures including arrays, linked
-                lists, stacks, queues, trees, and graphs.
-              </p>
-              <p
-                className="text-center"
-                style={{ cursor: "pointer" }}
-                onClick={() => {
-                  setType("DSA");
-                  handleShow();
-                }}
-              >
-                Explore
-              </p>
-            </div>
-          </div>
-          <div className="col-md-4">
-            <div class="card-c">
-              <div class="img-container-c">
-                <img src={MI} width="336" />
-              </div>
-              <div class="tags-c">
-                <ul>
-                  <li>POP</li>
-                </ul>
-              </div>
-              <h5>MATH 120 - Calculus I</h5>
-              <p>
-                Calculus I is often the first course in a standard calculus
-                sequence and typically covers topics such as limits,
-                derivatives, and integrals. It's a foundational course for
-                understanding calculus.
-              </p>
+        <h5>DSCI 105 - Applied Data Analytics</h5>
+        <p>
+          An investigation into the fundamental techniques and practices
+          of data analysis, this course focuses on applying tools and
+          techniques to practical problems of analysis, visualization, and
+          discovery.
+        </p>
+        <br />
+        <p
+          className="text-center"
+          style={{ cursor: "pointer" }}
+          onClick={() => {
+            setType("ADA");
+            handleShow();
+          }}
+        >
+          Explore
+        </p>
+      </div>
+    </div>
+    <div className="col-md-4">
+      <div class="card-c">
+        <div class="img-container-c">
+          <img src={IDS} width="336" />
+        </div>
+        {/* <div class="tags-c">
+          <ul>
+            <li>POP</li>
+          </ul>
+        </div> */}
+        <br/>
+        <br/>
+        <br/>
+        <h5>DSCI 125 - Introduction to Data Science </h5>
+        <p>
+          This course provides foundational knowledge in statistical and computational concepts essential for data-centered computing and its applications.
+        </p>
+        <p
+          className="text-center"
+          style={{ cursor: "pointer" }}
+          onClick={() => {
+            setType("IDS");
+            handleShow();
+          }}
+        >
+          Explore
+        </p>
+      </div>
+    </div>
+    <div className="col-md-4">
+      <div class="card-c">
+        <div class="img-container-c">
+          <img src={ADLE} width="336" />
+        </div>
+        <br />
+        <br />
+        <h5>DSCI 215 - Applying Deep Learning to Earth Observation</h5>
+        <p>
+          Applying Deep Learning to Earth Observation delves into the
+          application of deep learning techniques to analyze and interpret
+          data from Earth observation systems.
+        </p>
+        <p
+          className="text-center"
+          style={{ cursor: "pointer" }}
+          onClick={() => {
+            setType("ADL");
+            handleShow();
+          }}
+        >
+          Explore
+        </p>
+      </div>
+    </div>
+    </div>
+    <div className="row mt-4">
+    <div className="col-md-4">
+      <div class="card-c">
+        <div class="img-container-c">
+          <img src={AML} width="336" />
+        </div>
+        <br />
+        <br />
+        <h5>DSCI 225 - Applied Machine Learning</h5>
+        <p>
+          Applied Machine Learning explores the fundamental techniques and
+          practices of machine learning through a series of lectures, lab
+          sessions, programming projects, and written assignments.
+        </p>
+        <p
+          className="text-center"
+          style={{ cursor: "pointer" }}
+          onClick={() => {
+            setType("AML");
+            handleShow();
+          }}
+        >
+          Explore
+        </p>
+      </div>
+    </div>
+
+    <div className="col-md-4">
+      <div class="card-c">
+        <div class="img-container-c">
+          <img src={MFDS} width="336" />
+        </div>
+        <br />
+        <br/>
+        <h5>DSCI 122 - Mathematical Foundations of Data Science</h5>
+        <p>
+          This course provides an introduction to the key mathematical
+          principles underlying data science. The course focuses on linear
+          algebra, probability, statistics, and calculus, as these areas
+          are crucial for understanding.
+        </p>
+        <p
+          className="text-center"
+          style={{ cursor: "pointer" }}
+          onClick={() => {
+            setType("MFDS");
+            handleShow();
+          }}
+        >
+          Explore
+        </p>
+      </div>
+    </div>
+    <div className="col-md-4">
+      <div class="card-c">
+        <div class="img-container-c">
+          <img src={SC} width="336" />
+        </div>
+        <br />
+        <br />
+        <br/>
+        <h5>DSCI 216 - Stochastic Computing</h5>
+        <p>
+          Stochastic Computing focuses on addressing the uncertainty
+          inherent in data science and computer science through a
+          combination of problem analysis, theoretical development, and
+          prototype creation.
+        </p>
+        <p
+          className="text-center"
+          style={{ cursor: "pointer" }}
+          onClick={() => {
+            setType("SC");
+            handleShow();
+          }}
+        >
+          Explore
+        </p>
+      </div>
+    </div>
+    </div>
+    <div className="row mt-4">
+    <div className="col-md-4">
+      <div class="card-c">
+        <div class="img-container-c">
+          <img src={HCI} width="336" />
+        </div>
+        <div class="tags-c">
+          <ul>
+            <li>POP</li>
+          </ul>
+        </div>
+        <h5>CSCI 120 - Introduction to Computing</h5>
+        <p>
+          Introduction to Computing is a foundational course designed to
+          develop computational problem-solving skills through programming
+          while introducing students to various essential topics in
+          computer science.
+        </p>
+        <p
+          className="text-center"
+          style={{ cursor: "pointer" }}
+          onClick={() => {
+            setType("IC");
+            handleShow();
+          }}
+        >
+          Explore
+        </p>
+      </div>
+    </div>
+ 
+  <div className="col-md-4">
+      <div class="card-c">
+        <div class="img-container-c">
+          <img src={IC} width="336" />
+        </div>
+        <div class="tags-c">
+          <ul>
+            <li>POP</li>
+          </ul>
+        </div>
+        <br/>
+        <h5>CSCI 124 - Honors Introduction to Computing</h5>
+        <p>
+        Honors Introduction to Computing is an accelerated course that provides a comprehensive introduction to computing and its diverse applications.
+        </p>
+        <p
+          className="text-center"
+          style={{ cursor: "pointer" }}
+          onClick={() => {
+            setType("IC");
+            handleShow();
+          }}
+        >
+          Explore
+        </p>
+      </div>
+    </div>
+  
+  
+    <div className="col-md-4">
+      <div class="card-c">
+        <div class="img-container-c">
+          <img src={DS} width="336" />
+        </div>
+        <div class="tags-c">
+          <ul>
+            <li>POP</li>
+          </ul>
+        </div>
+        <h5>CSCI 121 - Data Structures</h5>
+        <br/>
+        <p>
+          Data Structures provides a comprehensive introduction to the
+          fundamental data structures used in computer science. The course
+          covers a range of data structures including arrays, linked
+          lists, stacks, queues, trees, and graphs.
+        </p>
+        <p
+          className="text-center"
+          style={{ cursor: "pointer" }}
+          onClick={() => {
+            setType("DSA");
+            handleShow();
+          }}
+        >
+          Explore
+        </p>
+      </div>
+    </div>
+    </div>
+    <div className="row mt-4">
+    <div className="col-md-4">
+      <div class="card-c">
+        <div class="img-container-c">
+          <img src={MI} width="336" />
+        </div>
+        <div class="tags-c">
+          <ul>
+            <li>POP</li>
+          </ul>
+        </div>
+        <h5> MATH 120/MATH 124  (Calculus I)</h5>
+        <p>
+          Calculus I is often the first course in a standard calculus
+          sequence and typically covers topics such as limits,
+          derivatives, and integrals. It's a foundational course for
+          understanding calculus.
+        </p>
+        <br />
+        <p
+          className="text-center"
+          style={{ cursor: "pointer" }}
+          onClick={() => {
+            setType("MI");
+            handleShow();
+          }}
+        >
+          Explore
+        </p>
+      </div>
+    </div>
+    <div className="col-md-4">
+      <div class="card-c">
+        <div class="img-container-c">
+          <img src={MII} width="336" />
+        </div>
+        <div class="tags-c">
+          <ul>
+            <li>POP</li>
+          </ul>
+        </div>
+        <h5>MATH 121/MATH 125 (Calculus II)</h5>
+        <p>
+          Calculus II, typically referred to as MATH 121, is the second
+          course in a standard calculus sequence. It builds upon the
+          concepts introduced in Calculus I, such as limits, derivatives,
+          and integrals, and dives deeper into their applications and
+          extensions.
+        </p>
+        <p
+          className="text-center"
+          style={{ cursor: "pointer" }}
+          onClick={() => {
+            setType("MII");
+            handleShow();
+          }}
+        >
+          Explore
+        </p>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div className="container-fluid margin-top-40">
+        <Fade bottom duration={1000}>
+          <div className="row">
+            <div className="col-md-1"></div>
+            <div className="col-md-10">
+              <div class="line size-150px mg-bottom-28px"></div>
+              <h2 class="display-data">Explore Concentrations</h2>
               <br />
               <p
-                className="text-center"
-                style={{ cursor: "pointer" }}
-                onClick={() => {
-                  setType("MI");
-                  handleShow();
+                className="p-content"
+                style={{
+                  color: "#4b5b70",
+                  textAlign: "justify",
+                  fontSize: "17px",
                 }}
               >
-                Explore
+                The Data Science program at Clark University offers minor concentration which is designed to complement a variety of major fields, equipping students with valuable skills in data analysis, statistical modeling, and computational thinking.
               </p>
             </div>
+            <div className="col-md-2"></div>
           </div>
-          <div className="col-md-4">
-            <div class="card-c">
-              <div class="img-container-c">
-                <img src={MII} width="336" />
-              </div>
-              <div class="tags-c">
-                <ul>
-                  <li>POP</li>
-                </ul>
-              </div>
-              <h5>MATH 121 - Calculus II</h5>
-              <p>
-                Calculus II, typically referred to as MATH 121, is the second
-                course in a standard calculus sequence. It builds upon the
-                concepts introduced in Calculus I, such as limits, derivatives,
-                and integrals, and dives deeper into their applications and
-                extensions.
-              </p>
-              <p
-                className="text-center"
-                style={{ cursor: "pointer" }}
-                onClick={() => {
-                  setType("MII");
-                  handleShow();
-                }}
-              >
-                Explore
-              </p>
-            </div>
+        </Fade>
+      </div>
+      <div className="container">
+        <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-1 mt-5">
+          <div class="tpn_card">
+            <img src={ADA} class="w-30 mb-4" />
+            <h5>Business Data Analytics</h5>
+            <p>
+            Business Data Analytics is a concentration that 
+            combines foundational quantitative and analytics
+            skills, programming knowledge, and business and economics applications.
+            </p>
+            <a
+              href="https://catalog.clarku.edu/preview_program.php?catoid=32&poid=6508&returnto=2750"
+              class="btn tpn_btn"
+              
+            >
+              Explore
+            </a>
+           
+                    </div>
+          
+          <div class="tpn_card">
+            <img src={ADA} class="w-30 mb-4" />
+            <h5>Geospatial Data Analytics</h5>
+            <p>
+            The Concentration in Geospatial Data Analytics is designed to equip students with the skills and knowledge needed to analyze and interpret geospatial data effectively.
+              
+            </p>
+                       <a
+              href="https://catalog.clarku.edu/preview_program.php?catoid=32&poid=6582&returnto=2750"
+              class="btn tpn_btn"
+              
+            >
+              Explore
+            </a>
           </div>
         </div>
       </div>
