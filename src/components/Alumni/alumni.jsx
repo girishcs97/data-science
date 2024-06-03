@@ -19,13 +19,14 @@ const Alumni = () => {
                     <div class="card-con">
                         <div class="card-body">
                             <div className="row">
-                                <div class="col-sm-12">
-                                     <p class="card-text testinomial">“The urban geography and economics double major
+                                <div class="col-sm-2"><img src={Lihan} className='prof-logo mt-3' /></div>
+                                <div class="col-sm-10">
+                                    <p class="card-text testinomial">“The urban geography and economics double major
                                         developed a comprehensive operations analysis for his
                                         honors thesis that outlines ways to improve Worcester
                                         Regional Transit Authority bus servicewhile reducing
                                         operating costs.”</p>
-                                    <h6 className="test-name">Class of M.S. ’22</h6>
+                                    <h6 className="test-name mb-2">Class of M.S. ’22</h6>
                                 </div>
                             </div>
                         </div>
@@ -38,8 +39,9 @@ const Alumni = () => {
                     <div class="card-con">
                         <div class="card-body">
                             <div className="row">
-                                <div class="col-sm-12">
-                                     <p class="card-text testinomial">“The supportive community, inspirational faculty,
+                                <div class="col-sm-2"><img src={Lihan} className='prof-logo mt-3' /></div>
+                                <div class="col-sm-10">
+                                    <p class="card-text testinomial">“The supportive community, inspirational faculty,
                                         interdisciplinary curriculum, and various research
                                         opportunities at Clark have fostered my growth as
                                         a data science student.”</p>

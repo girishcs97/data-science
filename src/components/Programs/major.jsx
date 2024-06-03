@@ -3872,7 +3872,7 @@ const Major = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Primary Faculty
+      Primary Faculty Contact
     </a>
     </div> 
                     </div>
@@ -3901,7 +3901,7 @@ const Major = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Primary Faculty
+      Primary Faculty Contact
     </a>
     </div> 
           </div>
@@ -3929,7 +3929,7 @@ const Major = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Primary Faculty
+      Primary Faculty Contact
     </a>
     </div> 
           </div>
@@ -3963,7 +3963,7 @@ const Major = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Primary Faculty
+      Primary Faculty Contact
     </a>
     </div> 
           </div>
@@ -3993,7 +3993,7 @@ const Major = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Primary Faculty
+      Primary Faculty Contact
     </a>
     </div> 
           </div>
@@ -4021,7 +4021,7 @@ const Major = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Primary Faculty
+      Primary Faculty Contact
     </a>
     </div> 
           </div>
@@ -4053,7 +4053,7 @@ const Major = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Primary Faculty
+      Primary Faculty Contact
     </a>
     </div> 
           </div>
@@ -4082,7 +4082,7 @@ const Major = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Primary Faculty
+      Primary Faculty Contact
     </a>
     </div> 
           </div>
@@ -4111,7 +4111,7 @@ const Major = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Primary Faculty
+      Primary Faculty Contact
     </a>
     </div> 
           </div>
@@ -4144,7 +4144,7 @@ const Major = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Primary Faculty
+      Primary Faculty Contact
     </a>
     </div> 
           </div>
@@ -4169,7 +4169,7 @@ const Major = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Primary Faculty
+      Primary Faculty Contact
     </a>
     </div> 
           </div>
@@ -4198,7 +4198,7 @@ const Major = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Primary Faculty
+      Primary Faculty Contact
     </a>
     </div> 
           </div>

@@ -30,7 +30,6 @@ const App = () => {
           <Route path="/explearning" element={<Learning />} />
         </Routes>
       </Router>
-      <FloatingButton />
       <Footer />
     </>
   )
