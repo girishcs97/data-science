@@ -1,5 +1,9 @@
 import React from 'react'
 import './choose.css'
+import vqt from '../../images/vqt.jpg'
+import ila from '../../images/ILA.jpeg'
+import ola from '../../images/ola.jpeg'
+import etj from '../../images/etj.jpeg'
 import Logo from '../../images/chooseus.jpg'
 
 const ChooseUs = () => {
@@ -26,14 +30,14 @@ const ChooseUs = () => {
                         <div className="pr-md-3">
                             <div className="text-center text-sm-right mb-2-9">
                                 <div className="mb-4">
-                                    <img src="https://www.bootdey.com/image/80x80/FFB6C1/000000" alt="..." className="rounded-circle" />
+                                    <img src={vqt} alt="..." className="rounded-circle" />
                                 </div>
                                 <h4 className="sub-info">Versatile quantitative techniques</h4>
                                 <p className="display-30 mb-0"> Learn approaches and techniques that are widely applicable to quantitative analyses in almost every discipline.</p>
                             </div>
                             <div className="text-center text-sm-right">
                                 <div className="mb-4">
-                                    <img src="https://www.bootdey.com/image/80x80/87CEFA/000000" alt="..." className="rounded-circle" />
+                                    <img src={etj} alt="..." className="rounded-circle" />
                                 </div>
                                 <h4 className="sub-info">Expertise for top jobs</h4>
                                 <p className="display-30 mb-0">Gain the expertise and knowledge to produce high-quality work, secure jobs at top companies or admission to leading graduate schools, and change our increasingly data-driven world.</p>
@@ -49,7 +53,7 @@ const ChooseUs = () => {
                         <div className="pl-md-3">
                             <div className="text-center text-sm-left mb-2-9">
                                 <div className="mb-4">
-                                    <img src="https://www.bootdey.com/image/80x80/8A2BE2/000000" alt="..." className="rounded-circle" />
+                                    <img src={ila} alt="..." className="rounded-circle" />
                                 </div>
                                 <h4 className="sub-info">Interdisciplinary liberal arts</h4>
                                 <p className="display-30 mb-0">Study this emerging field in a small liberal arts research university with diverse participating programs and strong interdisciplinary collaborations.</p>
@@ -57,7 +61,7 @@ const ChooseUs = () => {
 
                             <div className="text-center text-sm-left">
                                 <div className="mb-4">
-                                    <img src="https://www.bootdey.com/image/80x80/20B2AA/000000" alt="..." className="rounded-circle" />
+                                    <img src={ola} alt="..." className="rounded-circle" />
                                 </div>
                                 <h4 className="sub-info">On-campus professional and alumni network</h4>
                                 <p className="display-30 mb-0">Benefit from on-campus professional opportunities and join a supportive network of students and alumni dedicated to helping each other succeed.</p>

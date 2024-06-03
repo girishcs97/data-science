@@ -2,6 +2,10 @@ import React from 'react';
 import './footer.css';
 import FooterImg from '../../images/footer-logo.svg'
 const Footer = () => {
+    const openInNewTab = (url) => {
+        const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+        if (newWindow) newWindow.opener = null
+    }
     return (
         <footer className="footer bg-dark text-white">
             <div className="container py-4">
@@ -15,16 +19,29 @@ const Footer = () => {
                     <div className="col-md-5 mb-3 mt-4">
                         <h5 className="helpful-links">Helpful Links</h5>
                         <ul className="list-unstyled">
-                            <div className='row'>
-                                <div className='col-md-4'><li className='m-1'>Report a Concern</li></div>
-                                <div className='col-md-4'><li className='m-1'>Campus Safety</li></div>
-                                <div className='col-md-4'><li className='m-1'>Events</li><br /></div>
-                            </div>
-                            <div className='row'>
-                                <div className='col-md-4'><li className='m-1'>Offices</li></div>
-                                <div className='col-md-4'><li className='m-1'>Employment</li></div>
-                                <div className='col-md-4'> <li className='m-1'>Website Feedback</li></div>
-                            </div>
+                        <div className='row'>
+    <div className='col-md-4'>
+        <li className='m-1' onClick={() => openInNewTab('https://www.clarku.edu/report-a-concern/')}>Report a Concern</li>
+    </div>
+    <div className='col-md-4'>
+        <li className='m-1' onClick={() => openInNewTab('https://www.clarku.edu/offices/emergency-management-and-campus-assistance/')}>Campus Safety</li>
+    </div>
+    <div className='col-md-4'>
+        <li className='m-1' onClick={() => openInNewTab('https://www.clarku.edu/events/')}>Events</li><br />
+    </div>
+</div>
+<div className='row'>
+    <div className='col-md-4'>
+        <li className='m-1' onClick={() => openInNewTab('https://www.clarku.edu/offices/')}>Offices</li>
+    </div>
+    <div className='col-md-4'>
+        <li className='m-1' onClick={() => openInNewTab('https://www.clarku.edu/offices/human-resources/job-opportunities/')}>Employment</li>
+    </div>
+    <div className='col-md-4'>
+        <li className='m-1' onClick={() => openInNewTab('https://www.clarku.edu/contactus/#website-feedback')}>Website Feedback</li>
+    </div>
+</div>
+
                         </ul>
                     </div>
                     <div className="col-md-3 mb-3 mt-4">

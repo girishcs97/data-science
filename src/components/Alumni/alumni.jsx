@@ -1,5 +1,6 @@
 import React from "react";
-import Lihan from '../../images/li-han.jpg';
+import Garryn from '../../images/Garryn.jpg';
+import Nguyen from '../../images/Nguyen.jpg';
 import './alumni.css';
 import Fade from "react-reveal/Fade";
 
@@ -19,7 +20,7 @@ const Alumni = () => {
                     <div class="card-con">
                         <div class="card-body">
                             <div className="row">
-                                <div class="col-sm-2"><img src={Lihan} className='prof-logo mt-3' /></div>
+                                <div class="col-sm-2"><img src={Garryn} className='prof-logo mt-3' /></div>
                                 <div class="col-sm-10">
                                     <p class="card-text testinomial">“The urban geography and economics double major
                                         developed a comprehensive operations analysis for his
@@ -39,7 +40,7 @@ const Alumni = () => {
                     <div class="card-con">
                         <div class="card-body">
                             <div className="row">
-                                <div class="col-sm-2"><img src={Lihan} className='prof-logo mt-3' /></div>
+                                <div class="col-sm-2"><img src={Nguyen} className='prof-logo mt-3' /></div>
                                 <div class="col-sm-10">
                                     <p class="card-text testinomial">“The supportive community, inspirational faculty,
                                         interdisciplinary curriculum, and various research
