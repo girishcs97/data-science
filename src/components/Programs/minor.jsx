@@ -134,7 +134,7 @@ const Major = () => {
                 BIOL 123 - Introduction to Bioinformatics
               </Accordion.Header>
               <Accordion.Body>
-                <h1>BIOL 123 - Introduction to Bioinformatics</h1>
+                <h5>BIOL 123 - Introduction to Bioinformatics</h5>
                 <p>
                   This course will provide an applied introduction to
                   bioinformatics, computational biology, and comparative
@@ -526,7 +526,7 @@ const Major = () => {
             <Accordion.Item eventKey="3">
               <Accordion.Header>CSCI 262 - Computer Vision</Accordion.Header>
               <Accordion.Body>
-                <h1>CSCI 262 - Computer Vision</h1>
+                <h5>CSCI 262 - Computer Vision</h5>
                 <p>
                   This course studies the fundamentals of computer vision and
                   its application to interdisciplinary problems. Students learn
@@ -2476,10 +2476,10 @@ const Major = () => {
           <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="0">
               <Accordion.Header>
-                PHYS 120 - Introductory Physics - Part I, with Calculus
+                PHYS 120 - Introductory Physics - Part I with Calculus
               </Accordion.Header>
               <Accordion.Body>
-                <h5>PHYS 120 - Introductory Physics - Part I, with Calculus</h5>
+                <h5>PHYS 120 - Introductory Physics - Part I with Calculus</h5>
                 <p>
                   Problem-oriented course intended for science majors; coverage
                   is more in-depth than <a href="#">PHYS 110</a>. Topics include
@@ -2501,11 +2501,11 @@ const Major = () => {
             </Accordion.Item>
             <Accordion.Item eventKey="1">
               <Accordion.Header>
-                PHYS 121 - Introductory Physics - Part II, with Calculus
+                PHYS 121 - Introductory Physics - Part II with Calculus
               </Accordion.Header>
               <Accordion.Body>
                 <h5>
-                  PHYS 121 - Introductory Physics - Part II, with Calculus
+                  PHYS 121 - Introductory Physics - Part II with Calculus
                 </h5>
                 <p>
                   A problem-oriented course based on electricity and magnetism
@@ -3034,7 +3034,7 @@ const Major = () => {
             <strong>Course Designation/Attribute:</strong> POP
           </p>
           <p>
-            <strong>Anticipated Terms Offered:</strong> Spring 2021
+            <strong>Anticipated Terms Offered:</strong> Spring
           </p>
         </>
       );
@@ -3064,7 +3064,7 @@ const Major = () => {
             <strong>Course Designation/Attribute:</strong> POP
           </p>
           <p>
-            <strong>Anticipated Terms Offered:</strong> Fall 2019
+            <strong>Anticipated Terms Offered:</strong> Fall
           </p>
         </>
       );
@@ -3093,7 +3093,7 @@ const Major = () => {
             </a>
           </p>
           <p>
-            <strong>Anticipated Terms Offered:</strong> Fall 2021
+            <strong>Anticipated Terms Offered:</strong> Fall
           </p>
         </>
       );
@@ -3227,7 +3227,7 @@ const Major = () => {
             (Minimum grade of C- required for pre-reqs)
           </p>
           <p>
-            <strong>Anticipated Terms Offered:</strong> Spring 2019
+            <strong>Anticipated Terms Offered:</strong> Spring
           </p>
         </>
       );

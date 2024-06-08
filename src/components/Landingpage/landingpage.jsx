@@ -38,7 +38,7 @@ const LandingPage = (props) => {
                                         <a href="">UnderGraduate Programs</a>
                                     </h3>
                                     <p style={{ fontSize: '14px' }}>Pathways for diverse academic and career pursuits.</p>
-                                    <a class="link-btn" href="/about">Learn More
+                                    <a class="link-btn" href="/program">Learn More
                                     </a>
                                 </div>
                             </div>

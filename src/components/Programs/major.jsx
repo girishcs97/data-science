@@ -21,7 +21,7 @@ import MI from "../../images/MI.png";
 import MII from "../../images/MII.jpg";
 import IDS from "../../images/IDS.jpeg";
 import HCI from "../../images/HCI.jpeg"
-import Choose from "../../images/programsinfo.png"
+
 import { Fade } from "react-reveal";
 import Accordion from "react-bootstrap/Accordion";
 
@@ -146,7 +146,7 @@ const Major = () => {
                 BIOL 123 - Introduction to Bioinformatics
               </Accordion.Header>
               <Accordion.Body>
-                <h1>BIOL 123 - Introduction to Bioinformatics</h1>
+                <h5>BIOL 123 - Introduction to Bioinformatics</h5>
                 <p>
                   This course will provide an applied introduction to
                   bioinformatics, computational biology, and comparative
@@ -538,7 +538,7 @@ const Major = () => {
             <Accordion.Item eventKey="3">
               <Accordion.Header>CSCI 262 - Computer Vision</Accordion.Header>
               <Accordion.Body>
-                <h1>CSCI 262 - Computer Vision</h1>
+                <h5>CSCI 262 - Computer Vision</h5>
                 <p>
                   This course studies the fundamentals of computer vision and
                   its application to interdisciplinary problems. Students learn
@@ -2488,10 +2488,10 @@ const Major = () => {
           <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="0">
               <Accordion.Header>
-                PHYS 120 - Introductory Physics - Part I, with Calculus
+                PHYS 120 - Introductory Physics - Part I with Calculus
               </Accordion.Header>
               <Accordion.Body>
-                <h5>PHYS 120 - Introductory Physics - Part I, with Calculus</h5>
+                <h5>PHYS 120 - Introductory Physics - Part I with Calculus</h5>
                 <p>
                   Problem-oriented course intended for science majors; coverage
                   is more in-depth than <a href="#">PHYS 110</a>. Topics include
@@ -2513,11 +2513,11 @@ const Major = () => {
             </Accordion.Item>
             <Accordion.Item eventKey="1">
               <Accordion.Header>
-                PHYS 121 - Introductory Physics - Part II, with Calculus
+                PHYS 121 - Introductory Physics - Part II with Calculus
               </Accordion.Header>
               <Accordion.Body>
                 <h5>
-                  PHYS 121 - Introductory Physics - Part II, with Calculus
+                  PHYS 121 - Introductory Physics - Part II with Calculus
                 </h5>
                 <p>
                   A problem-oriented course based on electricity and magnetism
@@ -3046,7 +3046,7 @@ const Major = () => {
             <strong>Course Designation/Attribute:</strong> POP
           </p>
           <p>
-            <strong>Anticipated Terms Offered:</strong> Spring 2021
+            <strong>Anticipated Terms Offered:</strong> Spring
           </p>
         </>
       );
@@ -3076,7 +3076,7 @@ const Major = () => {
             <strong>Course Designation/Attribute:</strong> POP
           </p>
           <p>
-            <strong>Anticipated Terms Offered:</strong> Fall 2019
+            <strong>Anticipated Terms Offered:</strong> Fall
           </p>
         </>
       );
@@ -3105,7 +3105,7 @@ const Major = () => {
             </a>
           </p>
           <p>
-            <strong>Anticipated Terms Offered:</strong> Fall 2021
+            <strong>Anticipated Terms Offered:</strong> Fall
           </p>
         </>
       );
@@ -3239,7 +3239,7 @@ const Major = () => {
             (Minimum grade of C- required for pre-reqs)
           </p>
           <p>
-            <strong>Anticipated Terms Offered:</strong> Spring 2019
+            <strong>Anticipated Terms Offered:</strong> Spring
           </p>
         </>
       );
@@ -3368,8 +3368,7 @@ const Major = () => {
             <strong>Course Designation/Attribute:</strong> FA
           </p>
           <p>
-            <strong>Anticipated Terms Offered:</strong> Offered every Fall
-            (120,) and Spring (121)
+            <strong>Anticipated Terms Offered:</strong> Offered every Fall and Spring
           </p>
         </>
       );
@@ -4202,34 +4201,6 @@ const Major = () => {
     </div> 
           </div>
         </div>
-      </div>
-      <div className="container-fluid margin-top-40">
-        <Fade bottom duration={1000}>
-          <div className="row">
-            <div className="col-md-1"></div>
-            <div className="col-md-10">
-              <div class="line size-150px mg-bottom-28px"></div>
-              <h2 class="display-data">Not sure which elective track to choose?</h2>
-              <br />
-              <p
-                className="p-content"
-                style={{
-                  color: "#4b5b70",
-                  textAlign: "justify",
-                  fontSize: "17px",
-                }}
-              >
-                Clark University offers a suite of  data science degree programs and courses to serve diverse student interests. We provide a comprehensive interdisciplinary education that seamlessly integrates core courses in data science and foundational courses in computer science and mathematics materials with specialized domain knowledge. The program is supported by dedicated faculty from diverse partner departments and schools, including Biology, Chemistry, Computer Science, Economics, Environmental Science, Geography, Interactive Media, Management, Mathematics, Psychology, Physics, and Sustainability and Social Justice. Refer to individual program pages for more information.
-              </p>
-            </div>
-            <div className="col-md-2"></div>
-          </div>
-          <div className="container text-center margin-top-32 mb-4">
-                <Fade right duration={800}>
-                    <img src={Choose} className="" />
-                </Fade>
-            </div>
-        </Fade>
       </div>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
