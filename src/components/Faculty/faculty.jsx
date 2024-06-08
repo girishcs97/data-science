@@ -31,7 +31,7 @@ const Faculty = () => {
                 <div className='col-md-7'>
                     <p className="display-p">Explore our diverse and talented faculty and staff who are committed to excellence in teaching, research, and student support. Meet the individuals who bring expertise, passion, and innovation to our university community, shaping the future of education and discovery.</p>
                 </div>
-                <section id="about-me">
+                {/* <section id="about-me">
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-md-12">
@@ -44,7 +44,7 @@ const Faculty = () => {
                                             <h6 className='mt-4 prof-name' style=
                                                 {{ fontSize: '28px' }} onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/li-han/')}>Li Han​</h6>
                                             <div class="line size-52px grow"></div>
-                                            <div class="text-uppercase mt-2">Program Director,<br /> Data Science</div>
+                                            <div class="text-uppercase mt-2">Director, Data Science <br/> Professor, Computer Science</div>
                                             <p className="display-p" style={{ marginLeft: '0px',textAlign:'justify',paddingRight:'15px' }}>Li Han obtained her Ph.D. in Computer Science from Texas A&M University, College Station, in 2000. She arrived at Clark in 2002, after completing her postdoc at Carnegie Mellon University. She is a Professor of Computer Science and currently serves as the Director of the Program in Data Science, one of the newest and growing interdisciplinary programs at Clark. <br />
                                                 <br />
                                                 Professor Han's doctoral study was in robotics, specifically dexterous manipulation and motion planning. At Clark, she had done research on robotics and computational study of protein folding, in collaboration with faculty from Mathematics and Chemistry, and with funding support from NSF and NIH. Her current research interest focuses on computational protein study and data science.</p>
@@ -54,9 +54,16 @@ const Faculty = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
                 <div className='row margin-top-40'>
                     <Fade bottom duration={800}>
+                        <div className='col-md-3 margin-bottom-35'>
+                            <div className='img-wrapper'>
+                                <img src={Fac1} className='image-cover' /></div>
+                            <h6 className='mt-4 prof-name' onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/li-han/')}>Li Han</h6>
+                            <div class="line size-52px grow"></div>
+                            <div class="text-uppercase mt-2">Director, Data Science <br/> Professor, Computer Science</div>
+                        </div>
                         <div className='col-md-3 margin-bottom-35'>
                             <div className='img-wrapper'>
                                 <img src={Fac11} className='image-cover' /></div>
@@ -83,7 +90,7 @@ const Faculty = () => {
                                 <img src={Fac5} className='image-cover' /></div>
                             <h6 className='mt-4 prof-name' onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/christopher-williams/')}>Christopher Williams</h6>
                             <div class="line size-52px grow"></div>
-                            <div class="text-uppercase mt-2">Professor, <br />Geography </div>
+                            <div class="text-uppercase mt-2">Director, Environmental Science<br/>Professor, Geography </div>
                         </div>
                         <div className='col-md-3 margin-bottom-35'>
                             <div className='img-wrapper'>

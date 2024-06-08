@@ -63,7 +63,7 @@ const LandingPage = (props) => {
                                 </div>
                                 <div class="features__content">
                                     <h3 class="features__title">
-                                        <a href='' >Careers and Internships</a>
+                                        <a href='' >Opportunities and Services</a>
                                     </h3><p style={{ fontSize: '14px' }}>Matching skills with industry demands and aspirations.</p>
                                     <a class="link-btn" onClick={() => { history("/career") }}>Learn More
                                     </a></div>

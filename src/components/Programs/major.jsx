@@ -3496,6 +3496,7 @@ const Major = () => {
       </div>
       <div className="container">
   <div className="row mt-4">
+  <div className="row mb-4"><h4>Data Science Core courses</h4></div>
     <div className="col-md-4">
       <div class="card-c">
         <div class="img-container-c">
@@ -3519,6 +3520,32 @@ const Major = () => {
           style={{ cursor: "pointer" }}
           onClick={() => {
             setType("ADA");
+            handleShow();
+          }}
+        >
+          Explore
+        </p>
+      </div>
+    </div>
+    <div className="col-md-4">
+      <div class="card-c">
+        <div class="img-container-c">
+          <img src={MFDS} width="336" />
+        </div>
+        <br />
+        
+        <h5>DSCI 122 - Mathematical Foundations of Data Science</h5>
+        <p>
+          This course provides an introduction to the key mathematical
+          principles underlying data science. The course focuses on linear
+          algebra, probability, statistics, and calculus, as these areas
+          are crucial for understanding.
+        </p>
+        <p
+          className="text-center"
+          style={{ cursor: "pointer" }}
+          onClick={() => {
+            setType("MFDS");
             handleShow();
           }}
         >
@@ -3555,6 +3582,9 @@ const Major = () => {
         </p>
       </div>
     </div>
+    
+    </div>
+    <div className="row mt-4">
     <div className="col-md-4">
       <div class="card-c">
         <div class="img-container-c">
@@ -3580,8 +3610,32 @@ const Major = () => {
         </p>
       </div>
     </div>
+    <div className="col-md-4">
+      <div class="card-c">
+        <div class="img-container-c">
+          <img src={SC} width="336" />
+        </div>
+        <br />
+        <br />
+        <h5>DSCI 216 - Stochastic Computing</h5>
+        <p>
+          Stochastic Computing focuses on addressing the uncertainty
+          inherent in data science and computer science through a
+          combination of problem analysis, theoretical development, and
+          prototype creation.
+        </p>
+        <p
+          className="text-center"
+          style={{ cursor: "pointer" }}
+          onClick={() => {
+            setType("SC");
+            handleShow();
+          }}
+        >
+          Explore
+        </p>
+      </div>
     </div>
-    <div className="row mt-4">
     <div className="col-md-4">
       <div class="card-c">
         <div class="img-container-c">
@@ -3607,62 +3661,9 @@ const Major = () => {
         </p>
       </div>
     </div>
-
-    <div className="col-md-4">
-      <div class="card-c">
-        <div class="img-container-c">
-          <img src={MFDS} width="336" />
-        </div>
-        <br />
-        <br/>
-        <h5>DSCI 122 - Mathematical Foundations of Data Science</h5>
-        <p>
-          This course provides an introduction to the key mathematical
-          principles underlying data science. The course focuses on linear
-          algebra, probability, statistics, and calculus, as these areas
-          are crucial for understanding.
-        </p>
-        <p
-          className="text-center"
-          style={{ cursor: "pointer" }}
-          onClick={() => {
-            setType("MFDS");
-            handleShow();
-          }}
-        >
-          Explore
-        </p>
-      </div>
-    </div>
-    <div className="col-md-4">
-      <div class="card-c">
-        <div class="img-container-c">
-          <img src={SC} width="336" />
-        </div>
-        <br />
-        <br />
-        <br/>
-        <h5>DSCI 216 - Stochastic Computing</h5>
-        <p>
-          Stochastic Computing focuses on addressing the uncertainty
-          inherent in data science and computer science through a
-          combination of problem analysis, theoretical development, and
-          prototype creation.
-        </p>
-        <p
-          className="text-center"
-          style={{ cursor: "pointer" }}
-          onClick={() => {
-            setType("SC");
-            handleShow();
-          }}
-        >
-          Explore
-        </p>
-      </div>
-    </div>
     </div>
     <div className="row mt-4">
+    <div className="row mb-4"><h4>Computer Science core courses</h4></div>
     <div className="col-md-4">
       <div class="card-c">
         <div class="img-container-c">
@@ -3685,6 +3686,36 @@ const Major = () => {
           style={{ cursor: "pointer" }}
           onClick={() => {
             setType("IC");
+            handleShow();
+          }}
+        >
+          Explore
+        </p>
+      </div>
+    </div>
+    <div className="col-md-4">
+      <div class="card-c">
+        <div class="img-container-c">
+          <img src={DS} width="336" />
+        </div>
+        <div class="tags-c">
+          <ul>
+            <li>POP</li>
+          </ul>
+        </div>
+        <h5>CSCI 121 - Data Structures</h5>
+        <br/>
+        <p>
+          Data Structures provides a comprehensive introduction to the
+          fundamental data structures used in computer science. The course
+          covers a range of data structures including arrays, linked
+          lists, stacks, queues, trees, and graphs.
+        </p>
+        <p
+          className="text-center"
+          style={{ cursor: "pointer" }}
+          onClick={() => {
+            setType("DSA");
             handleShow();
           }}
         >
@@ -3720,40 +3751,9 @@ const Major = () => {
         </p>
       </div>
     </div>
-  
-  
-    <div className="col-md-4">
-      <div class="card-c">
-        <div class="img-container-c">
-          <img src={DS} width="336" />
-        </div>
-        <div class="tags-c">
-          <ul>
-            <li>POP</li>
-          </ul>
-        </div>
-        <h5>CSCI 121 - Data Structures</h5>
-        <br/>
-        <p>
-          Data Structures provides a comprehensive introduction to the
-          fundamental data structures used in computer science. The course
-          covers a range of data structures including arrays, linked
-          lists, stacks, queues, trees, and graphs.
-        </p>
-        <p
-          className="text-center"
-          style={{ cursor: "pointer" }}
-          onClick={() => {
-            setType("DSA");
-            handleShow();
-          }}
-        >
-          Explore
-        </p>
-      </div>
-    </div>
     </div>
     <div className="row mt-4">
+    <div className="row mb-4"><h4>Mathematics core courses</h4></div>
     <div className="col-md-4">
       <div class="card-c">
         <div class="img-container-c">
@@ -3872,7 +3872,7 @@ const Major = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Primary Faculty Contact
+      Prof. Javier
     </a>
     </div> 
                     </div>
@@ -3901,7 +3901,7 @@ const Major = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Primary Faculty Contact
+      Prof. Charles
     </a>
     </div> 
           </div>
@@ -3929,7 +3929,7 @@ const Major = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Primary Faculty Contact
+      Prof. Li Han
     </a>
     </div> 
           </div>
@@ -3963,7 +3963,7 @@ const Major = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Primary Faculty Contact
+      Prof. Edouard
     </a>
     </div> 
           </div>
@@ -3993,8 +3993,7 @@ const Major = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Primary Faculty Contact
-    </a>
+      Prof. Christopher</a>
     </div> 
           </div>
           <div class="tpn_card">
@@ -4021,7 +4020,7 @@ const Major = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Primary Faculty Contact
+      Prof. Elliot
     </a>
     </div> 
           </div>
@@ -4053,7 +4052,7 @@ const Major = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Primary Faculty Contact
+      Prof. Lyndon
     </a>
     </div> 
           </div>
@@ -4082,7 +4081,7 @@ const Major = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Primary Faculty Contact
+      Prof. Hamidreza
     </a>
     </div> 
           </div>
@@ -4111,7 +4110,7 @@ const Major = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Primary Faculty Contact
+      Prof. Michael
     </a>
     </div> 
           </div>
@@ -4144,7 +4143,7 @@ const Major = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Primary Faculty Contact
+      Prof. Barbara
     </a>
     </div> 
           </div>
@@ -4169,7 +4168,7 @@ const Major = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Primary Faculty Contact
+      Prof. Andrew
     </a>
     </div> 
           </div>

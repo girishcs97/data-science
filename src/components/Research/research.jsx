@@ -14,7 +14,7 @@ const Research = () => {
                         <p className="display-1">Research</p>
                     </div>
                     <div className='col-md-7'>
-                        <p className="display-p">Clark University’s data science program offers diverse opportunities for students, including on-campus employment, participation in student clubs, attendance at conferences, and study abroad programs.</p>
+                        <p className="display-p">Our faculty, representing diverse disciplines, are increasingly integrating data science into their research. Some have applied data science methods and developed data analytics tools to enhance their work, while others are still learning data science and exploring potential approaches, contributing to an evolving research environment. Many research groups provide opportunities for undergraduate and graduate students, enriching their learning experiences and broadening their perspectives.</p>
                     </div>
                 </Fade>
             </div>

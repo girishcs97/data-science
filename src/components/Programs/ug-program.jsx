@@ -61,7 +61,7 @@ const UGProgram = () => {
                 <div className='col-md-1'></div>
                 <div className='col-md-10'>
                     <div class="line size-150px mg-bottom-28px"></div>
-                    <h2 class="display-data">Why Data Science ?</h2>
+                    <h2 class="display-data"> Data Science ?</h2>
                     <br />
 
                     <div className='container mart-top mb-4'>
