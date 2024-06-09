@@ -1,9 +1,9 @@
 import React from 'react'
 import './choose.css'
 import vqt from '../../images/vqt.jpg'
-import ila from '../../images/ILA.jpeg'
-import ola from '../../images/ola.jpeg'
-import etj from '../../images/etj.jpeg'
+import ila from '../../images/ILA.png'
+import ola from '../../images/ola.png'
+import etj from '../../images/etj.png'
 import Logo from '../../images/chooseus.jpg'
 
 const ChooseUs = () => {
@@ -17,7 +17,7 @@ const ChooseUs = () => {
                     <p
                         className="p-content"
                         style={{
-                            color: "#4b5b70",
+                            color: "#333333",
                             textAlign: "justify",
                             fontSize: "17px",
                         }}

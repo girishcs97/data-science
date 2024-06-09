@@ -10,7 +10,7 @@ const Alumni = () => {
             <div className="text-center mb-4">
                 <p className="subtitle">Alumni Spotlight</p>
                 <h2 className="display-title mb-2">What our students say</h2>
-                <p style={{ 'color': '#4b5b70', fontSize: '16px' }}>From trailblazing entrepreneurs to influential policymakers, our alumni continue to make waves and inspire</p>
+                <p style={{ 'color': '#333333', fontSize: '16px' }}>From trailblazing entrepreneurs to influential policymakers, our alumni continue to make waves and inspire</p>
             </div>
             <div class="row margin-top-40 mb-4">
                 <div className="col-sm-1 d-flex align-items-center">

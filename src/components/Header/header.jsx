@@ -22,9 +22,9 @@ function Header() {
             </p>
             <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary nav-con">
                 <Container>
-                    <Navbar.Brand onClick={() => { history("/") }}>
+                    <Navbar.Brand onClick={() => { history("/") }} className={'d-flex'}>
                         <img src={Logo} alt={'Logo'} className='img-logo' />
-                        <span style={{ fontWeight: '600', cursor: 'pointer' }}>Data Science Program</span></Navbar.Brand>
+                        <p style={{ fontWeight: '600', cursor: 'pointer',paddingTop:'13px' }}>Data Science Program</p></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="justify-content-end" style={{ width: "100%" }}>

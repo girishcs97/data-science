@@ -52,7 +52,7 @@ const Career = () => {
                     <Fade bottom duration={800}>
                         <h2 style={{ lineHeight: '1.182em' }}>Career and Internship Opportunities</h2>
                         <div class="line mg-bottom-32px"></div>
-                        <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>At Clark, we offer an array of career and internship opportunities designed to cultivate your talents and drive your aspirations forward. Whether you're a seasoned professional seeking new challenges or a student eager to gain hands-on experience, we invite you to explore the possibilities and join our vibrant community of changemakers.</p>
+                        <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#333333', fontSize: '16px', fontWeight: '400' }}>At Clark, we offer an array of career and internship opportunities designed to cultivate your talents and drive your aspirations forward. Whether you're a seasoned professional seeking new challenges or a student eager to gain hands-on experience, we invite you to explore the possibilities and join our vibrant community of changemakers.</p>
                         <br />
                         <div className='d-flex flex-row'>
                             <button className="btn btn-outline-danger custom-btn">VISIT THE CENTER</button>
@@ -69,7 +69,7 @@ const Career = () => {
                     <Fade bottom duration={800}>
                         <h2 style={{ lineHeight: '1.182em' }}>Clark Funding for Internships</h2>
                         <div class="line mg-bottom-32px"></div>
-                        <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>At Clark, we understand the importance of hands-on experience in shaping the future of our students. That's why we offer funding opportunities to support internships and experiential learning opportunities for our students. Our internship funding programs are designed to remove financial barriers and empower students to pursue valuable professional experiences that complement their academic studies.</p>
+                        <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#333333', fontSize: '16px', fontWeight: '400' }}>At Clark, we understand the importance of hands-on experience in shaping the future of our students. That's why we offer funding opportunities to support internships and experiential learning opportunities for our students. Our internship funding programs are designed to remove financial barriers and empower students to pursue valuable professional experiences that complement their academic studies.</p>
                         <br />
                         <div className='d-flex flex-row'>
                             <button className="btn btn-outline-danger custom-btn">PURSUE FUNDING</button>
