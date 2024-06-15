@@ -1,6 +1,8 @@
 .rounded-circle {
     border-radius: 50% !important;
     margin-top: 40px;
+    width: 80px;
+    height: 80px;
 }
 img {
     max-width: 100%;

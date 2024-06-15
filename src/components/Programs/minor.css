@@ -61,7 +61,7 @@
     font-weight: 300;
     margin: 0;
     line-height: 1.5em;
-    color: #4b5b70;
+    color: #333333;
     position:relative;
   }
   .card-c p:last-child{
@@ -85,3 +85,4 @@
     border-color: black;
     position: absolute;
   }
+  

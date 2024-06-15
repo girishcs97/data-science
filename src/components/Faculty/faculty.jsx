@@ -57,7 +57,7 @@ const Faculty = () => {
     }
 
     return (
-        <div className="container margin-top-40" id='opportunities'>
+        <div className="container margin-top-20" id='opportunities'>
             <div className="row">
                 <div className='col-md-5'>
                     <p className="display-1">Meet our Staff</p>
@@ -89,14 +89,16 @@ const Faculty = () => {
                         </div>
                     </div>
                 </section> */}
-                <div className='row margin-top-40'>
-                    <Fade bottom duration={800}>
+                <Fade bottom duration={800}>
+                    <div className='row margin-top-20'>
+
                         <div className='col-md-3 margin-bottom-35'>
                             <div className='img-wrapper'>
                                 <img src={Fac1} className='image-cover' /></div>
                             <h6 className='mt-4 prof-name' onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/li-han/')}>Li Han</h6>
                             <div class="line size-52px grow"></div>
-                            <div class="text-uppercase mt-2">Director, Data Science <br/> Professor, Computer Science</div>
+
+                            <div class="text-uppercase mt-2">Director, Data Science <br /> Professor, Computer Science</div>
                         </div>
                         <div className='col-md-3 margin-bottom-35'>
                             <div className='img-wrapper'>
@@ -124,7 +126,7 @@ const Faculty = () => {
                                 <img src={Fac5} className='image-cover' /></div>
                             <h6 className='mt-4 prof-name' onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/christopher-williams/')}>Christopher Williams</h6>
                             <div class="line size-52px grow"></div>
-                            <div class="text-uppercase mt-2">Director, Environmental Science<br/>Professor, Geography </div>
+                            <div class="text-uppercase mt-2">Director, Environmental Science<br />Professor, Geography </div>
                         </div>
                         <div className='col-md-3 margin-bottom-35'>
                             <div className='img-wrapper'>
@@ -431,11 +433,10 @@ const Faculty = () => {
     <div class="line size-52px grow"></div>
     <div class="text-uppercase mt-2">Professor, Economics<br />Department Chair, Economics</div>
 </div>
-                        
+                    </div>
                     </Fade>
                 </div>
             </div>
-        </div>
     )
 }
 export default Faculty;

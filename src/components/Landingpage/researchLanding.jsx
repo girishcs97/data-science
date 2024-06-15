@@ -4,6 +4,7 @@ import SC from "../../images/SC.png";
 import ADA from "../../images/ADA.jpg";
 import Bio from '../../images/picBiology.jpg'
 import Modal from "react-bootstrap/Modal";
+import CardDesign from '../CardView/cardview';
 
 const ResearchLanding = () => {
     const [show, setShow] = useState(false);
@@ -125,72 +126,23 @@ const ResearchLanding = () => {
                     <p className="subtitle mb-2">Course Spotlight</p>
                     <p style={{ fontSize: '16px', marginTop: '20px' }}>Explore the latest advancements and essential skills in data science through our comprehensive and hands-on course spotlight.</p>
                 </div>
-                <div className="container">
-                    <div className="row mt-4">
-                        <div className="col-md-2"></div>
-                        <div className="col-md-4">
-                            <div class="card-c">
-                                <div class="img-container-c">
-                                    <img src={ADA} width="336" />
-                                </div>
-                                <div class="tags-c">
-                                    <ul>
-                                        <li>POP</li>
-                                    </ul>
-                                </div>
-                                <h5>DS105 - Applied Data Analytics</h5>
-                                <p>
-                                    An investigation into the fundamental techniques and practices
-                                    of data analysis, this course focuses on applying tools and
-                                    techniques to practical problems of analysis, visualization, and
-                                    discovery.
-                                </p>
-                                <br />
-                                <br />
-                                <p
-                                    className="text-center"
-                                    style={{ cursor: "pointer" }}
-                                    onClick={() => {
-                                        setType("ADA");
-                                        handleShow();
-                                    }}
-                                >
-                                    Explore
-                                </p>
-                            </div>
-                        </div>
-                        <div className="col-md-4">
-                            <div class="card-c">
-                                <div class="img-container-c">
-                                    <img src={SC} width="336" />
-                                </div>
-                                <div class="tags-c">
-                                    <ul>
-                                        <li>POP</li>
-                                    </ul>
-                                </div>
-                                <h5>DSCI 216 - Stochastic Computing </h5>
-                                <p>
-                                    Stochastic Computing focuses on addressing the uncertainty
-                                    inherent in data science and computer science through a
-                                    combination of problem analysis, theoretical development, and
-                                    prototype creation.{" "}
-                                </p>
-                                <br/>
-                                <p
-                                    className="text-center"
-                                    style={{ cursor: "pointer" }}
-                                    onClick={() => {
-                                        setType("SC");
-                                        handleShow();
-                                    }}
-                                >
-                                    Explore
-                                </p>
-                            </div>
-                        </div>
-                        <div className="col-md-2"></div>
+            </div>
+            <div className="container my-5">
+                <div className="row">
+                    <div className='col-md-2'></div>
+                    <div className="col-md-4">
+                        <CardDesign pop={true} title={'DS105 - Applied Data Analytics'} content={'An investigation into the fundamental techniques and practices of data analysis, this course focuses on applying tools and techniques to practical problems of analysis, visualization, and discovery.'} image={ADA} onhandleClick={() => {
+                            setType("ADA");
+                            handleShow();
+                        }} />
                     </div>
+                    <div className="col-md-4">
+                        <CardDesign pop={true} title={'DSCI 216 - Stochastic Computing'} content={' Stochastic Computing focuses on addressing the uncertainty inherent in data science and computer science through a combination of problem analysis, theoretical development, and prototype creation.'} image={SC} onhandleClick={() => {
+                            setType("SC");
+                            handleShow();
+                        }} />
+                    </div>
+                    <div className='col-md-2'></div>
                 </div>
             </div>
             <Modal show={show} onHide={handleClose}>

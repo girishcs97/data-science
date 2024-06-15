@@ -21,24 +21,24 @@ const Footer = () => {
                         <ul className="list-unstyled">
                         <div className='row'>
     <div className='col-md-4'>
-        <li className='m-1' onClick={() => openInNewTab('https://www.clarku.edu/report-a-concern/')}>Report a Concern</li>
+        <li className='m-1' style={{cursor:'pointer'}} onClick={() => openInNewTab('https://www.clarku.edu/report-a-concern/')}>Report a Concern</li>
     </div>
     <div className='col-md-4'>
-        <li className='m-1' onClick={() => openInNewTab('https://www.clarku.edu/offices/emergency-management-and-campus-assistance/')}>Campus Safety</li>
+        <li className='m-1' style={{cursor:'pointer'}} onClick={() => openInNewTab('https://www.clarku.edu/offices/emergency-management-and-campus-assistance/')}>Campus Safety</li>
     </div>
     <div className='col-md-4'>
-        <li className='m-1' onClick={() => openInNewTab('https://www.clarku.edu/events/')}>Events</li><br />
+        <li className='m-1' style={{cursor:'pointer'}} onClick={() => openInNewTab('https://www.clarku.edu/events/')}>Events</li><br />
     </div>
 </div>
 <div className='row'>
     <div className='col-md-4'>
-        <li className='m-1' onClick={() => openInNewTab('https://www.clarku.edu/offices/')}>Offices</li>
+        <li className='m-1' style={{cursor:'pointer'}} onClick={() => openInNewTab('https://www.clarku.edu/offices/')}>Offices</li>
     </div>
     <div className='col-md-4'>
-        <li className='m-1' onClick={() => openInNewTab('https://www.clarku.edu/offices/human-resources/job-opportunities/')}>Employment</li>
+        <li className='m-1' style={{cursor:'pointer'}} onClick={() => openInNewTab('https://www.clarku.edu/offices/human-resources/job-opportunities/')}>Employment</li>
     </div>
     <div className='col-md-4'>
-        <li className='m-1' onClick={() => openInNewTab('https://www.clarku.edu/contactus/#website-feedback')}>Website Feedback</li>
+        <li className='m-1' style={{cursor:'pointer'}} onClick={() => openInNewTab('https://www.clarku.edu/contactus/#website-feedback')}>Website Feedback</li>
     </div>
 </div>
 

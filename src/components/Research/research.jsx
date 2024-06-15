@@ -20,7 +20,7 @@ import Fade from "react-reveal/Fade";
 
 const Research = () => {
     return (
-        <div className="container margin-top-40" id='research'>
+        <div className="container margin-top-20" id='research'>
             <div className="row">
                 <Fade bottom duration={800}>
                     <div className='col-md-5'>
@@ -31,7 +31,7 @@ const Research = () => {
                     </div>
                 </Fade>
             </div>
-            <div className="margin-top-40">
+            <div className="margin-top-20">
                 <Fade right duration={800}>
                     <img src={research} className="image-cov" />
                 </Fade>

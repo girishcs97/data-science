@@ -3,17 +3,18 @@
   padding: 16px;
   border-radius: 16px;
   box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.1);
-  width: min-content;
+  width: 100% !important;
   margin: 0;
+  margin-bottom: 15px;
 }
 
 .card-c .img-container-c{
-  width: 336px;
+  width: 100% !important;
   height: 152px;
   overflow: hidden;
   display: flex;
   align-items: center;
-  border-radius: 8px;
+  border-radius: 0px;
 }
 .card-c .tags-c{
   width: 336px;
@@ -61,7 +62,7 @@
   font-weight: 300;
   margin: 0;
   line-height: 1.5em;
-  color: #4b5b70;
+  color: #333333;
   position: relative;
 }
 .card-c p:last-child{

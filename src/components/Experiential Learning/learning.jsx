@@ -14,7 +14,7 @@ const Learning = () => {
 
     return (<>
 
-        <div className="container margin-top-40" id='learning'>
+        <div className="container margin-top-20" id='learning'>
             <div className="row">
                 <Fade bottom duration={800}>
                     <div className='col-md-5'>
@@ -25,7 +25,7 @@ const Learning = () => {
                     </div>
                 </Fade>
             </div>
-            <div className="margin-top-40">
+            <div className="margin-top-20">
                 <Fade right duration={800}>
                     <img src={Cover} className="image-cov" alt="Custom" />
                 </Fade>
@@ -52,7 +52,7 @@ const Learning = () => {
                             <Fade bottom duration={1000}>
                                 <div class="line mg-bottom-32px"></div>
                                 <h2 style={{ lineHeight: '1.182em' }}>Profit distribution of band performances</h2>
-                                <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>The project utilized box plot graphs to illustrate the profit distribution from various band performances, revealing a primary profit range between -$15,000 and $10,000, highlighting the financial outcomes' central spread.</p>
+                                <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#333333', fontSize: '16px', fontWeight: '400' }}>The project utilized box plot graphs to illustrate the profit distribution from various band performances, revealing a primary profit range between -$15,000 and $10,000, highlighting the financial outcomes' central spread.</p>
                                 <br />
                             </Fade>
                         </div>
@@ -65,7 +65,7 @@ const Learning = () => {
                         <div className='col-md-6 mart-top'>
                             <div class="line mg-bottom-32px"></div>
                             <h2 style={{ lineHeight: '1.182em' }}>Analyzing Trends in Young Adult Literature</h2>
-                            <p style={{ textAlign: 'justify', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Utilized Bookshop's website to collect data on a range of young adult books, employing Selenium for the web scraping aspect.Exploring critical questions about the factors contributing to the popularity of young adult books, the characteristics of books that often sell out, and the role of publishing companies within the industry.</p>
+                            <p style={{ textAlign: 'justify', lineHeight: '1.667em', color: '#333333', fontSize: '16px', fontWeight: '400' }}>Utilized Bookshop's website to collect data on a range of young adult books, employing Selenium for the web scraping aspect.Exploring critical questions about the factors contributing to the popularity of young adult books, the characteristics of books that often sell out, and the role of publishing companies within the industry.</p>
                             <br />
                         </div>
                     </Fade>
@@ -94,7 +94,7 @@ const Learning = () => {
                                 <div class="line mg-bottom-32px"></div>
                                 <h2 style={{ lineHeight: '1.182em' }}>Exploring Earthquake Patterns</h2>
                                 {/* <p><b>by Shuo Niu | Department of Computer Science</b></p> */}
-                                <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>This project delved into the dynamics of global earthquakes, utilizing data analysis and visualization techniques to explore changes in earthquake magnitudes over time, seasonal frequency patterns, geographical hotspots, and the relationship between an earthquake's location (latitude and longitude), its depth, and magnitude.</p>
+                                <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#333333', fontSize: '16px', fontWeight: '400' }}>This project delved into the dynamics of global earthquakes, utilizing data analysis and visualization techniques to explore changes in earthquake magnitudes over time, seasonal frequency patterns, geographical hotspots, and the relationship between an earthquake's location (latitude and longitude), its depth, and magnitude.</p>
                                 <br />
                             </Fade>
                         </div>
@@ -108,7 +108,7 @@ const Learning = () => {
                             <div class="line mg-bottom-32px"></div>
                             <h2 style={{ lineHeight: '1.182em' }}>Understanding Civic Engagement Among Incarcerated Individuals</h2>
                             {/* <p><b>by Junfu Zhang | Department of Economics</b></p> */}
-                            <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>A survey analysis on voting and civic duty among 147 incarcerated individuals in Massachusetts, using a CSV file for data collected during the summer, focusing on qualitative responses about voting history, concerns, and the desire to vote.</p>
+                            <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#333333', fontSize: '16px', fontWeight: '400' }}>A survey analysis on voting and civic duty among 147 incarcerated individuals in Massachusetts, using a CSV file for data collected during the summer, focusing on qualitative responses about voting history, concerns, and the desire to vote.</p>
                             <br />
                         </div>
                     </Fade>

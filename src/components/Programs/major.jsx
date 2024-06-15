@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import CardDesign from '../CardView/cardview';
 import Biology from "../../images/biology.png";
 import T2 from "../../images/Track2.png";
 import T3 from "../../images/Track3.jpg";
@@ -3050,7 +3051,7 @@ const Major = () => {
           </p>
         </>
       );
-    } 
+    }
     else if (type == "IDS") {
       return (
         <>
@@ -3080,7 +3081,7 @@ const Major = () => {
           </p>
         </>
       );
-    }    
+    }
     else if (type == "MFDS") {
       return (
         <>
@@ -3138,13 +3139,13 @@ const Major = () => {
           </p>
         </>
       );
-      
+
     } else if (type == "HCI") {
       return (
         <>
           <h5>CSCI 124 - Honors Introduction to Computing</h5>
           <p>
-          This accelerated course provides a comprehensive introduction to computing and its diverse applications, equipping students with the fundamental principles and problem-solving techniques necessary to tackle real-world challenges. Student will learn programming in Python, grasping a systematic approach to problem formulation, algorithm design, code development and testing. This course includes a project component where students will demonstrate their newly acquired skills through the design and implementation of a project of their choice. Success in the course requires strong analytical skills and a dedicated work ethic.  Prior programming experience is not necessary but may be helpful.
+            This accelerated course provides a comprehensive introduction to computing and its diverse applications, equipping students with the fundamental principles and problem-solving techniques necessary to tackle real-world challenges. Student will learn programming in Python, grasping a systematic approach to problem formulation, algorithm design, code development and testing. This course includes a project component where students will demonstrate their newly acquired skills through the design and implementation of a project of their choice. Success in the course requires strong analytical skills and a dedicated work ethic.  Prior programming experience is not necessary but may be helpful.
           </p>
           <p>
             <strong>Prerequisites:</strong> Permission Only.
@@ -3425,7 +3426,7 @@ const Major = () => {
               <p
                 className="p-content"
                 style={{
-                  color: "#4b5b70",
+                  color: "#333333",
                   textAlign: "justify",
                   fontSize: "17px",
                 }}
@@ -3478,7 +3479,7 @@ const Major = () => {
               <p
                 className="p-content"
                 style={{
-                  color: "#4b5b70",
+                  color: "#333333",
                   textAlign: "justify",
                   fontSize: "17px",
                 }}
@@ -3493,329 +3494,85 @@ const Major = () => {
           </div>
         </Fade>
       </div>
-      <div className="container">
-  <div className="row mt-4">
-  <div className="row mb-4"><h4>Data Science Core courses</h4></div>
-    <div className="col-md-4">
-      <div class="card-c">
-        <div class="img-container-c">
-          <img src={ADA} width="336" />
+      <div className="container my-5">
+        <div className="row mb-4"><h4>Data Science Core courses</h4></div>
+        <div className="row">
+          <div className="col-md-4">
+            <CardDesign pop={true} title={'DS105 - Applied Data Analytics'} content={'An investigation into the fundamental techniques and practices of data analysis, this course focuses on applying tools and techniques to practical problems of analysis, visualization, and discovery.'} image={ADA} onhandleClick={() => {
+              setType("ADA");
+              handleShow();
+            }} />
+          </div>
+          <div className="col-md-4">
+            <CardDesign pop={false} title={'DSCI 122 - Mathematical Foundations of Data Science'} content={'This course provides an introduction to the key mathematical principles underlying data science. The course focuses on linear algebra, probability, statistics, and calculus, as these areas are crucial for understanding.'} image={MFDS} onhandleClick={() => {
+              setType("MFDS");
+              handleShow();
+            }} />
+          </div>
+          <div className="col-md-4">
+            <CardDesign pop={false} title={'DSCI 125 - Introduction to Data Science'} content={'This course provides foundational knowledge in statistical and computational concepts essential for data-centered computing and its applications.'} image={IDS} onhandleClick={() => {
+              setType("IDS");
+              handleShow();
+            }} />
+          </div>
         </div>
-        <div class="tags-c">
-          <ul>
-            <li>POP</li>
-          </ul>
+        <div className="row">
+          <div className="col-md-4">
+            <CardDesign pop={false} title={'DSCI 215 - Applying Deep Learning to Earth Observation'} content={' Applying Deep Learning to Earth Observation delves into the application of deep learning techniques to analyze and interpret data from Earth observation systems.'} image={ADLE} onhandleClick={() => {
+              setType("ADL");
+              handleShow();
+            }} />
+          </div>
+          <div className="col-md-4">
+            <CardDesign pop={true} title={'DSCI 216 - Stochastic Computing'} content={'Stochastic Computing focuses on addressing the uncertainty inherent in data science and computer science through a combination of problem analysis, theoretical development, and prototype creation.'} image={SC} onhandleClick={() => {
+              setType("SC");
+              handleShow();
+            }} />
+          </div>
+          <div className="col-md-4">
+            <CardDesign pop={false} title={'DSCI 225 - Applied Machine Learning'} content={' Applied Machine Learning explores the fundamental techniques and practices of machine learning through a series of lectures, lab sessions, programming projects, and written assignments.'} image={AML} onhandleClick={() => {
+              setType("AML");
+              handleShow();
+            }} />
+          </div>
         </div>
-        <h5>DSCI 105 - Applied Data Analytics</h5>
-        <p>
-          An investigation into the fundamental techniques and practices
-          of data analysis, this course focuses on applying tools and
-          techniques to practical problems of analysis, visualization, and
-          discovery.
-        </p>
-        <br />
-        <p
-          className="text-center"
-          style={{ cursor: "pointer" }}
-          onClick={() => {
-            setType("ADA");
-            handleShow();
-          }}
-        >
-          Explore
-        </p>
+        <div className="row mb-4"><h4>Computer Science Core courses</h4></div>
+        <div className="row">
+          <div className="col-md-4">
+            <CardDesign pop={true} title={'CSCI 120 - Introduction to Computing'} content={' Introduction to Computing is a foundational course designed to develop computational problem-solving skills through programming while introducing students to various essential topics in computer science.'} image={HCI} onhandleClick={() => {
+              setType("IC");
+              handleShow();
+            }} />
+          </div>
+          <div className="col-md-4">
+            <CardDesign pop={false} title={'CSCI 121 - Data Structures'} content={'Data Structures provides a comprehensive introduction to the fundamental data structures used in computer science. The course covers a range of data structures including arrays, linked lists, stacks, queues, trees, and graphs.'} image={DS} onhandleClick={() => {
+              setType("DSA");
+              handleShow();
+            }} />
+          </div>
+          <div className="col-md-4">
+            <CardDesign pop={false} title={'CSCI 124 - Honors Introduction to Computing'} content={'Honors Introduction to Computing is an accelerated course that provides a comprehensive introduction to computing and its diverse applications.'} image={IC} onhandleClick={() => {
+              setType("IC");
+              handleShow();
+            }} />
+          </div>
+        </div>
+        <div className="row mb-4"><h4>Mathematics Core courses</h4></div>
+        <div className="row">
+          <div className="col-md-4">
+            <CardDesign pop={true} title={'MATH 120/MATH 124  (Calculus I)'} content={'Calculus I is often the first course in a standard calculus sequence and typically covers topics such as limits,derivatives, and integrals. It is a foundational course for understanding calculus.'} image={MI} onhandleClick={() => {
+              setType("MI");
+              handleShow();
+            }} />
+          </div>
+          <div className="col-md-4">
+            <CardDesign pop={false} title={'MATH 121/MATH 125 (Calculus II)'} content={'Calculus II, typically referred to as MATH 121, is the second course in a standard calculus sequence. It builds upon the concepts introduced in Calculus I, such as limits, derivatives, and integrals, and dives deeper into their applications and extensions.'} image={MII} onhandleClick={() => {
+              setType("MII");
+              handleShow();
+            }} />
+          </div>
+        </div>
       </div>
-    </div>
-    <div className="col-md-4">
-      <div class="card-c">
-        <div class="img-container-c">
-          <img src={MFDS} width="336" />
-        </div>
-        <br />
-        
-        <h5>DSCI 122 - Mathematical Foundations of Data Science</h5>
-        <p>
-          This course provides an introduction to the key mathematical
-          principles underlying data science. The course focuses on linear
-          algebra, probability, statistics, and calculus, as these areas
-          are crucial for understanding.
-        </p>
-        <p
-          className="text-center"
-          style={{ cursor: "pointer" }}
-          onClick={() => {
-            setType("MFDS");
-            handleShow();
-          }}
-        >
-          Explore
-        </p>
-      </div>
-    </div>
-    <div className="col-md-4">
-      <div class="card-c">
-        <div class="img-container-c">
-          <img src={IDS} width="336" />
-        </div>
-        {/* <div class="tags-c">
-          <ul>
-            <li>POP</li>
-          </ul>
-        </div> */}
-        <br/>
-        <br/>
-        <br/>
-        <h5>DSCI 125 - Introduction to Data Science </h5>
-        <p>
-          This course provides foundational knowledge in statistical and computational concepts essential for data-centered computing and its applications.
-        </p>
-        <p
-          className="text-center"
-          style={{ cursor: "pointer" }}
-          onClick={() => {
-            setType("IDS");
-            handleShow();
-          }}
-        >
-          Explore
-        </p>
-      </div>
-    </div>
-    
-    </div>
-    <div className="row mt-4">
-    <div className="col-md-4">
-      <div class="card-c">
-        <div class="img-container-c">
-          <img src={ADLE} width="336" />
-        </div>
-        <br />
-        <br />
-        <h5>DSCI 215 - Applying Deep Learning to Earth Observation</h5>
-        <p>
-          Applying Deep Learning to Earth Observation delves into the
-          application of deep learning techniques to analyze and interpret
-          data from Earth observation systems.
-        </p>
-        <p
-          className="text-center"
-          style={{ cursor: "pointer" }}
-          onClick={() => {
-            setType("ADL");
-            handleShow();
-          }}
-        >
-          Explore
-        </p>
-      </div>
-    </div>
-    <div className="col-md-4">
-      <div class="card-c">
-        <div class="img-container-c">
-          <img src={SC} width="336" />
-        </div>
-        <br />
-        <br />
-        <h5>DSCI 216 - Stochastic Computing</h5>
-        <p>
-          Stochastic Computing focuses on addressing the uncertainty
-          inherent in data science and computer science through a
-          combination of problem analysis, theoretical development, and
-          prototype creation.
-        </p>
-        <p
-          className="text-center"
-          style={{ cursor: "pointer" }}
-          onClick={() => {
-            setType("SC");
-            handleShow();
-          }}
-        >
-          Explore
-        </p>
-      </div>
-    </div>
-    <div className="col-md-4">
-      <div class="card-c">
-        <div class="img-container-c">
-          <img src={AML} width="336" />
-        </div>
-        <br />
-        <br />
-        <h5>DSCI 225 - Applied Machine Learning</h5>
-        <p>
-          Applied Machine Learning explores the fundamental techniques and
-          practices of machine learning through a series of lectures, lab
-          sessions, programming projects, and written assignments.
-        </p>
-        <p
-          className="text-center"
-          style={{ cursor: "pointer" }}
-          onClick={() => {
-            setType("AML");
-            handleShow();
-          }}
-        >
-          Explore
-        </p>
-      </div>
-    </div>
-    </div>
-    <div className="row mt-4">
-    <div className="row mb-4"><h4>Computer Science core courses</h4></div>
-    <div className="col-md-4">
-      <div class="card-c">
-        <div class="img-container-c">
-          <img src={HCI} width="336" />
-        </div>
-        <div class="tags-c">
-          <ul>
-            <li>POP</li>
-          </ul>
-        </div>
-        <h5>CSCI 120 - Introduction to Computing</h5>
-        <p>
-          Introduction to Computing is a foundational course designed to
-          develop computational problem-solving skills through programming
-          while introducing students to various essential topics in
-          computer science.
-        </p>
-        <p
-          className="text-center"
-          style={{ cursor: "pointer" }}
-          onClick={() => {
-            setType("IC");
-            handleShow();
-          }}
-        >
-          Explore
-        </p>
-      </div>
-    </div>
-    <div className="col-md-4">
-      <div class="card-c">
-        <div class="img-container-c">
-          <img src={DS} width="336" />
-        </div>
-        <div class="tags-c">
-          <ul>
-            <li>POP</li>
-          </ul>
-        </div>
-        <h5>CSCI 121 - Data Structures</h5>
-        <br/>
-        <p>
-          Data Structures provides a comprehensive introduction to the
-          fundamental data structures used in computer science. The course
-          covers a range of data structures including arrays, linked
-          lists, stacks, queues, trees, and graphs.
-        </p>
-        <p
-          className="text-center"
-          style={{ cursor: "pointer" }}
-          onClick={() => {
-            setType("DSA");
-            handleShow();
-          }}
-        >
-          Explore
-        </p>
-      </div>
-    </div>
- 
-  <div className="col-md-4">
-      <div class="card-c">
-        <div class="img-container-c">
-          <img src={IC} width="336" />
-        </div>
-        <div class="tags-c">
-          <ul>
-            <li>POP</li>
-          </ul>
-        </div>
-        <br/>
-        <h5>CSCI 124 - Honors Introduction to Computing</h5>
-        <p>
-        Honors Introduction to Computing is an accelerated course that provides a comprehensive introduction to computing and its diverse applications.
-        </p>
-        <p
-          className="text-center"
-          style={{ cursor: "pointer" }}
-          onClick={() => {
-            setType("IC");
-            handleShow();
-          }}
-        >
-          Explore
-        </p>
-      </div>
-    </div>
-    </div>
-    <div className="row mt-4">
-    <div className="row mb-4"><h4>Mathematics core courses</h4></div>
-    <div className="col-md-4">
-      <div class="card-c">
-        <div class="img-container-c">
-          <img src={MI} width="336" />
-        </div>
-        <div class="tags-c">
-          <ul>
-            <li>POP</li>
-          </ul>
-        </div>
-        <h5> MATH 120/MATH 124  (Calculus I)</h5>
-        <p>
-          Calculus I is often the first course in a standard calculus
-          sequence and typically covers topics such as limits,
-          derivatives, and integrals. It's a foundational course for
-          understanding calculus.
-        </p>
-        <br />
-        <p
-          className="text-center"
-          style={{ cursor: "pointer" }}
-          onClick={() => {
-            setType("MI");
-            handleShow();
-          }}
-        >
-          Explore
-        </p>
-      </div>
-    </div>
-    <div className="col-md-4">
-      <div class="card-c">
-        <div class="img-container-c">
-          <img src={MII} width="336" />
-        </div>
-        <div class="tags-c">
-          <ul>
-            <li>POP</li>
-          </ul>
-        </div>
-        <h5>MATH 121/MATH 125 (Calculus II)</h5>
-        <p>
-          Calculus II, typically referred to as MATH 121, is the second
-          course in a standard calculus sequence. It builds upon the
-          concepts introduced in Calculus I, such as limits, derivatives,
-          and integrals, and dives deeper into their applications and
-          extensions.
-        </p>
-        <p
-          className="text-center"
-          style={{ cursor: "pointer" }}
-          onClick={() => {
-            setType("MII");
-            handleShow();
-          }}
-        >
-          Explore
-        </p>
-      </div>
-    </div>
-    </div>
-  </div>
-
       <div className="container-fluid margin-top-40">
         <Fade bottom duration={1000}>
           <div className="row">
@@ -3827,7 +3584,7 @@ const Major = () => {
               <p
                 className="p-content"
                 style={{
-                  color: "#4b5b70",
+                  color: "#333333",
                   textAlign: "justify",
                   fontSize: "17px",
                 }}
@@ -3855,26 +3612,26 @@ const Major = () => {
               <br />
             </p>
             <div class="btn-container">
-            <a
-              href="javascript:;"
-              class="btn tpn_btn"
-              onClick={() => {
-                handleAccShow();
-                setAType("BIO");
-              }}
-            >
-              Explore
-            </a>
-            <a
-      href="https://www.clarku.edu/faculty/profiles/javier-tabima-restrepo/"
-      class="faculty-link"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Prof. Javier
-    </a>
-    </div> 
-                    </div>
+              <a
+                href="javascript:;"
+                class="btn tpn_btn"
+                onClick={() => {
+                  handleAccShow();
+                  setAType("BIO");
+                }}
+              >
+                Explore
+              </a>
+              <a
+                href="https://www.clarku.edu/faculty/profiles/javier-tabima-restrepo/"
+                class="faculty-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Prof. Javier
+              </a>
+            </div>
+          </div>
           <div class="tpn_card">
             <img src={T2} class="w-100 mb-4" />
             <h5>Biochemistry Track</h5>
@@ -3884,25 +3641,25 @@ const Major = () => {
               <br />
             </p>
             <div class="btn-container">
-            <a
-              href="javascript:;"
-              class="btn tpn_btn"
-              onClick={() => {
-                handleAccShow();
-                setAType("BCHEM");
-              }}
-            >
-              Explore
-            </a>
-            <a
-      href="https://www.clarku.edu/faculty/profiles/charles-jakobsche/"
-      class="faculty-link"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Prof. Charles
-    </a>
-    </div> 
+              <a
+                href="javascript:;"
+                class="btn tpn_btn"
+                onClick={() => {
+                  handleAccShow();
+                  setAType("BCHEM");
+                }}
+              >
+                Explore
+              </a>
+              <a
+                href="https://www.clarku.edu/faculty/profiles/charles-jakobsche/"
+                class="faculty-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Prof. Charles
+              </a>
+            </div>
           </div>
           <div class="tpn_card">
             <img src={T3} class="w-100 mb-4" />
@@ -3912,25 +3669,25 @@ const Major = () => {
               vision, theory, and more.
             </p>
             <div class="btn-container">
-            <a
-              href="javascript:;"
-              class="btn tpn_btn"
-              onClick={() => {
-                handleAccShow();
-                setAType("CS");
-              }}
-            >
-              Explore
-            </a>
-            <a
-      href="https://www.clarku.edu/faculty/profiles/li-han/"
-      class="faculty-link"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Prof. Li Han
-    </a>
-    </div> 
+              <a
+                href="javascript:;"
+                class="btn tpn_btn"
+                onClick={() => {
+                  handleAccShow();
+                  setAType("CS");
+                }}
+              >
+                Explore
+              </a>
+              <a
+                href="https://www.clarku.edu/faculty/profiles/li-han/"
+                class="faculty-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Prof. Li Han
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -3946,25 +3703,25 @@ const Major = () => {
               <br />
             </p>
             <div class="btn-container">
-            <a
-              href="javascript:;"
-              class="btn tpn_btn"
-              onClick={() => {
-                handleAccShow();
-                setAType("ECO");
-              }}
-            >
-              Explore
-            </a>
-            <a
-      href="https://www.clarku.edu/faculty/profiles/edouard-wemy/"
-      class="faculty-link"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Prof. Edouard
-    </a>
-    </div> 
+              <a
+                href="javascript:;"
+                class="btn tpn_btn"
+                onClick={() => {
+                  handleAccShow();
+                  setAType("ECO");
+                }}
+              >
+                Explore
+              </a>
+              <a
+                href="https://www.clarku.edu/faculty/profiles/edouard-wemy/"
+                class="faculty-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Prof. Edouard
+              </a>
+            </div>
           </div>
           <div class="tpn_card">
             <img src={T5} class="w-100 mb-4" />
@@ -3976,24 +3733,24 @@ const Major = () => {
               <br />
             </p>
             <div class="btn-container">
-            <a
-              href="javascript:;"
-              class="btn tpn_btn"
-              onClick={() => {
-                handleAccShow();
-                setAType("EVS");
-              }}
-            >
-              Explore
-            </a>
-            <a
-      href="https://www.clarku.edu/faculty/profiles/christopher-williams/"
-      class="faculty-link"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Prof. Christopher</a>
-    </div> 
+              <a
+                href="javascript:;"
+                class="btn tpn_btn"
+                onClick={() => {
+                  handleAccShow();
+                  setAType("EVS");
+                }}
+              >
+                Explore
+              </a>
+              <a
+                href="https://www.clarku.edu/faculty/profiles/christopher-williams/"
+                class="faculty-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Prof. Christopher</a>
+            </div>
           </div>
           <div class="tpn_card">
             <img src={T6} class="w-100 mb-4" />
@@ -4003,25 +3760,25 @@ const Major = () => {
               experience, and overall game design.
             </p>
             <div class="btn-container">
-            <a
-              href="javascript:;"
-              class="btn tpn_btn"
-              onClick={() => {
-                handleAccShow();
-                setAType("GD");
-              }}
-            >
-              Explore
-            </a>
-            <a
-      href="https://www.clarku.edu/faculty/profiles/elliot-epstein/"
-      class="faculty-link"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Prof. Elliot
-    </a>
-    </div> 
+              <a
+                href="javascript:;"
+                class="btn tpn_btn"
+                onClick={() => {
+                  handleAccShow();
+                  setAType("GD");
+                }}
+              >
+                Explore
+              </a>
+              <a
+                href="https://www.clarku.edu/faculty/profiles/elliot-epstein/"
+                class="faculty-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Prof. Elliot
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -4035,25 +3792,25 @@ const Major = () => {
               interpret what you find.
             </p>
             <div class="btn-container">
-            <a
-              href="javascript:;"
-              class="btn tpn_btn"
-              onClick={() => {
-                handleAccShow();
-                setAType("GEO");
-              }}
-            >
-              Explore
-            </a>
-            <a
-      href="https://www.clarku.edu/faculty/profiles/lyndon-estes/"
-      class="faculty-link"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Prof. Lyndon
-    </a>
-    </div> 
+              <a
+                href="javascript:;"
+                class="btn tpn_btn"
+                onClick={() => {
+                  handleAccShow();
+                  setAType("GEO");
+                }}
+              >
+                Explore
+              </a>
+              <a
+                href="https://www.clarku.edu/faculty/profiles/lyndon-estes/"
+                class="faculty-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Prof. Lyndon
+              </a>
+            </div>
           </div>
           <div class="tpn_card">
             <img src={T8} class="w-100 mb-4" />
@@ -4064,25 +3821,25 @@ const Major = () => {
               <br />
             </p>
             <div class="btn-container">
-            <a
-              href="javascript:;"
-              class="btn tpn_btn"
-              onClick={() => {
-                handleAccShow();
-                setAType("MNG");
-              }}
-            >
-              Explore
-            </a>
-            <a
-      href="https://www.clarku.edu/faculty/profiles/hamidreza-ahady-dolatsara/"
-      class="faculty-link"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Prof. Hamidreza
-    </a>
-    </div> 
+              <a
+                href="javascript:;"
+                class="btn tpn_btn"
+                onClick={() => {
+                  handleAccShow();
+                  setAType("MNG");
+                }}
+              >
+                Explore
+              </a>
+              <a
+                href="https://www.clarku.edu/faculty/profiles/hamidreza-ahady-dolatsara/"
+                class="faculty-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Prof. Hamidreza
+              </a>
+            </div>
           </div>
           <div class="tpn_card">
             <img src={T9} class="w-100 mb-4" />
@@ -4093,25 +3850,25 @@ const Major = () => {
               <br />
             </p>
             <div class="btn-container">
-            <a
-              href="javascript:;"
-              class="btn tpn_btn"
-              onClick={() => {
-                handleAccShow();
-                setAType("MATH");
-              }}
-            >
-              Explore
-            </a>
-            <a
-      href="https://www.clarku.edu/faculty/profiles/michael-satz/"
-      class="faculty-link"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Prof. Michael
-    </a>
-    </div> 
+              <a
+                href="javascript:;"
+                class="btn tpn_btn"
+                onClick={() => {
+                  handleAccShow();
+                  setAType("MATH");
+                }}
+              >
+                Explore
+              </a>
+              <a
+                href="https://www.clarku.edu/faculty/profiles/michael-satz/"
+                class="faculty-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Prof. Michael
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -4126,50 +3883,50 @@ const Major = () => {
               <br />
             </p>
             <div class="btn-container">
-            <a
-              href="javascript:;"
-              class="btn tpn_btn"
-              onClick={() => {
-                handleAccShow();
-                setAType("PHY");
-              }}
-            >
-              Explore
-            </a>
-            <a
-      href="https://www.clarku.edu/faculty/profiles/barbara-capogrosso-sansone/"
-      class="faculty-link"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Prof. Barbara
-    </a>
-    </div> 
+              <a
+                href="javascript:;"
+                class="btn tpn_btn"
+                onClick={() => {
+                  handleAccShow();
+                  setAType("PHY");
+                }}
+              >
+                Explore
+              </a>
+              <a
+                href="https://www.clarku.edu/faculty/profiles/barbara-capogrosso-sansone/"
+                class="faculty-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Prof. Barbara
+              </a>
+            </div>
           </div>
           <div class="tpn_card">
             <img src={T11} class="w-100 mb-4" />
             <h5>Psychology Track</h5>
             <p>Study human behavior using data-driven approaches.</p>
             <div class="btn-container">
-            <a
-              href="javascript:;"
-              class="btn tpn_btn"
-              onClick={() => {
-                handleAccShow();
-                setAType("PSY");
-              }}
-            >
-              Explore
-            </a>
-            <a
-      href="https://www.clarku.edu/faculty/profiles/andrew-stewart/"
-      class="faculty-link"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Prof. Andrew
-    </a>
-    </div> 
+              <a
+                href="javascript:;"
+                class="btn tpn_btn"
+                onClick={() => {
+                  handleAccShow();
+                  setAType("PSY");
+                }}
+              >
+                Explore
+              </a>
+              <a
+                href="https://www.clarku.edu/faculty/profiles/andrew-stewart/"
+                class="faculty-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Prof. Andrew
+              </a>
+            </div>
           </div>
           <div class="tpn_card">
             <img src={Biology} class="w-100 mb-4" />
@@ -4180,25 +3937,25 @@ const Major = () => {
               <br />
             </p>
             <div class="btn-container">
-            <a
-              href="javascript:;"
-              class="btn tpn_btn"
-              onClick={() => {
-                handleAccShow();
-                setAType("ELE");
-              }}
-            >
-              Explore
-            </a>
-            <a
-      href="#"
-      class="faculty-link"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Primary Faculty Contact
-    </a>
-    </div> 
+              <a
+                href="javascript:;"
+                class="btn tpn_btn"
+                onClick={() => {
+                  handleAccShow();
+                  setAType("ELE");
+                }}
+              >
+                Explore
+              </a>
+              <a
+                href="#"
+                class="faculty-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Primary Faculty Contact
+              </a>
+            </div>
           </div>
         </div>
       </div>

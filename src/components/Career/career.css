@@ -1,16 +1,15 @@
 .display-1 {
     color: black;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 400;
     line-height: 1.098em;
 }
 
 .display-p {
-    color: #4b5b70;
+    color: #333333;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.667em;
-    margin-left: 45px;
     margin-top: 30px;
 }
 .image-cov {
@@ -22,7 +21,7 @@
 }
 
 .opp-content{
-    color: #4b5b70;
+    color: #333333;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.667em;
