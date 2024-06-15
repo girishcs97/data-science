@@ -4,6 +4,10 @@ import Img1 from '../../images/research-1.jpg';
 import Img2 from '../../images/research-2.jpg';
 import Img3 from '../../images/research-3.jpg';
 import Img4 from '../../images/research-4.jpg';
+import pr5 from '../../images/pr5.jpg';
+import pr6 from '../../images/pr6.jpg';
+import pr7 from '../../images/pr7.jpg';
+import pr8 from '../../images/pr8.jpg';
 import { Fade } from 'react-reveal';
 
 const Learning = () => {
@@ -113,6 +117,92 @@ const Learning = () => {
                         <div className='row'>
                             <Fade bottom duration={1000}>
                                 <img src={Img4} className='img-re-class mt-4' />
+                            </Fade>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className="bg-grey mt-4">
+                <div className='container mart-top mb-4'>
+                    <div className='row'>
+                        <div className='col-md-7'>
+                            <div className='row'>
+                                <Fade bottom duration={800}>
+                                    <img src={pr5} className='img-re-class margin-top-32' />
+                                </Fade>
+                            </div>
+                        </div>
+                        <div className='col-md-5 mart-top'>
+                            <Fade bottom duration={1000}>
+                                <div class="line mg-bottom-32px"></div>
+                                <h2 style={{ lineHeight: '1.182em' }}>2023 Worcester railers teamshot breakdown</h2>
+                                <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Will Setnik, a member of the Class of 2026, is majoring in Music and Data Science. For his project, he interned with the Worcester Railers, where he collected weekly data on the team's most recent games. He calculated advanced team statistics and player-specific statistics based on their positions.</p>
+                                <br />
+                            </Fade>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='container mart-top'>
+                <div className='row'>
+                    <Fade bottom duration={800}>
+                        <div className='col-md-6 mart-top'>
+                            <div class="line mg-bottom-32px"></div>
+                            <h2 style={{ lineHeight: '1.182em' }}>What Makes an NBA All-Star? </h2>
+                            <p style={{ textAlign: 'justify', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Jake Bernstein, a member of the Class of 2026 majoring in French and Data Science, conducted a project titled "What Makes an NBA All-Star?" In this project, Jake analyzed various traditional and advanced statistics to determine the selection factors for the 2022 NBA All-Star game. He explored questions such as what type of good play leads to selection and whether factors beyond good play influence the selection process</p>
+                            <br />
+                        </div>
+                    </Fade>
+                    <div className="col-md-1"></div>
+                    <div className='col-md-5'>
+                        <div className='row'>
+                            <Fade bottom duration={1000}>
+                                <img src={pr6} className='img-re-class' style={{ marginTop: '60px' }} />
+                            </Fade>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="bg-grey mt-4">
+                <div className='container mart-top'>
+                    <div className='row'>
+                        <div className='col-md-7'>
+                            <div className='row'>
+                                <Fade bottom duration={800}>
+                                    <img src={pr7} className='img-re-class margin-top-32' />
+                                </Fade>
+                            </div>
+                        </div>
+                        <div className='col-md-5 mart-top'>
+                            <Fade bottom duration={800}>
+                                <div class="line mg-bottom-32px"></div>
+                                <h2 style={{ lineHeight: '1.182em' }}>Predicting March Madness Success from Regular Season Statistics </h2>
+                                {/* <p><b>by Shuo Niu | Department of Computer Science</b></p> */}
+                                <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Daniel Neau, a member of the Class of 2027 majoring in Geography, embarked on a project titled "Predicting March Madness Success from Regular Season Statistics." His project focused on bracket prediction strategy, where he developed an ordinal regression model to forecast tournament success based on regular season statistics. Daniel's work aimed to enhance predictive accuracy and strategic decision-making in predicting outcomes during March Madness.</p>
+                                <br />
+                            </Fade>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='container mart-top mb-4'>
+                <div className='row'>
+                    <Fade bottom duration={800}>
+                        <div className='col-md-6 mart-top'>
+                            <div class="line mg-bottom-32px"></div>
+                            <h2 style={{ lineHeight: '1.182em' }}>A Relationship between betting Money Lines and Fouls in the NBA</h2>
+                            {/* <p><b>by Junfu Zhang | Department of Economics</b></p> */}
+                            <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Ye Sun, a Psychology major from the Class of 2024, conducted a project titled "A Relationship between Betting Money Lines and Fouls in the NBA." In his research, Ye identified a significant correlation between money lines, win probabilities, and fouls drawn and committed specifically for the 2023 Lakers. The study utilized a standardized delta for fouls drawn minus fouls committed on the vertical axis, and a standardized difference between the money lines' implied win probabilities and actual win probabilities (estimated through ESPN simulations) on the horizontal axis. This analysis aimed to uncover insights into how betting odds and in-game fouls are interconnected, offering implications for sports analytics and betting strategies in basketball.</p>
+                            <br />
+                        </div>
+                    </Fade>
+                    <div className="col-md-1"></div>
+                    <div className='col-md-5'>
+                        <div className='row'>
+                            <Fade bottom duration={1000}>
+                                <img src={pr8} className='img-re-class mt-4' />
                             </Fade>
                         </div>
                     </div>
