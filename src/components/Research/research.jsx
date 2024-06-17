@@ -2,6 +2,7 @@ import React from "react";
 import './research.css'
 import Bio from '../../images/picBiology.jpg'
 import Img1 from '../../images/Business.jpg';
+import Img2 from '../../images/smcity.jpg';
 import chem1 from '../../images/chem1.png';
 import Img3 from '../../images/CS1.jpg';
 import Img from '../../images/CS.jpg';
@@ -10,7 +11,9 @@ import phy from '../../images/physics1.jpg';
 import phy2 from '../../images/phy2.jpg';
 import geo from '../../images/solar-farm.jpg';
 import Img4 from '../../images/economy.png';
+import ECO from '../../images/eco.jpg';
 import Img5 from '../../images/environmental-science.png';
+import evs from '../../images/evs1.jpg';
 import Img6 from '../../images/Geography.jpg';
 import Img7 from '../../images/Interactive-Media.jpg';
 import Img8 from '../../images/Mathematics.jpg';
@@ -96,7 +99,7 @@ She holds a Ph.D. in Information Science and an M.S. in Education Administration
                     <div className='col-md-7'>
                         <div className='row'>
                             <Fade bottom duration={800}>
-                                <img src={Img1} className='img-re-class margin-top-40' style={{marginLeft:'235px'}}/>
+                                <img src={Img2} className='img-re-class margin-top-40' style={{marginLeft:'235px'}}/>
                             </Fade>
                         </div>
                     </div>
@@ -190,7 +193,7 @@ She holds a Ph.D. in Information Science and an M.S. in Education Administration
                     <div className='col-md-7'>
                         <div className='row'>
                             <Fade bottom duration={800}>
-                                <img src={Img4} className='img-re-class margin-top-40' />
+                                <img src={ECO} className='img-re-class margin-top-40' />
                             </Fade>
                         </div>
                     </div>
@@ -239,7 +242,7 @@ She holds a Ph.D. in Information Science and an M.S. in Education Administration
                     <div className='col-md-7'>
                         <div className='row'>
                             <Fade bottom duration={800}>
-                                <img src={Img5} className='img-re-class margin-top-40' style={{marginLeft:'235px'}}/>
+                                <img src={evs} className='img-re-class margin-top-40' style={{marginLeft:'235px'}}/>
                             </Fade>
                         </div>
                     </div>
