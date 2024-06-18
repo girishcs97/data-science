@@ -67,7 +67,7 @@ const Research = () => {
             <div className='container mart-top mb-4'>
             <h2 style={{ lineHeight: '1.182em' }}>Business</h2>
                 <div className='row'>
-                    <div className='col-md-5 mart-top'>
+                    <div className='col-md-7 mart-top'>
                         <Fade bottom duration={1000}>
                             <div class="line mg-bottom-32px"></div>
                             {/* <h2 style={{ lineHeight: '1.182em' }}>Biology Research</h2> */}
@@ -76,16 +76,16 @@ const Research = () => {
                             <br />
                         </Fade>
                     </div>
-                    <div className='col-md-7'>
+                    <div className='col-md-5'>
                         <div className='row'>
                             <Fade bottom duration={800}>
-                                <img src={Img1} className='img-re-class margin-top-40' style={{marginLeft:'235px'}}/>
+                                <img src={Img1} className='img-re-class margin-top-40'/>
                             </Fade>
                         </div>
                     </div>
                 </div>
                 <div className='row'>
-                    <div className='col-md-5 mart-top'>
+                    <div className='col-md-7 mart-top'>
                         <Fade bottom duration={1000}>
                             <div class="line mg-bottom-32px"></div>
                             {/* <h2 style={{ lineHeight: '1.182em' }}>Biology Research</h2> */}
@@ -96,10 +96,10 @@ She holds a Ph.D. in Information Science and an M.S. in Education Administration
                             <br />
                         </Fade>
                     </div>
-                    <div className='col-md-7'>
+                    <div className='col-md-5'>
                         <div className='row'>
                             <Fade bottom duration={800}>
-                                <img src={Img2} className='img-re-class margin-top-40' style={{marginLeft:'235px'}}/>
+                                <img src={Img2} className='img-re-class margin-top-40' />
                             </Fade>
                         </div>
                     </div>
@@ -150,7 +150,7 @@ She holds a Ph.D. in Information Science and an M.S. in Education Administration
             <div className='container mart-top mb-4'>
             <h2 style={{ lineHeight: '1.182em' }}>Computer Science</h2>
                 <div className='row'>
-                    <div className='col-md-5 mart-top'>
+                    <div className='col-md-7 mart-top'>
                         <Fade bottom duration={1000}>
                             <div class="line mg-bottom-32px"></div>
                             {/* <h2 style={{ lineHeight: '1.182em' }}>Biology Research</h2> */}
@@ -159,16 +159,16 @@ She holds a Ph.D. in Information Science and an M.S. in Education Administration
                             <br />
                         </Fade>
                     </div>
-                    <div className='col-md-7'>
+                    <div className='col-md-5'>
                         <div className='row'>
                             <Fade bottom duration={800}>
-                                <img src={Img3} className='img-re-class margin-top-40' style={{marginLeft:'235px'}}/>
+                                <img src={Img3} className='img-re-class margin-top-40' />
                             </Fade>
                         </div>
                     </div>
                 </div>
                 <div className='row'>
-                    <div className='col-md-5 mart-top'>
+                    <div className='col-md-7 mart-top'>
                         <Fade bottom duration={1000}>
                             <div class="line mg-bottom-32px"></div>
                             {/* <h2 style={{ lineHeight: '1.182em' }}>Biology Research</h2> */}
@@ -177,10 +177,10 @@ She holds a Ph.D. in Information Science and an M.S. in Education Administration
                             <br />
                         </Fade>
                     </div>
-                    <div className='col-md-7'>
+                    <div className='col-md-5'>
                         <div className='row'>
                             <Fade bottom duration={800}>
-                                <img src={Img} className='img-re-class margin-top-40' style={{marginLeft:'235px'}}/>
+                                <img src={Img} className='img-re-class margin-top-40' />
                             </Fade>
                         </div>
                     </div>
@@ -230,7 +230,7 @@ She holds a Ph.D. in Information Science and an M.S. in Education Administration
             <div className='container mart-top mb-4'>
             <h2 style={{ lineHeight: '1.182em' }}>Environmental Science</h2>
                 <div className='row'>
-                    <div className='col-md-5 mart-top'>
+                    <div className='col-md-7 mart-top'>
                         <Fade bottom duration={1000}>
                             <div class="line mg-bottom-32px"></div>
                             {/* <h2 style={{ lineHeight: '1.182em' }}>Biology Research</h2> */}
@@ -239,16 +239,16 @@ She holds a Ph.D. in Information Science and an M.S. in Education Administration
                             <br />
                         </Fade>
                     </div>
-                    <div className='col-md-7'>
+                    <div className='col-md-5'>
                         <div className='row'>
                             <Fade bottom duration={800}>
-                                <img src={evs} className='img-re-class margin-top-40' style={{marginLeft:'235px'}}/>
+                                <img src={evs} className='img-re-class margin-top-40'/>
                             </Fade>
                         </div>
                     </div>
                 </div>
                 <div className='row'>
-                    <div className='col-md-5 mart-top'>
+                    <div className='col-md-7 mart-top'>
                         <Fade bottom duration={1000}>
                             <div class="line mg-bottom-32px"></div>
                             {/* <h2 style={{ lineHeight: '1.182em' }}>Biology Research</h2> */}
@@ -257,10 +257,10 @@ She holds a Ph.D. in Information Science and an M.S. in Education Administration
                             <br />
                         </Fade>
                     </div>
-                    <div className='col-md-7'>
+                    <div className='col-md-5'>
                         <div className='row'>
                             <Fade bottom duration={800}>
-                                <img src={Img5} className='img-re-class margin-top-40' style={{marginLeft:'235px'}}/>
+                                <img src={Img5} className='img-re-class margin-top-40'/>
                             </Fade>
                         </div>
                     </div>
@@ -310,7 +310,7 @@ She holds a Ph.D. in Information Science and an M.S. in Education Administration
             <div className='container mart-top mb-4'>
             <h2 style={{ lineHeight: '1.182em' }}>Interactive Media</h2>
                 <div className='row'>
-                    <div className='col-md-5 mart-top'>
+                    <div className='col-md-7 mart-top'>
                         <Fade bottom duration={1000}>
                             <div class="line mg-bottom-32px"></div>
                             {/* <h2 style={{ lineHeight: '1.182em' }}>Biology Research</h2> */}
@@ -319,10 +319,10 @@ She holds a Ph.D. in Information Science and an M.S. in Education Administration
                             <br />
                         </Fade>
                     </div>
-                    <div className='col-md-7'>
+                    <div className='col-md-5'>
                         <div className='row'>
                             <Fade bottom duration={800}>
-                                <img src={Img7} className='img-re-class margin-top-40' style={{marginLeft:'235px'}}/>
+                                <img src={Img7} className='img-re-class margin-top-40'/>
                             </Fade>
                         </div>
                     </div>
@@ -354,7 +354,7 @@ She holds a Ph.D. in Information Science and an M.S. in Education Administration
             <div className='container mart-top mb-4'>
             <h2 style={{ lineHeight: '1.182em' }}>Physics</h2>
                 <div className='row'>
-                    <div className='col-md-5 mart-top'>
+                    <div className='col-md-7 mart-top'>
                         <Fade bottom duration={1000}>
                             <div class="line mg-bottom-32px"></div>
                             {/* <h2 style={{ lineHeight: '1.182em' }}>Biology Research</h2> */}
@@ -363,16 +363,16 @@ She holds a Ph.D. in Information Science and an M.S. in Education Administration
                             <br />
                         </Fade>
                     </div>
-                    <div className='col-md-7'>
+                    <div className='col-md-5'>
                         <div className='row'>
                             <Fade bottom duration={800}>
-                                <img src={phy} className='img-re-class margin-top-40' style={{marginLeft:'235px'}}/>
+                                <img src={phy} className='img-re-class margin-top-40' />
                             </Fade>
                         </div>
                     </div>
                 </div>
                 <div className='row'>
-                    <div className='col-md-5 mart-top'>
+                    <div className='col-md-7 mart-top'>
                         <Fade bottom duration={1000}>
                             <div class="line mg-bottom-32px"></div>
                             {/* <h2 style={{ lineHeight: '1.182em' }}>Biology Research</h2> */}
@@ -381,10 +381,10 @@ She holds a Ph.D. in Information Science and an M.S. in Education Administration
                             <br />
                         </Fade>
                     </div>
-                    <div className='col-md-7'>
+                    <div className='col-md-5'>
                         <div className='row'>
                             <Fade bottom duration={800}>
-                                <img src={phy2} className='img-re-class margin-top-40' style={{marginLeft:'235px'}}/>
+                                <img src={phy2} className='img-re-class margin-top-40'/>
                             </Fade>
                         </div>
                     </div>
