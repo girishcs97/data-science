@@ -94,7 +94,7 @@ const Faculty = () => {
                 </section> */}
         <Fade bottom duration={800}>
           <div className="row margin-top-20">
-            <h1 className="margin-bottom-35">Steering Committee</h1>
+            <h1 className="margin-bottom-35">Interdisciplinary Steering Committee</h1>
             <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
                 <img src={Fac1} className="image-cover" />
