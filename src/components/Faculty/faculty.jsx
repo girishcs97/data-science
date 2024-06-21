@@ -111,8 +111,7 @@ const Faculty = () => {
               </h6>
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
-                <em>Primary Contact</em>
-                <br />
+                
                 Director, Data Science <br /> Professor, Computer Science
               </div>
             </div>
@@ -132,8 +131,7 @@ const Faculty = () => {
               </h6>
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
-                <em>Primary Contact</em>
-                <br />
+                
                 Associate Professor, <br />
                 Biology
               </div>
@@ -154,10 +152,9 @@ const Faculty = () => {
               </h6>
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
-                <em>Primary Contact</em>
-                <br />
+                
                 Assistant Professor, <br />
-                School of Management
+                School of Business
               </div>
             </div>
             <div className="col-md-3 margin-bottom-35">
@@ -176,8 +173,7 @@ const Faculty = () => {
               </h6>
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
-                <em>Primary Contact</em>
-                <br />
+                
                 Associate Professor, <br />
                 Chemistry
               </div>
@@ -198,8 +194,7 @@ const Faculty = () => {
               </h6>
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
-                <em>Primary Contact</em>
-                <br />
+                
                 Associate Professor, <br />
                 Economics
               </div>
@@ -220,8 +215,7 @@ const Faculty = () => {
               </h6>
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
-                <em>Primary Contact</em>
-                <br />
+                
                 Director, Environmental Science
                 <br />
                 Professor, Geography{" "}
@@ -243,8 +237,7 @@ const Faculty = () => {
               </h6>
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
-                <em>Primary Contact</em>
-                <br />
+                
                 Associate Professor, <br />
                 Geography
               </div>
@@ -265,9 +258,8 @@ const Faculty = () => {
               </h6>
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
-                <em>Primary Contact</em>
-                <br />
-                Visiting Professor, Becker School of Design/Tech
+                
+                Visiting Professor, Interactive Media
               </div>
             </div>
  <div className="col-md-3 margin-bottom-35">
@@ -286,8 +278,7 @@ const Faculty = () => {
               </h6>
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
-                <em>Primary Contact</em>
-                <br />
+                
                 Teaching Professor, <br />
                 Mathematics
               </div>
@@ -308,8 +299,7 @@ const Faculty = () => {
               </h6>
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
-                <em>Primary Contact</em>
-                <br />
+                
                 Associate Professor, <br />
                 Physics
               </div>
@@ -330,8 +320,7 @@ const Faculty = () => {
               </h6>
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
-                <em>Primary Contact</em>
-                <br />
+                
                 Associate Professor, <br />
                 Psychology
               </div>
@@ -339,105 +328,6 @@ const Faculty = () => {
 
 
             <h1 className="margin-bottom-35">Program Faculty</h1>
-            <h2 className="margin-bottom-35">Computer Science</h2>
-            <div className="col-md-3 margin-bottom-35">
-              <div className="img-wrapper">
-                <img src={Fac1} className="image-cover" />
-              </div>
-              <h6
-                className="mt-4 prof-name"
-                onClick={() =>
-                  openInNewTab(
-                    "https://www.clarku.edu/faculty/profiles/li-han/"
-                  )
-                }
-              >
-                Li Han, Ph.D.
-              </h6>
-              <div class="line size-52px grow"></div>
-              <div class="text-uppercase mt-2">
-                <em>Primary Contact</em>
-                <br />
-                Director, Data Science <br /> Professor, Computer Science
-              </div>
-            </div>
-            <div className="col-md-3 margin-bottom-35">
-              <div className="img-wrapper">
-                <img src={Fac42} className="image-cover" />
-              </div>
-              <h6
-                className="mt-4 prof-name"
-                onClick={() =>
-                  openInNewTab(
-                    "https://www.clarku.edu/faculty/profiles/catalin-veghes/"
-                  )
-                }
-              >
-                Catalin Veghes, M.S.
-              </h6>
-              <div class="line size-52px grow"></div>
-              <div class="text-uppercase mt-2">
-                Visiting Lecturer, Computer Science
-              </div>
-            </div>
-            <div className="col-md-3 margin-bottom-35">
-              <div className="img-wrapper">
-                <img src={Fac22} className="image-cover" />
-              </div>
-              <h6
-                className="mt-4 prof-name"
-                onClick={() =>
-                  openInNewTab(
-                    "https://www.clarku.edu/faculty/profiles/gary-holness/"
-                  )
-                }
-              >
-                Gary Holness, Ph.D.
-              </h6>
-              <div class="line size-52px grow"></div>
-              <div class="text-uppercase mt-2">
-                Associate Professor, Computer Science
-              </div>
-            </div>
-            <div className="col-md-3 margin-bottom-35">
-              <div className="img-wrapper">
-                <img src={Fac14} className="image-cover" />
-              </div>
-              <h6
-                className="mt-4 prof-name"
-                onClick={() =>
-                  openInNewTab(
-                    "https://www.clarku.edu/faculty/profiles/kenneth-basye/"
-                  )
-                }
-              >
-                Kenneth Basye, Ph.D.
-              </h6>
-              <div class="line size-52px grow"></div>
-              <div class="text-uppercase mt-2">
-                Professor of Practice, Computer Science
-              </div>
-            </div>
-            <div className="col-md-3 margin-bottom-35">
-              <div className="img-wrapper">
-                <img src={Fac31} className="image-cover" />
-              </div>
-              <h6
-                className="mt-4 prof-name"
-                onClick={() =>
-                  openInNewTab(
-                    "https://www.clarku.edu/faculty/profiles/shuo-niu/"
-                  )
-                }
-              >
-                Shuo Niu, Ph.D.
-              </h6>
-              <div class="line size-52px grow"></div>
-              <div class="text-uppercase mt-2">
-                Assistant Professor, Computer Science
-              </div>
-            </div>
-            
             <h2 className="margin-bottom-35">Biology</h2>
             <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
@@ -482,7 +372,7 @@ const Faculty = () => {
                 <em>Primary Contact</em>
                 <br />
                 Assistant Professor, <br />
-                School of Management
+                School of Business
               </div>
             </div>
             <div className="col-md-3 margin-bottom-35">
@@ -498,6 +388,25 @@ const Faculty = () => {
                 }
               >
                 Inshik Seol, Ph.D.
+              </h6>
+              <div class="line size-52px grow"></div>
+              <div class="text-uppercase mt-2">
+                Associate Professor, School of Business
+              </div>
+            </div>
+            <div className="col-md-3 margin-bottom-35">
+              <div className="img-wrapper">
+                <img src={Fac43} className="image-cover" />
+              </div>
+              <h6
+                className="mt-4 prof-name"
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.clarku.edu/faculty/profiles/zhenyang-tang/"
+                  )
+                }
+              >
+                Zhengyang Tang, Ph.D.
               </h6>
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
@@ -523,25 +432,7 @@ const Faculty = () => {
                 Professor, School of Business
               </div>
             </div>
-            <div className="col-md-3 margin-bottom-35">
-              <div className="img-wrapper">
-                <img src={Fac43} className="image-cover" />
-              </div>
-              <h6
-                className="mt-4 prof-name"
-                onClick={() =>
-                  openInNewTab(
-                    "https://www.clarku.edu/faculty/profiles/zhenyang-tang/"
-                  )
-                }
-              >
-                Zhengyang Tang, Ph.D.
-              </h6>
-              <div class="line size-52px grow"></div>
-              <div class="text-uppercase mt-2">
-                Associate Professor, School of Business
-              </div>
-            </div>
+            
             <h2 className="margin-bottom-35">Chemistry</h2>
             <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
@@ -582,6 +473,108 @@ const Faculty = () => {
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">Professor, Chemistry</div>
             </div>
+            <h2 className="margin-bottom-35">Computer Science</h2>
+            <div className="col-md-3 margin-bottom-35">
+              <div className="img-wrapper">
+                <img src={Fac1} className="image-cover" />
+              </div>
+              <h6
+                className="mt-4 prof-name"
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.clarku.edu/faculty/profiles/li-han/"
+                  )
+                }
+              >
+                Li Han, Ph.D.
+              </h6>
+              <div class="line size-52px grow"></div>
+              <div class="text-uppercase mt-2">
+                <em>Primary Contact</em>
+                <br />
+                Director, Data Science <br /> Professor, Computer Science
+              </div>
+            </div>
+            <div className="col-md-3 margin-bottom-35">
+              <div className="img-wrapper">
+                <img src={Fac14} className="image-cover" />
+              </div>
+              <h6
+                className="mt-4 prof-name"
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.clarku.edu/faculty/profiles/kenneth-basye/"
+                  )
+                }
+              >
+                Kenneth Basye, Ph.D.
+              </h6>
+              <div class="line size-52px grow"></div>
+              <div class="text-uppercase mt-2">
+                Professor of Practice, Computer Science
+              </div>
+            </div>
+            <div className="col-md-3 margin-bottom-35">
+              <div className="img-wrapper">
+                <img src={Fac22} className="image-cover" />
+              </div>
+              <h6
+                className="mt-4 prof-name"
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.clarku.edu/faculty/profiles/gary-holness/"
+                  )
+                }
+              >
+                Gary Holness, Ph.D.
+              </h6>
+              <div class="line size-52px grow"></div>
+              <div class="text-uppercase mt-2">
+                Associate Professor, Computer Science
+              </div>
+            </div>
+          
+            <div className="col-md-3 margin-bottom-35">
+              <div className="img-wrapper">
+                <img src={Fac31} className="image-cover" />
+              </div>
+              <h6
+                className="mt-4 prof-name"
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.clarku.edu/faculty/profiles/shuo-niu/"
+                  )
+                }
+              >
+                Shuo Niu, Ph.D.
+              </h6>
+              <div class="line size-52px grow"></div>
+              <div class="text-uppercase mt-2">
+                Assistant Professor, Computer Science
+              </div>
+            </div>
+            <div className="col-md-3 margin-bottom-35">
+              <div className="img-wrapper">
+                <img src={Fac42} className="image-cover" />
+              </div>
+              <h6
+                className="mt-4 prof-name"
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.clarku.edu/faculty/profiles/catalin-veghes/"
+                  )
+                }
+              >
+                Catalin Veghes, M.S.
+              </h6>
+              <div class="line size-52px grow"></div>
+              <div class="text-uppercase mt-2">
+                Visiting Lecturer, Computer Science
+              </div>
+            </div>
+           
+            
+            
 
             <h2 className="margin-bottom-35">Economics</h2>
             <div className="col-md-3 margin-bottom-35">
@@ -713,21 +706,22 @@ const Faculty = () => {
             </div>
             <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
-                <img src={Fac38} className="image-cover" />
+                <img src={Fac12} className="image-cover" />
               </div>
               <h6
                 className="mt-4 prof-name"
                 onClick={() =>
                   openInNewTab(
-                    "https://www.clarku.edu/faculty/profiles/florencia-sangermano/"
+                    "https://www.clarku.edu/faculty/profiles/yelena-ogneva-himmelberger/"
                   )
                 }
               >
-                Florencia Sangermano, Ph.D.
+                Yelena Ogneva-Himmelberger, Ph.D.
               </h6>
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
-                Assistant Professor, Geography
+                Professor, <br />
+                Sustainability and Social Justice
               </div>
             </div>
             <div className="col-md-3 margin-bottom-35">
@@ -785,24 +779,24 @@ const Faculty = () => {
             </div>
             <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
-                <img src={Fac12} className="image-cover" />
+                <img src={Fac38} className="image-cover" />
               </div>
               <h6
                 className="mt-4 prof-name"
                 onClick={() =>
                   openInNewTab(
-                    "https://www.clarku.edu/faculty/profiles/yelena-ogneva-himmelberger/"
+                    "https://www.clarku.edu/faculty/profiles/florencia-sangermano/"
                   )
                 }
               >
-                Yelena Ogneva-Himmelberger, Ph.D.
+                Florencia Sangermano, Ph.D.
               </h6>
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
-                Professor, <br />
-                Sustainability and Social Justice
+                Assistant Professor, Geography
               </div>
             </div>
+            
             <h2 className="margin-bottom-35">Interactive Media</h2>
             <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
@@ -822,7 +816,7 @@ const Faculty = () => {
               <div class="text-uppercase mt-2">
                 <em>Primary Contact</em>
                 <br />
-                Visiting Professor, Becker School of Design/Tech
+                Visiting Professor, Interactive Media
               </div>
             </div>
             <div className="col-md-3 margin-bottom-35">
@@ -890,6 +884,25 @@ const Faculty = () => {
             </div>
             <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
+                <img src={Fac13} className="image-cover" />
+              </div>
+              <h6
+                className="mt-4 prof-name"
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.clarku.edu/faculty/profiles/amir-babak-aazami/"
+                  )
+                }
+              >
+                Amir Aazami, Ph.D.
+              </h6>
+              <div class="line size-52px grow"></div>
+              <div class="text-uppercase mt-2">
+                Associate Professor, Mathematics
+              </div>
+            </div>
+            <div className="col-md-3 margin-bottom-35">
+              <div className="img-wrapper">
                 <img src={Fac24} className="image-cover" />
               </div>
               <h6
@@ -928,25 +941,7 @@ const Faculty = () => {
               </div>
             </div>
 
-            <div className="col-md-3 margin-bottom-35">
-              <div className="img-wrapper">
-                <img src={Fac13} className="image-cover" />
-              </div>
-              <h6
-                className="mt-4 prof-name"
-                onClick={() =>
-                  openInNewTab(
-                    "https://www.clarku.edu/faculty/profiles/amir-babak-aazami/"
-                  )
-                }
-              >
-                Amir Aazami, Ph.D.
-              </h6>
-              <div class="line size-52px grow"></div>
-              <div class="text-uppercase mt-2">
-                Associate Professor, Mathematics
-              </div>
-            </div>
+            
             <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
                 <img src={Fac29} className="image-cover" />
@@ -991,42 +986,7 @@ const Faculty = () => {
                 Physics
               </div>
             </div>
-            <div className="col-md-3 margin-bottom-35">
-              <div className="img-wrapper">
-                <img src={Fac33} className="image-cover" />
-              </div>
-              <h6
-                className="mt-4 prof-name"
-                onClick={() =>
-                  openInNewTab(
-                    "https://www.clarku.edu/faculty/profiles/alexander-petroff/"
-                  )
-                }
-              >
-                Alexander Petroff, Ph.D.
-              </h6>
-              <div class="line size-52px grow"></div>
-              <div class="text-uppercase mt-2">
-                Assistant Professor, Physics
-              </div>
-            </div>
-            <div className="col-md-3 margin-bottom-35">
-              <div className="img-wrapper">
-                <img src={Fac25} className="image-cover" />
-              </div>
-              <h6
-                className="mt-4 prof-name"
-                onClick={() =>
-                  openInNewTab(
-                    "https://www.clarku.edu/faculty/profiles/arshad-kudrolli/"
-                  )
-                }
-              >
-                Arshad Kudrolli, Ph.D.
-              </h6>
-              <div class="line size-52px grow"></div>
-              <div class="text-uppercase mt-2">Professor, Physics</div>
-            </div>
+            
             <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
                 <img src={Agosta} className="image-cover" />
@@ -1065,6 +1025,24 @@ const Faculty = () => {
             </div>
             <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
+                <img src={Fac25} className="image-cover" />
+              </div>
+              <h6
+                className="mt-4 prof-name"
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.clarku.edu/faculty/profiles/arshad-kudrolli/"
+                  )
+                }
+              >
+                Arshad Kudrolli, Ph.D.
+              </h6>
+              <div class="line size-52px grow"></div>
+              <div class="text-uppercase mt-2">Professor, Physics</div>
+            </div>
+           
+            <div className="col-md-3 margin-bottom-35">
+              <div className="img-wrapper">
                 <img src={Fac28} className="image-cover" />
               </div>
               <h6
@@ -1080,6 +1058,25 @@ const Faculty = () => {
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
                 Associate Professor, Physics
+              </div>
+            </div>
+            <div className="col-md-3 margin-bottom-35">
+              <div className="img-wrapper">
+                <img src={Fac33} className="image-cover" />
+              </div>
+              <h6
+                className="mt-4 prof-name"
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.clarku.edu/faculty/profiles/alexander-petroff/"
+                  )
+                }
+              >
+                Alexander Petroff, Ph.D.
+              </h6>
+              <div class="line size-52px grow"></div>
+              <div class="text-uppercase mt-2">
+                Assistant Professor, Physics
               </div>
             </div>
 
