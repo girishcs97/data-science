@@ -58,7 +58,7 @@ const Faculty = () => {
     <div className="container margin-top-20" id="opportunities">
       <div className="row">
         <div className="col-md-5">
-          <p className="display-1">Meet our Staff</p>
+          <p className="display-1">Meet our Faculty</p>
         </div>
         <div className="col-md-7">
           <p className="display-p">
@@ -94,7 +94,252 @@ const Faculty = () => {
                 </section> */}
         <Fade bottom duration={800}>
           <div className="row margin-top-20">
-            <h2 className="margin-bottom-35">Steering Committee</h2>
+            <h1 className="margin-bottom-35">Steering Committee</h1>
+            <div className="col-md-3 margin-bottom-35">
+              <div className="img-wrapper">
+                <img src={Fac1} className="image-cover" />
+              </div>
+              <h6
+                className="mt-4 prof-name"
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.clarku.edu/faculty/profiles/li-han/"
+                  )
+                }
+              >
+                Li Han, Ph.D.
+              </h6>
+              <div class="line size-52px grow"></div>
+              <div class="text-uppercase mt-2">
+                <em>Primary Contact</em>
+                <br />
+                Director, Data Science <br /> Professor, Computer Science
+              </div>
+            </div>
+            <div className="col-md-3 margin-bottom-35">
+              <div className="img-wrapper">
+                <img src={Fac2} className="image-cover" />
+              </div>
+              <h6
+                className="mt-4 prof-name"
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.clarku.edu/faculty/profiles/javier-tabima-restrepo/"
+                  )
+                }
+              >
+                Javier Tabima Restrepo, Ph.D.​
+              </h6>
+              <div class="line size-52px grow"></div>
+              <div class="text-uppercase mt-2">
+                <em>Primary Contact</em>
+                <br />
+                Associate Professor, <br />
+                Biology
+              </div>
+            </div>
+            <div className="col-md-3 margin-bottom-35">
+              <div className="img-wrapper">
+                <img src={Fac8} className="image-cover" />
+              </div>
+              <h6
+                className="mt-4 prof-name"
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.clarku.edu/faculty/profiles/hamidreza-ahady-dolatsara/"
+                  )
+                }
+              >
+                Hamidreza Ahady Dolatsara, Ph.D.
+              </h6>
+              <div class="line size-52px grow"></div>
+              <div class="text-uppercase mt-2">
+                <em>Primary Contact</em>
+                <br />
+                Assistant Professor, <br />
+                School of Management
+              </div>
+            </div>
+            <div className="col-md-3 margin-bottom-35">
+              <div className="img-wrapper">
+                <img src={Fac3} className="image-cover" />
+              </div>
+              <h6
+                className="mt-4 prof-name"
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.clarku.edu/faculty/profiles/charles-jakobsche/"
+                  )
+                }
+              >
+                Charles Jakobsche, Ph.D.
+              </h6>
+              <div class="line size-52px grow"></div>
+              <div class="text-uppercase mt-2">
+                <em>Primary Contact</em>
+                <br />
+                Associate Professor, <br />
+                Chemistry
+              </div>
+            </div>
+<div className="col-md-3 margin-bottom-35">
+              <div className="img-wrapper">
+                <img src={Fac4} className="image-cover" />
+              </div>
+              <h6
+                className="mt-4 prof-name"
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.clarku.edu/faculty/profiles/edouard-wemy/"
+                  )
+                }
+              >
+                Edouard Wemy, Ph.D.
+              </h6>
+              <div class="line size-52px grow"></div>
+              <div class="text-uppercase mt-2">
+                <em>Primary Contact</em>
+                <br />
+                Associate Professor, <br />
+                Economics
+              </div>
+            </div>
+<div className="col-md-3 margin-bottom-35">
+              <div className="img-wrapper">
+                <img src={Fac5} className="image-cover" />
+              </div>
+              <h6
+                className="mt-4 prof-name"
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.clarku.edu/faculty/profiles/christopher-williams/"
+                  )
+                }
+              >
+                Christopher Williams, Ph.D.
+              </h6>
+              <div class="line size-52px grow"></div>
+              <div class="text-uppercase mt-2">
+                <em>Primary Contact</em>
+                <br />
+                Director, Environmental Science
+                <br />
+                Professor, Geography{" "}
+              </div>
+            </div>
+ <div className="col-md-3 margin-bottom-35">
+              <div className="img-wrapper">
+                <img src={Fac7} className="image-cover" />
+              </div>
+              <h6
+                className="mt-4 prof-name"
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.clarku.edu/faculty/profiles/lyndon-estes/"
+                  )
+                }
+              >
+                Lyndon Estes, Ph.D.
+              </h6>
+              <div class="line size-52px grow"></div>
+              <div class="text-uppercase mt-2">
+                <em>Primary Contact</em>
+                <br />
+                Associate Professor, <br />
+                Geography
+              </div>
+            </div>
+ <div className="col-md-3 margin-bottom-35">
+              <div className="img-wrapper">
+                <img src={Fac19} className="image-cover" />
+              </div>
+              <h6
+                className="mt-4 prof-name"
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.clarku.edu/faculty/profiles/elliot-epstein/"
+                  )
+                }
+              >
+                Elliot Epstein, M.S.
+              </h6>
+              <div class="line size-52px grow"></div>
+              <div class="text-uppercase mt-2">
+                <em>Primary Contact</em>
+                <br />
+                Visiting Professor, Becker School of Design/Tech
+              </div>
+            </div>
+ <div className="col-md-3 margin-bottom-35">
+              <div className="img-wrapper">
+                <img src={Fac9} className="image-cover" />
+              </div>
+              <h6
+                className="mt-4 prof-name"
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.clarku.edu/faculty/profiles/michael-satz/"
+                  )
+                }
+              >
+                Michael Satz, M.S.
+              </h6>
+              <div class="line size-52px grow"></div>
+              <div class="text-uppercase mt-2">
+                <em>Primary Contact</em>
+                <br />
+                Teaching Professor, <br />
+                Mathematics
+              </div>
+            </div>
+<div className="col-md-3 margin-bottom-35">
+              <div className="img-wrapper">
+                <img src={Fac10} className="image-cover" />
+              </div>
+              <h6
+                className="mt-4 prof-name"
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.clarku.edu/faculty/profiles/barbara-capogrosso-sansone/"
+                  )
+                }
+              >
+                Barbara Capogrosso Sansone, Ph.D.
+              </h6>
+              <div class="line size-52px grow"></div>
+              <div class="text-uppercase mt-2">
+                <em>Primary Contact</em>
+                <br />
+                Associate Professor, <br />
+                Physics
+              </div>
+            </div>
+ <div className="col-md-3 margin-bottom-35">
+              <div className="img-wrapper">
+                <img src={Fac11} className="image-cover" />
+              </div>
+              <h6
+                className="mt-4 prof-name"
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.clarku.edu/faculty/profiles/andrew-stewart/"
+                  )
+                }
+              >
+                Andrew Stewart, Ph.D.
+              </h6>
+              <div class="line size-52px grow"></div>
+              <div class="text-uppercase mt-2">
+                <em>Primary Contact</em>
+                <br />
+                Associate Professor, <br />
+                Psychology
+              </div>
+            </div>
+
+
+            <h1 className="margin-bottom-35">Program Faculty</h1>
+            <h2 className="margin-bottom-35">Computer Science</h2>
             <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
                 <img src={Fac1} className="image-cover" />
@@ -192,7 +437,7 @@ const Faculty = () => {
                 Assistant Professor, Computer Science
               </div>
             </div>
-            <h1 className="margin-bottom-35">Program Faculty</h1>
+            
             <h2 className="margin-bottom-35">Biology</h2>
             <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
