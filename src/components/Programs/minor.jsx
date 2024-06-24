@@ -3189,7 +3189,7 @@ const Major = () => {
             </a>
           </p>
           <p>
-            <strong>Anticipated Terms Offered:</strong> Fall 2021
+            <strong>Anticipated Terms Offered:</strong> Every Fall
           </p>
         </>
       );

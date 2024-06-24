@@ -1,8 +1,13 @@
 import React, { useState } from 'react';
 import './researchLanding.css';
 import SC from "../../images/SC.png";
+import SN from "../../images/niu's project.png";
 import ADA from "../../images/ADA.jpg";
 import Bio from '../../images/picBiology.jpg'
+import Geo from '../../images/Geography.jpg'
+import ECF from '../../images/ECF.jpeg';
+import ST from '../../images/Spotify.jpeg';
+import WC from '../../images/watch.jpeg';
 import Modal from "react-bootstrap/Modal";
 import CardDesign from '../CardView/cardview';
 
@@ -109,21 +114,62 @@ const ResearchLanding = () => {
                     <p className="subtitle mb-2">Faculty Research Spotlight</p>
                     <p style={{ fontSize: '16px', marginTop: '20px' }}>Our faculty, representing diverse disciplines, are increasingly integrating data science into their research.</p>
                 </div>
-                <div class="projcard projcard-blue">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <div class="projcard projcard-blue">
+                    <div class="projcard-innerbox">
+                        <img class="projcard-img" src={Geo} />
+                        <div class="projcard-textbox">
+                            <div class="projcard-title">Research in Geography</div>
+                            <div class="projcard-bar"></div>
+                            <div class="projcard-description">Professor Lyndon Estes at Clark University focuses on the drivers and impacts of agricultural change in sub-Saharan Africa. His research employs advanced Earth observation technologies and modeling techniques to improve agricultural mapping and sustainability. He leads projects that aim to address food security, analyze farming practices, and develop high-resolution maps of cropland using machine learning and satellite imaging. Estes' work is crucial in understanding how agriculture in Africa is influenced by and adapts to climate change.  Refer to <a href="https://www.clarku.edu/departments/geography/research/faculty-research/">faculty research page</a> for more information.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </div>
+    <div class="carousel-item">
+    <div class="projcard projcard-blue">
+                    <div class="projcard-innerbox">
+                        <img class="projcard-img" src={SN} />
+                        <div class="projcard-textbox">
+                            <div class="projcard-title">Research in Computer Science</div>
+                            <div class="projcard-bar"></div>
+                            <div class="projcard-description">Dr. Shuo Niu is an Assistant Professor of Computer Science at Clark University. He earned his Ph.D. in Computer Science from Virginia Tech, and his research focuses on human-computer interaction and social computing. His work explores collaborative and community activities in online environments, with a particular interest in video-sharing platforms and the dynamics of user interaction within these spaces. Dr. Niu has contributed to understanding substance abuse misinformation on YouTube, how YouTubers help alleviate COVID-19 loneliness, and the impact of ASMR videos on user engagement. His research also includes innovative approaches to assistive technology and inclusive design for users with disabilities​.  Refer to <a href="https://mathcs.clarku.edu/~shniu/">Prof. Shuo Niu's personal page</a> for more information.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </div>
+    <div class="carousel-item">
+    <div class="projcard projcard-blue">
                     <div class="projcard-innerbox">
                         <img class="projcard-img" src={Bio} />
                         <div class="projcard-textbox">
-                            <div class="projcard-title">Biology Research</div>
+                            <div class="projcard-title">Research in Biology</div>
                             <div class="projcard-bar"></div>
                             <div class="projcard-description">Professor Javier Tabima’s research integrates tools and concepts from evolutionary theory, computational biology, genomics, genetics, and plant pathology/mycology. His work focuses on the study of fungal evolution and the development of computational and molecular tools for rapid species identification, population genetics, and the detection of genes of interest. One notable paper connecting to data science is Poppr: an R package for genetic analysis of populations with clonal, partially clonal, and/or sexual reproduction.  Refer to <a href="https://tabima-lab.netlify.app/">Prof. Tabima’s lab page</a> for more information.
                             </div>
                         </div>
                     </div>
                 </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
             </div>
             <div className='container margin-top-40' id={'programs-page'}>
                 <div className="text-center mb-4">
-                    <p className="subtitle mb-2">Course Spotlight</p>
+                    <p className="subtitle mb-2">Fall 2024 Course Spotlight</p>
                     <p style={{ fontSize: '16px', marginTop: '20px' }}>Explore the latest advancements and essential skills in data science through our comprehensive and hands-on course spotlight.</p>
                 </div>
             </div>
@@ -145,6 +191,97 @@ const ResearchLanding = () => {
                     <div className='col-md-2'></div>
                 </div>
             </div>
+            <div className="text-center mb-4">
+                    <p className="subtitle mb-2">Student Projects Spotlight</p>
+                    <p style={{ fontSize: '16px', marginTop: '20px' }}>Our faculty, representing diverse disciplines, are increasingly integrating data science into their research.</p>
+                </div>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <div className='container mart-top'>
+                <div className='row'>
+                        <div className='col-md-6 mart-top'>
+                            {/* <div class="line mg-bottom-32px"></div> */}
+                            <h2 style={{ lineHeight: '1.182em' }}>Spotify Music Recomendation System using EDA</h2>
+                            <p style={{ textAlign: 'justify', lineHeight: '1.667em', color: '#333333', fontSize: '16px', fontWeight: '400' }}>This system utilizes Spotify song data from 2019 to 2022 to uncover trends in "song popularity" through detailed visualizations, achieved via Exploratory Data Analysis (EDA) to identify pertinent features. By applying K-means clustering, the system groups genres based on their audio characteristics, highlighting genre similarities and enabling nuanced song recommendations. Leveraging SpotiPy, a Python library for accessing Spotify's music library API, the system analyzes users' listening histories to recommend songs with similar audio features, aligning with their preferences. Regular updates with new data ensure the recommendations remain current and relevant.</p>
+                            <br />
+                        </div>
+                    <div className="col-md-1"></div>
+                    <div className='col-md-5'>
+                        <div className='row'>
+                                <img src={ST} className='img-re-class' style={{ marginTop: '60px' }} />
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="carousel-item">
+    <div className='container mart-top'>
+                <div className='row'>
+                        <div className='col-md-6 mart-top'>
+                            <h2 style={{ lineHeight: '1.182em' }}>Analyzing Secondhand Watch Market Data</h2>
+                            <p style={{ textAlign: 'justify', lineHeight: '1.667em', color: '#333333', fontSize: '16px', fontWeight: '400' }}>This project focuses on scraping an e-commerce website for detailed information on secondhand watches from a diverse array of brands. It collects data on various aspects, including age, price point, and general style or purpose. By encompassing a wide range of watch characteristics and categories, the project aims to provide a comprehensive analysis of the secondhand watch market, offering valuable insights into the diversity and trends within this sector.</p>
+                            <br />
+                        </div>
+                    <div className="col-md-1"></div>
+                    <div className='col-md-5'>
+                        <div className='row'>
+                                <img src={WC} className='img-re-class' style={{ marginTop: '60px' }} />
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="carousel-item">
+    {/* <div className="bg-grey mt-4">
+                <div className='container mart-top'>
+                    <div className='row'>
+                        <div className='col-md-7'>
+                            <div className='row'>        
+                                    <img src={ECF} className='img-re-class margin-top-32' />
+                            </div>
+                        </div>
+                        <div className='col-md-5 mart-top'>
+                           
+                                <div class="line mg-bottom-32px"></div>
+                                <h2 style={{ lineHeight: '1.182em' }}>Analyzing Economic Factors Influencing Presidential Reelection </h2>
+                                <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>The primary objective of this project is to identify and analyze the economic factors that influence a president's likelihood of reelection. By examining historical data and various economic indicators, the project aims to uncover patterns and correlations that may impact voter behavior and election outcomes. This comprehensive analysis includes factors such as GDP growth, unemployment rates, inflation, stock market performance, and other relevant economic metrics. The project seeks to provide a deeper understanding of how economic conditions shape the political landscape and affect presidential reelection prospects. Through rigorous data analysis and modeling, it strives to offer valuable insights into the interplay between economics and electoral success.</p>
+                                <br />
+                           
+                        </div>
+                    </div>
+                </div>
+            </div> */}
+            <div className='container mart-top'>
+                <div className='row'>
+                        <div className='col-md-6 mart-top'>
+                            <h2 style={{ lineHeight: '1.182em' }}>Analyzing Economic Factors Influencing Presidential Reelection</h2>
+                            <p style={{ textAlign: 'justify', lineHeight: '1.667em', color: '#333333', fontSize: '16px', fontWeight: '400' }}>The primary objective of this project is to identify and analyze the economic factors that influence a president's likelihood of reelection. By examining historical data and various economic indicators, the project aims to uncover patterns and correlations that may impact voter behavior and election outcomes. This comprehensive analysis includes factors such as GDP growth, unemployment rates, inflation, stock market performance, and other relevant economic metrics. The project seeks to provide a deeper understanding of how economic conditions shape the political landscape and affect presidential reelection prospects. Through rigorous data analysis and modeling, it strives to offer valuable insights into the interplay between economics and electoral success.</p>
+                            <br />
+                        </div>
+                    <div className="col-md-1"></div>
+                    <div className='col-md-5'>
+                        <div className='row'>
+                                <img src={ECF} className='img-re-class' style={{ marginTop: '60px' }} />
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+            
+            
+            
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
                     <Modal.Title></Modal.Title>

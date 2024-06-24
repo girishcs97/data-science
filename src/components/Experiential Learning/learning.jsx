@@ -1,6 +1,8 @@
 import React from 'react';
 import Cover from '../../images/explearning.jpg';
 import Img1 from '../../images/research-1.jpg';
+import ST from '../../images/Spotify.jpeg';
+import WC from '../../images/watch.jpeg';
 import Img2 from '../../images/research-2.jpg';
 import Img3 from '../../images/research-3.jpg';
 import Img4 from '../../images/research-4.jpg';
@@ -8,6 +10,7 @@ import pr5 from '../../images/pr5.jpg';
 import pr6 from '../../images/pr6.jpg';
 import pr7 from '../../images/pr7.jpg';
 import pr8 from '../../images/pr8.jpg';
+import ECF from '../../images/ECF.jpeg';
 import { Fade } from 'react-reveal';
 
 const Learning = () => {
@@ -37,6 +40,47 @@ const Learning = () => {
             <div className="text-center margin-top-40">
                 <p className="subtitle mt-4">Experiential Learning Projects</p>
                 <p style={{ fontSize: '16px', marginTop: '20px' }}>The students in the Data Science undergraduate program have demonstrated exceptional dedication and skill in their projects.</p>
+            </div>
+            <div className="bg-grey mt-4">
+                <div className='container mart-top mb-4'>
+                    <div className='row'>
+                        <div className='col-md-7'>
+                            <div className='row'>
+                                <Fade bottom duration={800}>
+                                    <img src={ST} className='img-re-class margin-top-32' />
+                                </Fade>
+                            </div>
+                        </div>
+                        <div className='col-md-5 mart-top'>
+                            <Fade bottom duration={1000}>
+                                <div class="line mg-bottom-32px"></div>
+                                <h2 style={{ lineHeight: '1.182em' }}>Spotify Music Recomendation System using EDA</h2>
+                                <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#333333', fontSize: '16px', fontWeight: '400' }}>This system utilizes Spotify song data from 2019 to 2022 to uncover trends in "song popularity" through detailed visualizations, achieved via Exploratory Data Analysis (EDA) to identify pertinent features. By applying K-means clustering, the system groups genres based on their audio characteristics, highlighting genre similarities and enabling nuanced song recommendations. Leveraging SpotiPy, a Python library for accessing Spotify's music library API, the system analyzes users' listening histories to recommend songs with similar audio features, aligning with their preferences. Regular updates with new data ensure the recommendations remain current and relevant.</p>
+                                <br />
+                            </Fade>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='container mart-top'>
+                <div className='row'>
+                    <Fade bottom duration={800}>
+                        <div className='col-md-6 mart-top'>
+                            <div class="line mg-bottom-32px"></div>
+                            <h2 style={{ lineHeight: '1.182em' }}>Analyzing Secondhand Watch Market Data</h2>
+                            <p style={{ textAlign: 'justify', lineHeight: '1.667em', color: '#333333', fontSize: '16px', fontWeight: '400' }}>This project focuses on scraping an e-commerce website for detailed information on secondhand watches from a diverse array of brands. It collects data on various aspects, including age, price point, and general style or purpose. By encompassing a wide range of watch characteristics and categories, the project aims to provide a comprehensive analysis of the secondhand watch market, offering valuable insights into the diversity and trends within this sector.</p>
+                            <br />
+                        </div>
+                    </Fade>
+                    <div className="col-md-1"></div>
+                    <div className='col-md-5'>
+                        <div className='row'>
+                            <Fade bottom duration={1000}>
+                                <img src={WC} className='img-re-class' style={{ marginTop: '60px' }} />
+                            </Fade>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className="bg-grey mt-4">
                 <div className='container mart-top mb-4'>
@@ -203,6 +247,28 @@ const Learning = () => {
                         <div className='row'>
                             <Fade bottom duration={1000}>
                                 <img src={pr8} className='img-re-class mt-4' />
+                            </Fade>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="bg-grey mt-4">
+                <div className='container mart-top'>
+                    <div className='row'>
+                        <div className='col-md-7'>
+                            <div className='row'>
+                                <Fade bottom duration={800}>
+                                    <img src={ECF} className='img-re-class margin-top-32' />
+                                </Fade>
+                            </div>
+                        </div>
+                        <div className='col-md-5 mart-top'>
+                            <Fade bottom duration={800}>
+                                <div class="line mg-bottom-32px"></div>
+                                <h2 style={{ lineHeight: '1.182em' }}>Analyzing Economic Factors Influencing Presidential Reelection </h2>
+                                {/* <p><b>by Shuo Niu | Department of Computer Science</b></p> */}
+                                <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>The primary objective of this project is to identify and analyze the economic factors that influence a president's likelihood of reelection. By examining historical data and various economic indicators, the project aims to uncover patterns and correlations that may impact voter behavior and election outcomes. This comprehensive analysis includes factors such as GDP growth, unemployment rates, inflation, stock market performance, and other relevant economic metrics. The project seeks to provide a deeper understanding of how economic conditions shape the political landscape and affect presidential reelection prospects. Through rigorous data analysis and modeling, it strives to offer valuable insights into the interplay between economics and electoral success.</p>
+                                <br />
                             </Fade>
                         </div>
                     </div>
