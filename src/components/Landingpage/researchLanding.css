@@ -176,3 +176,21 @@
     text-decoration: none;
     color: #ddd;
 }
+
+.carousel-control-next,
+.carousel-control-prev
+
+/*, .carousel-indicators */
+    {
+    filter: invert(100%);
+}
+
+@media (min-width:801px) {
+    .carousel-control-next {
+        right: -50px;
+    }
+
+    .carousel-control-prev {
+        left: -50px;
+    }
+}

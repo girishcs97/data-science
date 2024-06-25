@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Cover from '../../images/explearning.jpg';
 import Img1 from '../../images/research-1.jpg';
 import ST from '../../images/Spotify.jpeg';
@@ -14,7 +14,9 @@ import ECF from '../../images/ECF.jpeg';
 import { Fade } from 'react-reveal';
 
 const Learning = () => {
-
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
     return (<>
 
         <div className="container margin-top-20" id='learning'>

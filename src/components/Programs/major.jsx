@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import CardDesign from '../CardView/cardview';
 import Biology from "../../images/biology.png";
 import T2 from "../../images/Track2.png";
@@ -11,7 +11,7 @@ import T8 from "../../images/Track8.png";
 import T9 from "../../images/Track9.png";
 import T10 from "../../images/Track10.png";
 import T11 from "../../images/Track11.png";
-import ADA from "../../images/ADA.jpg";
+import ADA from "../../images/ADA.png";
 import MFDS from "../../images/MFDS.png";
 import IC from "../../images/IC.jpg";
 import SC from "../../images/SC.png";
@@ -37,6 +37,10 @@ const Major = () => {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const handleAccClose = () => setAShow(false);
   const handleAccShow = () => setAShow(true);

@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import ADA from "../../images/ADA.jpg";
+import React, { useEffect, useState } from "react";
+import ADA from "../../images/ADA.png";
 import MFDS from "../../images/MFDS.png";
 import IC from "../../images/IC.jpg";
 import SC from "../../images/SC.png";
@@ -31,6 +31,10 @@ const Major = () => {
 
   const handleAccClose = () => setAShow(false);
   const handleAccShow = () => setAShow(true);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const handleAccData = () => {
     if (atype === "BIO") {
