@@ -14,7 +14,7 @@ import T11 from "../../images/Track11.png";
 import ADA from "../../images/ADA.png";
 import MFDS from "../../images/MFDS.png";
 import IC from "../../images/IC.jpg";
-import SC from "../../images/SC.png";
+import SC from "../../images/SC.jpg";
 import AML from "../../images/AML.jpg";
 import ADLE from "../../images/ADLE.jpg";
 import DS from "../../images/DS.jpg";
@@ -3117,7 +3117,7 @@ const Major = () => {
     } else if (type == "IC") {
       return (
         <>
-          <h5>CSCI 120 - Introduction to Computing</h5>
+          <h5>CSCI 120/CSCI 124 - Introduction to Computing</h5>
           <p>
             Develops computational problem-solving skills through programming,
             and exposes students to a variety of other topics from computer
@@ -3540,10 +3540,10 @@ const Major = () => {
             }} />
           </div>
         </div>
-        <div className="row mb-4"><h4>Computer Science Core courses</h4></div>
+        <div className="row mb-4"><h4>Computer Science Foundational courses</h4></div>
         <div className="row">
           <div className="col-md-4">
-            <CardDesign pop={true} title={'CSCI 120 - Introduction to Computing'} content={' Introduction to Computing is a foundational course designed to develop computational problem-solving skills through programming while introducing students to various essential topics in computer science.'} image={HCI} onhandleClick={() => {
+            <CardDesign pop={true} title={'CSCI 120/CSCI 124 - Introduction to Computing'} content={' Introduction to Computing is a foundational course designed to develop computational problem-solving skills through programming while introducing students to various essential topics in computer science.'} image={HCI} onhandleClick={() => {
               setType("IC");
               handleShow();
             }} />
@@ -3554,14 +3554,14 @@ const Major = () => {
               handleShow();
             }} />
           </div>
-          <div className="col-md-4">
+          {/* <div className="col-md-4">
             <CardDesign pop={false} title={'CSCI 124 - Honors Introduction to Computing'} content={'Honors Introduction to Computing is an accelerated course that provides a comprehensive introduction to computing and its diverse applications.'} image={IC} onhandleClick={() => {
               setType("IC");
               handleShow();
             }} />
-          </div>
+          </div> */}
         </div>
-        <div className="row mb-4"><h4>Mathematics Core courses</h4></div>
+        <div className="row mb-4"><h4>Mathematics Foundational courses</h4></div>
         <div className="row">
           <div className="col-md-4">
             <CardDesign pop={true} title={'MATH 120/MATH 124  (Calculus I)'} content={'Calculus I is often the first course in a standard calculus sequence and typically covers topics such as limits,derivatives, and integrals. It is a foundational course for understanding calculus.'} image={MI} onhandleClick={() => {
@@ -3632,7 +3632,7 @@ const Major = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Prof. Javier
+                Prof. Javier Restrepo
               </a>
             </div>
           </div>
@@ -3661,7 +3661,7 @@ const Major = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Prof. Charles
+                Prof. Charles Jakobsche
               </a>
             </div>
           </div>
@@ -3723,7 +3723,7 @@ const Major = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Prof. Edouard
+                Prof. Edouard Wemy
               </a>
             </div>
           </div>
@@ -3753,7 +3753,7 @@ const Major = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Prof. Christopher</a>
+                Prof. Christopher Williams</a>
             </div>
           </div>
           <div class="tpn_card">
@@ -3780,7 +3780,7 @@ const Major = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Prof. Elliot
+                Prof. Elliot Epstein
               </a>
             </div>
           </div>
@@ -3812,7 +3812,7 @@ const Major = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Prof. Lyndon
+                Prof. Lyndon Estes
               </a>
             </div>
           </div>
@@ -3841,7 +3841,7 @@ const Major = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Prof. Hamidreza
+                Prof. Hamidreza Dolatsara
               </a>
             </div>
           </div>
@@ -3870,7 +3870,7 @@ const Major = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Prof. Michael
+                Prof. Michael Satz
               </a>
             </div>
           </div>
@@ -3903,7 +3903,7 @@ const Major = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Prof. Barbara
+                Prof. Barbara Sansone
               </a>
             </div>
           </div>
@@ -3928,7 +3928,7 @@ const Major = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Prof. Andrew
+                Prof. Andrew Stewart
               </a>
             </div>
           </div>
@@ -3952,12 +3952,12 @@ const Major = () => {
                 Explore
               </a>
               <a
-                href="#"
+                href="https://www.clarku.edu/faculty/profiles/li-han/"
                 class="faculty-link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Primary Faculty Contact
+                Prof. Li Han
               </a>
             </div>
           </div>

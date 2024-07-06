@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './researchLanding.css';
-import SC from "../../images/SC.png";
+import SC from "../../images/SC.jpg";
 import SN from "../../images/niu's project.png";
 import ADA from "../../images/ADA.png";
 import Bio from '../../images/picBiology.jpg'
@@ -204,7 +204,7 @@ const ResearchLanding = () => {
                                     <div class="projcard-textbox">
                                         <div class="projcard-title">Research in Geography</div>
                                         <div class="projcard-bar"></div>
-                                        <div class="projcard-description">Professor Lyndon Estes at Clark University focuses on the drivers and impacts of agricultural change in sub-Saharan Africa. His research employs advanced Earth observation technologies and modeling techniques to improve agricultural mapping and sustainability. He leads projects that aim to address food security, analyze farming practices, and develop high-resolution maps of cropland using machine learning and satellite imaging. Estes' work is crucial in understanding how agriculture in Africa is influenced by and adapts to climate change.  Refer to <a href="https://www.clarku.edu/departments/geography/research/faculty-research/">faculty research page</a> for more information.
+                                        <div class="projcard-description">Professor Lyndon Estes at Clark University focuses on the drivers and impacts of agricultural change in sub-Saharan Africa. His research employs advanced Earth observation technologies and modeling techniques to improve agricultural mapping and sustainability. He leads projects that aim to address food security, analyze farming practices, and develop high-resolution maps of cropland using machine learning and satellite imaging. Estes' work is crucial in understanding how agriculture in Africa is influenced by and adapts to climate change.  Refer to <a href="https://www.researchgate.net/profile/Lyndon-Estes">Professor Lyndon Estes research page</a> for more information.
                                         </div>
                                     </div>
                                 </div>
@@ -250,7 +250,7 @@ const ResearchLanding = () => {
             <div className='container margin-top-40' id={'programs-page'}>
                 <div className="text-center mb-4">
                     <p className="subtitle mb-2">Fall 2024 Course Spotlight</p>
-                    <p style={{ fontSize: '16px', marginTop: '20px' }}>Explore the latest advancements and essential skills in data science through our comprehensive and hands-on course spotlight.</p>
+                    <p style={{ fontSize: '16px', marginTop: '20px' }}>Learn the latest advancements and essential skills in data science through our comprehensive and hands-on courses.</p>
                 </div>
             </div>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">

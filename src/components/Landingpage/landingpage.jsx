@@ -37,8 +37,8 @@ const LandingPage = (props) => {
                                     <h3 class="features__title">
                                         <a href="">UnderGraduate Programs</a>
                                     </h3>
-                                    <p style={{ fontSize: '14px' }}>Pathways for diverse academic and career pursuits.</p>
-                                    <a class="link-btn" href="/program">Learn More
+                                    <p style={{ fontSize: '14px' }}>Pathways for diverse academic and career pursuits.<br/><br/></p>
+                                    <a class="link-btn" onClick={() => { history("/program") }}>Learn More
                                     </a>
                                 </div>
                             </div>
@@ -51,7 +51,8 @@ const LandingPage = (props) => {
                                     <h3 class="features__title">
                                         <a href="">Research</a>
                                     </h3>
-                                    <p style={{ fontSize: '14px' }}>Matching skills with industry demands and aspirations.</p>
+                                    <p style={{ fontSize: '14px' }}>
+                                    Our faculty, representing diverse disciplines, are increasingly integrating data science into their research.</p>
                                     <a class="link-btn" onClick={() => { history("/research") }}>Learn More
                                     </a>
                                 </div>
@@ -64,8 +65,8 @@ const LandingPage = (props) => {
                                 <div class="features__content">
                                     <h3 class="features__title">
                                         <a href='' >Opportunities and Services</a>
-                                    </h3><p style={{ fontSize: '14px' }}>Matching skills with industry demands and aspirations.</p>
-                                    <a class="link-btn" onClick={() => { history("/career") }}>Learn More
+                                    </h3><p style={{ fontSize: '14px' }}>Explore a range of opportunities tailored to enhance your learning experience.<br/><br/></p>
+                                    <a class="link-btn" onClick={() => { history("/opportunities") }}>Learn More
                                     </a></div>
                             </div>
                         </div>

@@ -17,7 +17,7 @@ const Program = () => {
         <div className='container margin-top-40' id={'programs-page'}>
             <div className="text-center mb-4">
                 <p className="subtitle mb-2">Undergraduate Program</p>
-                <p style={{ fontSize: '16px', marginTop: '20px' }}>Our Data Science Program offers 11 tracks of study: Computer Science, Economics, Geography/GIS, Management, Biology, Biochemistry, Environmental Science, Game Design, Psychology, Mathematics and General Electives.</p>
+                <p style={{ fontSize: '16px', marginTop: '20px' }}>Our Data Science Program offers 11 tracks of study: Biology, Business, Chemistry, Computer Science, Economics, Environmental Science, Geography/GIS, Interactive Media, Mathematics, Physics, Psychology.</p>
             </div>
             <div className='row margin-top-40'>
                 <Fade bottom duration={800}>
