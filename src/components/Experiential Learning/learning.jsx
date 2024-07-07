@@ -10,7 +10,7 @@ import pr5 from '../../images/pr5.jpg';
 import pr6 from '../../images/pr6.jpg';
 import pr7 from '../../images/pr7.jpg';
 import pr8 from '../../images/pr8.jpg';
-import ECF from '../../images/ECF.jpeg';
+import ECF from '../../images/ECF.jpg';
 import { Fade } from 'react-reveal';
 
 const Learning = () => {
