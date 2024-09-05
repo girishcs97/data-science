@@ -62,9 +62,8 @@ const Faculty = () => {
         </div>
         <div className="col-md-7">
           <p className="display-p">
-            Explore our diverse and talented faculty and staff who are committed
-            to excellence in teaching, research, and student support. Meet the
-            individuals who bring expertise, passion, and innovation to our
+            Our diverse and talented faculty and staff are committed
+            to excellence in teaching, research, and student support. They bring expertise, passion, and innovation to our
             university community, shaping the future of education and discovery.
           </p>
         </div>
@@ -938,29 +937,6 @@ const Faculty = () => {
               <div class="text-uppercase mt-2">
                 Associate Professor, Mathematics <br /> Co-Department Chair,
                 Mathematics
-              </div>
-            </div>
-
-            
-            <div className="col-md-3 margin-bottom-35">
-              <div className="img-wrapper">
-                <img src={Fac29} className="image-cover" />
-              </div>
-              <h6
-                className="mt-4 prof-name"
-                onClick={() =>
-                  openInNewTab(
-                    "https://www.clarku.edu/faculty/profiles/gideon-bahir-maschler/"
-                  )
-                }
-              >
-                Gideon Maschler, Ph.D.
-              </h6>
-              <div class="line size-52px grow"></div>
-              <div class="text-uppercase mt-2">
-                Professor, Mathematics
-                <br />
-                Co-Department Chair, Mathematics
               </div>
             </div>
             <h2 className="margin-bottom-35">Physics</h2>

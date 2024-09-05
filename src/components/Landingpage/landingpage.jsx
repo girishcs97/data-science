@@ -17,7 +17,7 @@ const LandingPage = (props) => {
                                         <h1 style={{ fontSize: '50px', fontWeight: '400', lineHeight: '1.098em',marginTop:'15px' }}>
                                             Welcome to <br />Data Science Program
                                         </h1>
-                                        <p>Today’s increasingly digital world supplies an endless stream of information and data. Clark’s Data Science Program will equip you with the necessary skills to analyze information and harness data — in virtually any discipline. From mathematics to economics, you’ll learn to think with a critical mind and identify trends to inform sound decisions.</p>
+                                        <p>In today’s rapidly evolving digital landscape, data is generated at an unprecedented rate. Clark’s interdisciplinary program in  Data Science prepares students with the essential skills to work with data across a wide range of disciplines. Through the program, students will develop critical thinking abilities and the expertise to o tackle real-world challenges and make a positive societal impact. Our faculty integrate data science into their research and teaching, advancing the frontiers of a variety of disciplines and ensuring a dynamic, practical learning experience.</p>
                                     </div>
                                 </Fade>
                             </div>
@@ -37,7 +37,7 @@ const LandingPage = (props) => {
                                     <h3 class="features__title">
                                         <a href="">UnderGraduate Programs</a>
                                     </h3>
-                                    <p style={{ fontSize: '14px' }}>Pathways for diverse academic and career pursuits.<br/><br/></p>
+                                    <p style={{ fontSize: '14px' }}>We provide flexible pathways for academic and career pursuits.<br/><br/></p>
                                     <a class="link-btn" onClick={() => { history("/program") }}>Learn More
                                     </a>
                                 </div>
@@ -52,7 +52,7 @@ const LandingPage = (props) => {
                                         <a href="">Research</a>
                                     </h3>
                                     <p style={{ fontSize: '14px' }}>
-                                    Our faculty, representing diverse disciplines, are increasingly integrating data science into their research.</p>
+                                    Our faculty from diverse disciplines are increasingly integrating data science into their research.</p>
                                     <a class="link-btn" onClick={() => { history("/research") }}>Learn More
                                     </a>
                                 </div>
@@ -65,7 +65,7 @@ const LandingPage = (props) => {
                                 <div class="features__content">
                                     <h3 class="features__title">
                                         <a href='' >Opportunities and Services</a>
-                                    </h3><p style={{ fontSize: '14px' }}>Explore a range of opportunities tailored to enhance your learning experience.<br/><br/></p>
+                                    </h3><p style={{ fontSize: '14px' }}>We offer a variety of supports and activities to enhance student experiences and outcomes.<br/><br/></p>
                                     <a class="link-btn" onClick={() => { history("/opportunities") }}>Learn More
                                     </a></div>
                             </div>

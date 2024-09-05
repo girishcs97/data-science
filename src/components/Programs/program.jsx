@@ -17,7 +17,7 @@ const Program = () => {
         <div className='container margin-top-40' id={'programs-page'}>
             <div className="text-center mb-4">
                 <p className="subtitle mb-2">Undergraduate Program</p>
-                <p style={{ fontSize: '16px', marginTop: '20px' }}>Our Data Science Program offers 11 tracks of study: Biology, Business, Chemistry, Computer Science, Economics, Environmental Science, Geography/GIS, Interactive Media, Mathematics, Physics, Psychology.</p>
+                <p style={{ fontSize: '16px', marginTop: '20px' }}>Data Science is an exciting and rapidly growing field that intersects with nearly every discipline, offering valuable tools that contribute to advancements across society. At Clark, we recognize students' diverse interests in data science and offer a suite of programs and courses to meet those needs. Whether students are interested in majoring in data science or pursuing another field while integrating data science into their studies and careers, our program provides a place for them. With a high demand for graduates with data science skills, students benefit from flexible pathways and engaging courses, allowing them to customize their data science journey to align with their passions and career goals.</p>
             </div>
             <div className='row margin-top-40'>
                 <Fade bottom duration={800}>
@@ -26,9 +26,7 @@ const Program = () => {
                             <img class="card-img-top p-4" src={Major} alt="Card image cap" />
                             <div class="card-body">
                                 <h5 class="card-con-">Major</h5>
-                                <p class="card-bod text-justify">Our data science major includes 8 units of core requirements coursework and 6 units of electives. Each
-                                    student must choose one of 11 tracks and at least four courses from the track, including at
-                                    least one at the 200-level, as part of their electives.</p>
+                                <p class="card-bod text-justify">Our interdisciplinary major includes core courses that cover general data science knowledge, skills, and tools, along with specialized tracks to help students develop domain expertise. We currently offer 11 tracks, including STEM disciplines, business, economics, environmental science, game design, geography, and psychology, with more tracks under development.</p>
                                 <div class="divider mg---32px"></div>
                                 <div className='d-flex justify-content-between'>
                                     <div className='d-flex flex-column' style={{ 'cursor': 'pointer' }} onClick={() => { history("/major") }}>
@@ -49,8 +47,8 @@ const Program = () => {
                         <div class="card shadow-02" style={{ "width": "18rem;" }}>
                             <img class="card-img-top" src={Minor} alt="Card image cap" />
                             <div class="card-body">
-                                <h5 class="card-con-">Minor and Concentrations</h5>
-                                <p class="card-bod">Our Data Science minor offers fundamental skills in extracting insights from data and blending data science with its applications. Enhance quantitative aspects of diverse disciplines with applicable knowledge and Research</p>
+                                <h5 class="card-con-">Minor and Concentrations (i.e. Interdisciplinary Minors)</h5>
+                                <p class="card-bod">These programs provide essential data science knowledge and skills, complementing other majors and enhancing students' ability to work with data and information across various disciplines.</p>
                                 <div class="divider mg---32px"></div>
                                 <div className='d-flex justify-content-between'>
                                     <div className='d-flex flex-column' style={{ 'cursor': 'pointer' }} onClick={() => { history("/minor") }}>
@@ -72,7 +70,7 @@ const Program = () => {
                             <img class="card-img-top" src={ExpLearn} alt="Card image cap" style={{maxHeight:'280px'}}/>
                             <div class="card-body">
                                 <h5 class="card-con-">Experiential Learning</h5>
-                                <p class="card-bod"> Our experiential learning opportunities provide hands-on experience in real-world settings. Engage in internships, co-ops, research projects, and community service to apply your knowledge and skills in practical environments.</p>
+                                <p class="card-bod"> Students gain hands-on experience through courses and a variety of projects, such as faculty-guided research, community partnerships, and self-designed initiatives.</p>
                                 <div class="divider mg---32px"></div>
                                 <div className='d-flex justify-content-between'>
                                     <div className='d-flex flex-column' style={{ 'cursor': 'pointer' }} onClick={() => { history("/explearning") }}>

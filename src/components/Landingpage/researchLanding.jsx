@@ -192,7 +192,7 @@ const ResearchLanding = () => {
             <div className='container margin-top-40' id={'programs-page'}>
                 <div className="text-center mb-4">
                     <p className="subtitle mb-2">Faculty Research Spotlight</p>
-                    <p style={{ fontSize: '16px', marginTop: '20px' }}>Our faculty, representing diverse disciplines, are increasingly integrating data science into their research.</p>
+                    <p style={{ fontSize: '16px', marginTop: '20px' }}>Our faculty from diverse disciplines are increasingly incorporating data science into their research, making significant impacts through their innovative work.</p>
                 </div>
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 
@@ -292,12 +292,12 @@ const ResearchLanding = () => {
                                         handleShow();
                                     }} />
                                 </div>
-                                <div className="col-md-4">
+                                {/* <div className="col-md-4">
                                     <CardDesign pop={true} title={'MATH 113 - Sports Analytics'} content={`Math 113 introduces Sports Analytics, focusing on the NBA and MLB, with additional topics on marathon running and women's tennis. Students will use advanced statistics and R software to build models for data-driven evaluations and predictions, with final projects on any sport of their choice.`} image={MSA} onhandleClick={() => {
                                         setType("MSA");
                                         handleShow();
                                     }} />
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

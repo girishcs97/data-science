@@ -184,7 +184,7 @@ const Learning = () => {
                             <Fade bottom duration={1000}>
                                 <div class="line mg-bottom-32px"></div>
                                 <h2 style={{ lineHeight: '1.182em' }}>2023 Worcester railers teamshot breakdown</h2>
-                                <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Will Setnik, a member of the Class of 2026, is majoring in Music and Data Science. For his project, he interned with the Worcester Railers, where he collected weekly data on the team's most recent games. He calculated advanced team statistics and player-specific statistics based on their positions.</p>
+                                <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Will S, a member of the Class of 2026, is majoring in Music and Data Science. For his project, he interned with the Worcester Railers, where he collected weekly data on the team's most recent games. He calculated advanced team statistics and player-specific statistics based on their positions.</p>
                                 <br />
                             </Fade>
                         </div>
