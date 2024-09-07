@@ -1,5 +1,6 @@
 import React from "react";
 import './research.css'
+import Fac from '../../images/transform.jpg';
 import Bio from '../../images/picBiology.jpg'
 import Img1 from '../../images/Business.jpg';
 import Img2 from '../../images/smcity.jpg';
@@ -30,18 +31,18 @@ const Research = () => {
                         <p className="display-1">Faculty Research</p>
                     </div>
                     <div className='col-md-7'>
-                        <p className="display-p">Our faculty, representing diverse disciplines, are increasingly integrating data science into their research. Some have applied data science methods and developed data analytics tools to enhance their work, while others are still learning data science and exploring potential approaches, contributing to an evolving research environment. Many research groups provide opportunities for undergraduate and graduate students, enriching their learning experiences and broadening their perspectives.</p>
+                        <p className="display-p">Our faculty from diverse disciplines are increasingly integrating data science into their research. Some have applied data science methods and developed data analytics tools to enhance their work, while others are still learning data science and exploring potential approaches, contributing to an evolving research environment. Many research groups provide opportunities for undergraduate and graduate students, enriching their learning experiences and broadening their perspectives.</p>
                     </div>
                 </Fade>
             </div>
             <div className="margin-top-20">
                 <Fade right duration={800}>
-                    <img src={research} className="image-cov" />
+                    <img src={Fac} className="image-cov" />
                 </Fade>
             </div>
-            <div className="container opp-content">
+            {/* <div className="container opp-content">
                 Welcome to Clark Research: Pioneering Discoveries, Shaping Tomorrow. As leaders in scientific exploration and innovation, we are dedicated to pushing the boundaries of knowledge and driving positive change in the world. Explore our website to learn more about our groundbreaking research projects and the talented team behind them.
-            </div>
+            </div> */}
             <div className='container mart-top mb-4'>
             <h2 style={{ lineHeight: '1.182em' }}>Biology</h2>
                 <div className='row'>

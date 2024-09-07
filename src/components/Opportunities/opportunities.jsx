@@ -35,7 +35,7 @@ const Opportunities = () => {
                     <p className="display-1">Opportunities & Services</p>
                 </div>
                 <div className='col-md-7'>
-                    <p className="display-p">Clark University’s data science program offers diverse opportunities for students, including on-campus employment, participation in student clubs, attendance at conferences, and study abroad programs.</p>
+                    <p className="display-p">Clark University offers diverse opportunities for students, including on-campus employment, participation in student clubs, attendance at conferences, and study abroad programs.</p>
                 </div>
                 </Fade>
             </div>
@@ -44,9 +44,9 @@ const Opportunities = () => {
                 <img src={OCE} className="image-cov" alt="Custom"/>
             </Fade>
             </div>
-            <div className="container opp-content">
+            {/* <div className="container opp-content">
                 Welcome to Clark University’s esteemed Data Science program, offering a plethora of enriching opportunities for aspiring data scientists. Through our comprehensive curriculum and dedicated faculty, you’ll delve into cutting-edge research. Engage in on-campus employment, contributing to practical projects that enhance your skills. Participate in Data Science student clubs, fostering collaborative learning and networking with peers.
-            </div>
+            </div> */}
             <div className='container mart-top'>
                 <div className='row'>
                     <div className='col-md-7'>
@@ -76,7 +76,7 @@ const Opportunities = () => {
                     <div class="line mg-bottom-32px"></div>
                     <Fade bottom duration={1000}>
                         <h2 style={{ lineHeight: '1.182em' }}>Student Clubs</h2>
-                        <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#333333', fontSize: '16px', fontWeight: '400' }}>Clark University’s student clubs are vibrant, active, and resourceful, offering a welcoming environment for students to get involved. Joining these clubs allows students to forge meaningful friendships, build a sense of community, and engage in various enriching activities and events.</p>
+                        <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#333333', fontSize: '16px', fontWeight: '400' }}>Clark University’s student clubs, including a new data science club called <strong>DSCO - Data Science COllaborative</strong>, are vibrant, active, and resourceful, offering a welcoming environment for students to get involved. Joining these clubs allows students to forge meaningful friendships, build a sense of community, and engage in various enriching activities and event.</p>
                         <br />
                         <div className='d-flex flex-row'>
                             <button className="btn btn-outline-danger custom-btn" onClick={() => openInNewTab('https://www.clarku.edu/life-at-clark/student-clubs-and-organizations/')}>STUDENT CLUBS AND ORGANIZATION</button>
