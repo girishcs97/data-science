@@ -8,7 +8,7 @@ const StudentSpotlight = () => {
         <>
             <div className="text-center mb-4">
                 <p className="subtitle mb-2">Student Projects Spotlight</p>
-                <p style={{ fontSize: '16px', marginTop: '20px' }}>Highlighting innovative student projects that showcase creativity, technical skill, and real-world impact.</p>
+                <p style={{ fontSize: '16px', marginTop: '20px' }}>Highlighting innovative student projects that showcase creativity, technical skill, and real-world impact. </p>
             </div>
             <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">

@@ -194,7 +194,7 @@ const ResearchLanding = () => {
                     <p className="subtitle mb-2">Faculty Research Spotlight</p>
                     <p style={{ fontSize: '16px', marginTop: '20px' }}>Our faculty from diverse disciplines are increasingly incorporating data science into their research, making significant impacts through their innovative work.</p>
                 </div>
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="10000">
 
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -253,7 +253,7 @@ const ResearchLanding = () => {
                     <p style={{ fontSize: '16px', marginTop: '20px' }}>Learn the latest advancements and essential skills in data science through our comprehensive and hands-on courses.</p>
                 </div>
             </div>
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="10000">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -280,6 +280,7 @@ const ResearchLanding = () => {
                                         handleShow();
                                     }} />
                                 </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -292,12 +293,18 @@ const ResearchLanding = () => {
                                         handleShow();
                                     }} />
                                 </div>
-                                {/* <div className="col-md-4">
-                                    <CardDesign pop={true} title={'MATH 113 - Sports Analytics'} content={`Math 113 introduces Sports Analytics, focusing on the NBA and MLB, with additional topics on marathon running and women's tennis. Students will use advanced statistics and R software to build models for data-driven evaluations and predictions, with final projects on any sport of their choice.`} image={MSA} onhandleClick={() => {
-                                        setType("MSA");
+                                <div className="col-md-4">
+                                    <CardDesign pop={true} title={'GEOG 213 Advanced Geospatial Analytics with Python'} content={'This course introduces the principles of open-source software for science and developing reproducible workflows in Python. It focuses on geospatial data analytics, visualization, and accessing geospatial data from various portals, including cloud data stores.'} image={SC} onhandleClick={() => {
+                                        setType("");
                                         handleShow();
                                     }} />
-                                </div> */}
+                                </div>
+                                <div className="col-md-4">
+                                    <CardDesign pop={true} title={'GAME 265 Artificial Intelligence for Games'} content={'This course offers an overview of artificial intelligence, with a focus on its applications in electronic gaming. Students will develop logic grids for intelligent agents and explore key concepts like learning, communication, cognition, and the Turing test.'} image={SC} onhandleClick={() => {
+                                        setType("");
+                                        handleShow();
+                                    }} />
+                                </div>
                             </div>
                         </div>
                     </div>

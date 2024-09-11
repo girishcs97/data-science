@@ -11,6 +11,7 @@ import pr6 from '../../images/pr6.jpg';
 import pr7 from '../../images/pr7.jpg';
 import pr8 from '../../images/pr8.jpg';
 import ECF from '../../images/ECF.jpg';
+import SW from '../../images/stormwater.jpeg';
 import { Fade } from 'react-reveal';
 
 const Learning = () => {
@@ -26,7 +27,7 @@ const Learning = () => {
                         <p className="display-1">Experiential Learning</p>
                     </div>
                     <div className='col-md-7'>
-                        <p className="display-p">Clark University places a strong emphasis on experiential learning, integrating hands-on experiences with academic coursework to enhance student learning and personal development. Through the Liberal Education and Effective Practice (LEEP) program, students are prepared for successful lives and careers by combining rigorous liberal arts education with real-world engagement.</p>
+                        <p className="display-p">Clark University values experiential learning and offers diverse opportunities for students to develop and apply hands-on skills through coursework, faculty-guided research, community service projects, self-designed initiatives,  competitions, and more. Data Science students have gained and demonstrated strong skills through these projects, and this page highlights some of their work.</p>
                     </div>
                 </Fade>
             </div>
@@ -35,13 +36,33 @@ const Learning = () => {
                     <img src={Cover} className="image-cov" alt="Custom" />
                 </Fade>
             </div>
-            <div className="container opp-content">
+            {/* <div className="container opp-content">
                 Clark encourages community engagement and supports undergraduate research through faculty-led and student-led projects. Capstone projects in many academic programs allow students to integrate their learning into comprehensive, real-world applications. Study abroad and domestic study away programs immerse students in diverse cultural and professional environments, while the Clark Entrepreneurship Initiative and related courses foster innovation and entrepreneurial skills. These experiential learning initiatives ensure that Clark students graduate with the practical skills and experiences necessary to thrive in their careers and as active citizens.
             </div>
 
             <div className="text-center margin-top-40">
                 <p className="subtitle mt-4">Experiential Learning Projects</p>
                 <p style={{ fontSize: '16px', marginTop: '20px' }}>The students in the Data Science undergraduate program have demonstrated exceptional dedication and skill in their projects.</p>
+            </div> */}
+            <div className='container mart-top'>
+                <div className='row'>
+                    <Fade bottom duration={800}>
+                        <div className='col-md-6 mart-top'>
+                            <div class="line mg-bottom-32px"></div>
+                            <h2 style={{ lineHeight: '1.182em' }}>Modeling Stormwater at Clark University</h2>
+                            <p style={{ textAlign: 'justify', lineHeight: '1.667em', color: '#333333', fontSize: '16px', fontWeight: '400' }}>Winning the top award in Spring 2024 Clackathon, this project uses a LiDAR point map of Clark University from the US Geological Survey to simulate rainwater through a simple algorithm. Random points are chosen in the selected area, and a rainwater stream is simulated. This process is repeated thousands of times, and the resulting streams are compiled into a two-dimensional map showing the overall trend of rainwater flow on campus. This map can then be used to show choke points in water flow, analyze potential stormwater pollutants entering city drains, and display the efficiency of existing campus infrastructure to manage stormwater.</p>
+                            <br />
+                        </div>
+                    </Fade>
+                    <div className="col-md-1"></div>
+                    <div className='col-md-5'>
+                        <div className='row'>
+                            <Fade bottom duration={1000}>
+                                <img src={SW} className='img-re-class' style={{ marginTop: '60px' }} />
+                            </Fade>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className="bg-grey mt-4">
                 <div className='container mart-top mb-4'>
@@ -184,7 +205,7 @@ const Learning = () => {
                             <Fade bottom duration={1000}>
                                 <div class="line mg-bottom-32px"></div>
                                 <h2 style={{ lineHeight: '1.182em' }}>2023 Worcester railers teamshot breakdown</h2>
-                                <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Will S, a member of the Class of 2026, is majoring in Music and Data Science. For his project, he interned with the Worcester Railers, where he collected weekly data on the team's most recent games. He calculated advanced team statistics and player-specific statistics based on their positions.</p>
+                                <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Will, a member of the Class of 2026, is majoring in Music and Data Science. For his project, he interned with the Worcester Railers, where he collected weekly data on the team's most recent games. He calculated advanced team statistics and player-specific statistics based on their positions.</p>
                                 <br />
                             </Fade>
                         </div>
@@ -197,7 +218,7 @@ const Learning = () => {
                         <div className='col-md-6 mart-top'>
                             <div class="line mg-bottom-32px"></div>
                             <h2 style={{ lineHeight: '1.182em' }}>What Makes an NBA All-Star? </h2>
-                            <p style={{ textAlign: 'justify', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Jake Bernstein, a member of the Class of 2026 majoring in French and Data Science, conducted a project titled "What Makes an NBA All-Star?" In this project, Jake analyzed various traditional and advanced statistics to determine the selection factors for the 2022 NBA All-Star game. He explored questions such as what type of good play leads to selection and whether factors beyond good play influence the selection process</p>
+                            <p style={{ textAlign: 'justify', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Jake, a member of the Class of 2026 majoring in French and Data Science, conducted a project titled "What Makes an NBA All-Star?" In this project, Jake analyzed various traditional and advanced statistics to determine the selection factors for the 2022 NBA All-Star game. He explored questions such as what type of good play leads to selection and whether factors beyond good play influence the selection process</p>
                             <br />
                         </div>
                     </Fade>
@@ -226,7 +247,7 @@ const Learning = () => {
                                 <div class="line mg-bottom-32px"></div>
                                 <h2 style={{ lineHeight: '1.182em' }}>Predicting March Madness Success from Regular Season Statistics </h2>
                                 {/* <p><b>by Shuo Niu | Department of Computer Science</b></p> */}
-                                <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Daniel Neau, a member of the Class of 2027 majoring in Geography, embarked on a project titled "Predicting March Madness Success from Regular Season Statistics." His project focused on bracket prediction strategy, where he developed an ordinal regression model to forecast tournament success based on regular season statistics. Daniel's work aimed to enhance predictive accuracy and strategic decision-making in predicting outcomes during March Madness.</p>
+                                <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Daniel, a member of the Class of 2027 majoring in Geography, embarked on a project titled "Predicting March Madness Success from Regular Season Statistics." His project focused on bracket prediction strategy, where he developed an ordinal regression model to forecast tournament success based on regular season statistics. Daniel's work aimed to enhance predictive accuracy and strategic decision-making in predicting outcomes during March Madness.</p>
                                 <br />
                             </Fade>
                         </div>
@@ -240,7 +261,7 @@ const Learning = () => {
                             <div class="line mg-bottom-32px"></div>
                             <h2 style={{ lineHeight: '1.182em' }}>A Relationship between betting Money Lines and Fouls in the NBA</h2>
                             {/* <p><b>by Junfu Zhang | Department of Economics</b></p> */}
-                            <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Ye Sun, a Psychology major from the Class of 2024, conducted a project titled "A Relationship between Betting Money Lines and Fouls in the NBA." In his research, Ye identified a significant correlation between money lines, win probabilities, and fouls drawn and committed specifically for the 2023 Lakers. The study utilized a standardized delta for fouls drawn minus fouls committed on the vertical axis, and a standardized difference between the money lines' implied win probabilities and actual win probabilities (estimated through ESPN simulations) on the horizontal axis. This analysis aimed to uncover insights into how betting odds and in-game fouls are interconnected, offering implications for sports analytics and betting strategies in basketball.</p>
+                            <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#4b5b70', fontSize: '16px', fontWeight: '400' }}>Ye, a Psychology major from the Class of 2024, conducted a project titled "A Relationship between Betting Money Lines and Fouls in the NBA." In his research, Ye identified a significant correlation between money lines, win probabilities, and fouls drawn and committed specifically for the 2023 Lakers. The study utilized a standardized delta for fouls drawn minus fouls committed on the vertical axis, and a standardized difference between the money lines' implied win probabilities and actual win probabilities (estimated through ESPN simulations) on the horizontal axis. This analysis aimed to uncover insights into how betting odds and in-game fouls are interconnected, offering implications for sports analytics and betting strategies in basketball.</p>
                             <br />
                         </div>
                     </Fade>

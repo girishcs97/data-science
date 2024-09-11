@@ -9,10 +9,7 @@ import { Fade } from 'react-reveal';
 
 const Program = () => {
     const history = useNavigate();
-    const openInNewTab = (url) => {
-        const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
-        if (newWindow) newWindow.opener = null
-    }
+   
     return (
         <div className='container margin-top-40' id={'programs-page'}>
             <div className="text-center mb-4">
@@ -48,7 +45,7 @@ const Program = () => {
                             <img class="card-img-top" src={Minor} alt="Card image cap" />
                             <div class="card-body">
                                 <h5 class="card-con-">Minor and Concentrations (i.e. Interdisciplinary Minors)</h5>
-                                <p class="card-bod">These programs provide essential data science knowledge and skills, complementing other majors and enhancing students' ability to work with data and information across various disciplines.</p>
+                                <p class="card-bod">These programs provide essential data science knowledge and skills, complementing other majors and enhancing students' ability to work with data and information across various disciplines.<br/><br/><br/></p>
                                 <div class="divider mg---32px"></div>
                                 <div className='d-flex justify-content-between'>
                                     <div className='d-flex flex-column' style={{ 'cursor': 'pointer' }} onClick={() => { history("/minor") }}>
@@ -70,7 +67,7 @@ const Program = () => {
                             <img class="card-img-top" src={ExpLearn} alt="Card image cap" style={{maxHeight:'280px'}}/>
                             <div class="card-body">
                                 <h5 class="card-con-">Experiential Learning</h5>
-                                <p class="card-bod"> Students gain hands-on experience through courses and a variety of projects, such as faculty-guided research, community partnerships, and self-designed initiatives.</p>
+                                <p class="card-bod"> Students gain hands-on experience through courses and a variety of projects, such as faculty-guided research, community partnerships, and self-designed initiatives.<br/><br/><br/><br/><br/></p>
                                 <div class="divider mg---32px"></div>
                                 <div className='d-flex justify-content-between'>
                                     <div className='d-flex flex-column' style={{ 'cursor': 'pointer' }} onClick={() => { history("/explearning") }}>
@@ -91,4 +88,5 @@ const Program = () => {
         </div>
     )
 }
+
 export default Program

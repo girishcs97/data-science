@@ -153,7 +153,7 @@ const Faculty = () => {
               <div class="text-uppercase mt-2">
                 
                 Assistant Professor, <br />
-                School of Business
+                Business
               </div>
             </div>
             <div className="col-md-3 margin-bottom-35">
@@ -258,7 +258,7 @@ const Faculty = () => {
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
                 
-                Visiting Professor, Interactive Media
+              Assistant Teaching Professor, BECKER SCHOOL OF DESIGN/TECH
               </div>
             </div>
  <div className="col-md-3 margin-bottom-35">
@@ -371,7 +371,7 @@ const Faculty = () => {
                 <em>Primary Contact</em>
                 <br />
                 Assistant Professor, <br />
-                School of Business
+                Business
               </div>
             </div>
             <div className="col-md-3 margin-bottom-35">
@@ -390,7 +390,7 @@ const Faculty = () => {
               </h6>
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
-                Associate Professor, School of Business
+                Associate Professor, Business
               </div>
             </div>
             <div className="col-md-3 margin-bottom-35">
@@ -409,7 +409,7 @@ const Faculty = () => {
               </h6>
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
-                Associate Professor, School of Business
+                Associate Professor, Business
               </div>
             </div>
             <div className="col-md-3 margin-bottom-35">
@@ -428,7 +428,7 @@ const Faculty = () => {
               </h6>
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
-                Professor, School of Business
+                Professor, Business
               </div>
             </div>
             
@@ -568,7 +568,7 @@ const Faculty = () => {
               </h6>
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
-                Visiting Lecturer, Computer Science
+              Visiting Assistant Teaching Professor, Computer Science
               </div>
             </div>
            
@@ -632,8 +632,6 @@ const Faculty = () => {
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
                 Professor, Economics
-                <br />
-                Department Chair, Economics
               </div>
             </div>
             <h2 className="margin-bottom-35">Environmental Science</h2>
@@ -815,7 +813,7 @@ const Faculty = () => {
               <div class="text-uppercase mt-2">
                 <em>Primary Contact</em>
                 <br />
-                Visiting Professor, Interactive Media
+                Assistant Teaching Professor, BECKER SCHOOL OF DESIGN/TECH
               </div>
             </div>
             <div className="col-md-3 margin-bottom-35">
@@ -854,8 +852,7 @@ const Faculty = () => {
               </h6>
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
-                Associate Professor,
-                <br /> Computer Science
+              Professor of Practice, BECKER SCHOOL OF DESIGN/TECH
               </div>
             </div>
             <h2 className="margin-bottom-35">Mathematics</h2>
@@ -935,8 +932,7 @@ const Faculty = () => {
               </h6>
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
-                Associate Professor, Mathematics <br /> Co-Department Chair,
-                Mathematics
+                Associate Professor, Mathematics
               </div>
             </div>
             <h2 className="margin-bottom-35">Physics</h2>
@@ -1086,7 +1082,7 @@ const Faculty = () => {
     </div>
     <h6 className='mt-4 prof-name' onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/mary-ellen-boyle/')}>Mary-Ellen Boyle</h6>
     <div class="line size-52px grow"></div>
-    <div class="text-uppercase mt-2">Associate Professor, School of Business <br /> Associate Provost for Special Projects</div>
+    <div class="text-uppercase mt-2">Associate Professor, Business <br /> Associate Provost for Special Projects</div>
 </div>
 
 
@@ -1119,7 +1115,7 @@ const Faculty = () => {
     </div>
     <h6 className='mt-4 prof-name' onClick={() => openInNewTab('https://www.clarku.edu/faculty/profiles/thomas-murphy/')}>Tom Murphy</h6>
     <div class="line size-52px grow"></div>
-    <div class="text-uppercase mt-2">Associate Professor of Practice, School of Business</div>
+    <div class="text-uppercase mt-2">Associate Professor of Practice, Business</div>
 </div>
 
 <div className='col-md-3 margin-bottom-35'>
