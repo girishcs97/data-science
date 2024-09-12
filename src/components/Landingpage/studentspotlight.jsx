@@ -1,5 +1,6 @@
 import React from 'react';
 import ECF from '../../images/ECF.jpeg';
+import SM from '../../images/SM.jpg'
 import ST from '../../images/Spotify.jpeg';
 import WC from '../../images/watch.jpeg';
 
@@ -10,14 +11,31 @@ const StudentSpotlight = () => {
                 <p className="subtitle mb-2">Student Projects Spotlight</p>
                 <p style={{ fontSize: '16px', marginTop: '20px' }}>Highlighting innovative student projects that showcase creativity, technical skill, and real-world impact. </p>
             </div>
-            <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" data-interval="10000">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+                <div class="carousel-item active">
+                        <div className='container mart-top'>
+                            <div className='row'>
+                                <div className='col-md-6 mart-top'>
+                                    <h2 style={{ lineHeight: '1.182em' }}>Modeling Stormwater at Clark University</h2>
+                                    <p style={{ textAlign: 'justify', lineHeight: '1.667em', color: '#333333', fontSize: '16px', fontWeight: '400' }}>Winning the top award in Spring 2024 Clackathon, this project uses a LiDAR point map of Clark University from the US Geological Survey to simulate rainwater through a simple algorithm. Random points are chosen in the selected area, and a rainwater stream is simulated. This process is repeated thousands of times, and the resulting streams are compiled into a two-dimensional map showing the overall trend of rainwater flow on campus. This map can then be used to show choke points in water flow, analyze potential stormwater pollutants entering city drains, and display the efficiency of existing campus infrastructure to manage stormwater.</p>
+                                    <br />
+                                </div>
+                                <div className="col-md-1"></div>
+                                <div className='col-md-5'>
+                                    <div className='row'>
+                                        <img src={SM} className='img-re-class' style={{ marginTop: '60px' }} />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
                         <div className='container mart-top'>
                             <div className='row'>
                                 <div className='col-md-6 mart-top'>
@@ -52,7 +70,6 @@ const StudentSpotlight = () => {
                         </div>
                     </div>
                     <div class="carousel-item">
-
                         <div className='container mart-top'>
                             <div className='row'>
                                 <div className='col-md-6 mart-top'>
@@ -69,6 +86,7 @@ const StudentSpotlight = () => {
                             </div>
                         </div>
                     </div>
+
                     <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>

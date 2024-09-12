@@ -17,7 +17,7 @@ const LandingPage = (props) => {
                                         <h1 style={{ fontSize: '50px', fontWeight: '400', lineHeight: '1.098em',marginTop:'15px' }}>
                                             Welcome to <br />Data Science Program
                                         </h1>
-                                        <p>In today’s rapidly evolving digital landscape, data is generated at an unprecedented rate. Clark’s interdisciplinary program in  Data Science prepares students with the essential skills to work with data across a wide range of disciplines. Through the program, students will develop critical thinking abilities and the expertise to o tackle real-world challenges and make a positive societal impact. Our faculty integrate data science into their research and teaching, advancing the frontiers of a variety of disciplines and ensuring a dynamic, practical learning experience.</p>
+                                        <p>In today’s rapidly evolving digital landscape, data is generated at an unprecedented rate. Clark’s interdisciplinary program in  Data Science prepares students with the essential skills to work with data across a wide range of disciplines. Through the program, students will develop critical thinking abilities and the expertise to tackle real-world challenges and make a positive societal impact. Our faculty integrate data science into their research and teaching, advancing the frontiers of a variety of disciplines and ensuring a dynamic, practical learning experience.</p>
                                     </div>
                                 </Fade>
                             </div>

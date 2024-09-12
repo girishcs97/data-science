@@ -43,7 +43,7 @@ const Program = () => {
                     <div className='col-md-4 mb-4'>
                         <div class="card shadow-02" style={{ "width": "18rem;" }}>
                             <img class="card-img-top" src={Minor} alt="Card image cap" />
-                            <div class="card-body">
+                            <div class="card-body" style={{marginTop:'19px'}}>
                                 <h5 class="card-con-">Minor and Concentrations (i.e. Interdisciplinary Minors)</h5>
                                 <p class="card-bod">These programs provide essential data science knowledge and skills, complementing other majors and enhancing students' ability to work with data and information across various disciplines.<br/><br/><br/></p>
                                 <div class="divider mg---32px"></div>

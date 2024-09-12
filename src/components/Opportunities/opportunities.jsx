@@ -76,7 +76,7 @@ const Opportunities = () => {
                     <div class="line mg-bottom-32px"></div>
                     <Fade bottom duration={1000}>
                         <h2 style={{ lineHeight: '1.182em' }}>Student Clubs</h2>
-                        <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#333333', fontSize: '16px', fontWeight: '400' }}>Clark University’s student clubs, including a new data science club called <strong>DSCO - Data Science COllaborative</strong>, are vibrant, active, and resourceful, offering a welcoming environment for students to get involved. Joining these clubs allows students to forge meaningful friendships, build a sense of community, and engage in various enriching activities and event.</p>
+                        <p style={{ textAlign: 'justify', marginTop: '20px', lineHeight: '1.667em', color: '#333333', fontSize: '16px', fontWeight: '400' }}>Clark University’s student clubs, including a new data science club called <strong><a href="https://www.instagram.com/clarku.datascience/" target="_blank">DSCO - Data Science COllaborative</a></strong>, are vibrant, active, and resourceful, offering a welcoming environment for students to get involved. Joining these clubs allows students to forge meaningful friendships, build a sense of community, and engage in various enriching activities and event.</p>
                         <br />
                         <div className='d-flex flex-row'>
                             <button className="btn btn-outline-danger custom-btn" onClick={() => openInNewTab('https://www.clarku.edu/life-at-clark/student-clubs-and-organizations/')}>STUDENT CLUBS AND ORGANIZATION</button>

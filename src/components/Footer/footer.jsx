@@ -45,7 +45,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="col-md-3 mb-3 mt-4">
-                        <h5 className="follow-u ml-4">Follow Us</h5>
+                        {/* <h5 className="follow-u ml-4">Follow Us</h5>
                         <div className="social-icons text-center">
                             <a href="#" className="text-white"><i className="fa fa-facebook icon-dsgn"></i></a>
                             <a href="#" className="text-white"><i className="fa fa-twitter icon-dsgn"></i></a>
@@ -53,7 +53,7 @@ const Footer = () => {
                             <a href="#" className="text-white"><i className="fa fa-tiktok icon-dsgn"></i></a>
                             <a href="#" className="text-white"><i className="fa fa-youtube icon-dsgn"></i></a>
                             <a href="#" className="text-white"><i className="fa fa-linkedin icon-dsgn"></i></a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

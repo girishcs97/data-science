@@ -11,7 +11,7 @@ import pr6 from '../../images/pr6.jpg';
 import pr7 from '../../images/pr7.jpg';
 import pr8 from '../../images/pr8.jpg';
 import ECF from '../../images/ECF.jpg';
-import SW from '../../images/stormwater.jpeg';
+import SW from '../../images/SM.jpg';
 import { Fade } from 'react-reveal';
 
 const Learning = () => {

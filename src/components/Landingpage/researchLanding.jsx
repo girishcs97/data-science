@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './researchLanding.css';
-import SC from "../../images/SC.jpg";
+import AI from "../../images/AI.png";
+import GS from "../../images/Geospatial.jpg";
+import SC from '../../images/SC.jpg'
 import SN from "../../images/niu's project.png";
 import ADA from "../../images/ADA.png";
 import Bio from '../../images/picBiology.jpg'
@@ -275,7 +277,7 @@ const ResearchLanding = () => {
                                     }} />
                                 </div>
                                 <div className="col-md-4">
-                                    <CardDesign pop={true} title={'DSCI 216 - Stochastic Computing'} content={' Stochastic Computing focuses on addressing the uncertainty inherent in data science and computer science through a combination of problem analysis, theoretical development, and prototype creation.'} image={SC} onhandleClick={() => {
+                                    <CardDesign pop={true} title={'DSCI 216 - Stochastic Computing'} content={'Stochastic Computing focuses on addressing the uncertainty inherent in data science and computer science through a combination of problem analysis, theoretical development, and prototype creation.'} image={SC} onhandleClick={() => {
                                         setType("SC");
                                         handleShow();
                                     }} />
@@ -294,13 +296,13 @@ const ResearchLanding = () => {
                                     }} />
                                 </div>
                                 <div className="col-md-4">
-                                    <CardDesign pop={true} title={'GEOG 213 Advanced Geospatial Analytics with Python'} content={'This course introduces the principles of open-source software for science and developing reproducible workflows in Python. It focuses on geospatial data analytics, visualization, and accessing geospatial data from various portals, including cloud data stores.'} image={SC} onhandleClick={() => {
+                                    <CardDesign pop={true} title={'GEOG 213 Advanced Geospatial Analytics with Python'} content={'This course introduces the principles of open-source software for science and developing reproducible workflows in Python. It focuses on geospatial data analytics, visualization, and accessing geospatial data from various portals, including cloud data stores.'} image={GS} onhandleClick={() => {
                                         setType("");
                                         handleShow();
                                     }} />
                                 </div>
                                 <div className="col-md-4">
-                                    <CardDesign pop={true} title={'GAME 265 Artificial Intelligence for Games'} content={'This course offers an overview of artificial intelligence, with a focus on its applications in electronic gaming. Students will develop logic grids for intelligent agents and explore key concepts like learning, communication, cognition, and the Turing test.'} image={SC} onhandleClick={() => {
+                                    <CardDesign pop={true} title={'GAME 265 Artificial Intelligence for Games'} content={'This course offers an overview of artificial intelligence, with a focus on its applications in electronic gaming. Students will develop logic grids for intelligent agents and explore key concepts like learning, communication, cognition, and the Turing test.'} image={AI} onhandleClick={() => {
                                         setType("");
                                         handleShow();
                                     }} />
