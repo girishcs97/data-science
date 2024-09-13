@@ -19,7 +19,7 @@ import Img5 from '../../images/environmental-science.png';
 import evs from '../../images/evs1.jpg';
 import Img6 from '../../images/Geography.jpg';
 import Img7 from '../../images/Interactive-Media.jpg';
-import Img8 from '../../images/Mathematics.jpg';
+import Img8 from '../../images/sports analytics.jpg';
 import psy from '../../images/psy.jpeg';
 import research from '../../images/Research.jpg';
 import Fade from "react-reveal/Fade";
