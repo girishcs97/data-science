@@ -932,7 +932,7 @@ const Faculty = () => {
               </h6>
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
-                Associate Professor, Mathematics
+                Professor, Mathematics
               </div>
             </div>
             <h2 className="margin-bottom-35">Physics</h2>

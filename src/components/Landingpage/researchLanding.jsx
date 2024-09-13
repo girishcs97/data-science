@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './researchLanding.css';
 import AI from "../../images/AI.png";
+import Estes from '../../images/estes.jpeg';
 import GS from "../../images/Geospatial.jpg";
 import SC from '../../images/SC.jpg'
 import SN from "../../images/niu's project.png";
@@ -202,11 +203,11 @@ const ResearchLanding = () => {
                         <div class="carousel-item active">
                             <div class="projcard projcard-blue">
                                 <div class="projcard-innerbox">
-                                    <img class="projcard-img" src={Geo} />
+                                    <img class="projcard-img" src={Estes} />
                                     <div class="projcard-textbox">
                                         <div class="projcard-title">Research in Geography</div>
                                         <div class="projcard-bar"></div>
-                                        <div class="projcard-description">Professor Lyndon Estes at Clark University focuses on the drivers and impacts of agricultural change in sub-Saharan Africa. His research employs advanced Earth observation technologies and modeling techniques to improve agricultural mapping and sustainability. He leads projects that aim to address food security, analyze farming practices, and develop high-resolution maps of cropland using machine learning and satellite imaging. Estes' work is crucial in understanding how agriculture in Africa is influenced by and adapts to climate change.  Refer to <a href="https://www.researchgate.net/profile/Lyndon-Estes">Professor Lyndon Estes research page</a> for more information.
+                                        <div class="projcard-description">Professor Lyndon Estes at Clark University focuses on the drivers and impacts of agricultural change in sub-Saharan Africa. His research employs advanced Earth observation technologies and modeling techniques to improve agricultural mapping and sustainability. He leads projects that aim to address food security, analyze farming practices, and develop high-resolution maps of cropland using machine learning and satellite imaging. Estes' work is crucial in understanding how agriculture in Africa is influenced by and adapts to climate change.  Refer to <a href="https://agroimpacts.info/">Professor Estes's webpage</a> for more information.
                                         </div>
                                     </div>
                                 </div>
@@ -219,7 +220,7 @@ const ResearchLanding = () => {
                                     <div class="projcard-textbox">
                                         <div class="projcard-title">Research in Computer Science</div>
                                         <div class="projcard-bar"></div>
-                                        <div class="projcard-description">Dr. Shuo Niu is an Assistant Professor of Computer Science at Clark University. He earned his Ph.D. in Computer Science from Virginia Tech, and his research focuses on human-computer interaction and social computing. His work explores collaborative and community activities in online environments, with a particular interest in video-sharing platforms and the dynamics of user interaction within these spaces.  Refer to <a href="https://mathcs.clarku.edu/~shniu/">Prof. Shuo Niu's personal page</a> for more information.
+                                        <div class="projcard-description">Dr. Shuo Niu is an Assistant Professor of Computer Science at Clark University. He earned his Ph.D. in Computer Science from Virginia Tech, and his research focuses on human-computer interaction and social computing. His work explores collaborative and community activities in online environments, with a particular interest in video-sharing platforms and the dynamics of user interaction within these spaces.  Refer to <a href="https://mathcs.clarku.edu/~shniu/">Prof. Niu's webpage </a> for more information.
                                         </div>
                                     </div>
                                 </div>
@@ -232,7 +233,7 @@ const ResearchLanding = () => {
                                     <div class="projcard-textbox">
                                         <div class="projcard-title">Research in Biology</div>
                                         <div class="projcard-bar"></div>
-                                        <div class="projcard-description">Professor Javier Tabima’s research integrates tools and concepts from evolutionary theory, computational biology, genomics, genetics, and plant pathology/mycology. His work focuses on the study of fungal evolution and the development of computational and molecular tools for rapid species identification, population genetics, and the detection of genes of interest. One notable paper connecting to data science is Poppr: an R package for genetic analysis of populations with clonal, partially clonal, and/or sexual reproduction.  Refer to <a href="https://tabima-lab.netlify.app/">Prof. Tabima’s lab page</a> for more information.
+                                        <div class="projcard-description">Professor Javier Tabima’s research integrates tools and concepts from evolutionary theory, computational biology, genomics, genetics, and plant pathology/mycology. His work focuses on the study of fungal evolution and the development of computational and molecular tools for rapid species identification, population genetics, and the detection of genes of interest. One notable paper connecting to data science is Poppr: an R package for genetic analysis of populations with clonal, partially clonal, and/or sexual reproduction.  Refer to <a href="https://tabima-lab.netlify.app/">Prof. Tabima’s webpage</a> for more information.
                                         </div>
                                     </div>
                                 </div>
