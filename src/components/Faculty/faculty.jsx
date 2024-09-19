@@ -43,6 +43,8 @@ import Fac42 from "../../images/Catalin Veghes.jpeg";
 import Fac43 from "../../images/Zhenyang-Tang.jpg";
 import Fac44 from "../../images/Jing-Zhang.jpg";
 import Fac45 from "../../images/Junfu-Zhang.jpg";
+import imgFang from "../../images/imgFang.png";
+import imgSamani from "../../images/imgSamani.jpeg";
 import Shuo from "../../images/Shuo.png";
 import Agosta from "../../images/Agosta.png";
 import Fade from "react-reveal/Fade";
@@ -131,7 +133,7 @@ const Faculty = () => {
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
                 
-                Associate Professor, <br />
+                Assistant Professor, <br />
                 Biology
               </div>
             </div>
@@ -346,7 +348,7 @@ const Faculty = () => {
               <div class="text-uppercase mt-2">
                 <em>Primary Contact</em>
                 <br />
-                Associate Professor, <br />
+                Assistant Professor, <br />
                 Biology
               </div>
             </div>
@@ -374,7 +376,7 @@ const Faculty = () => {
                 Business
               </div>
             </div>
-            <div className="col-md-3 margin-bottom-35">
+            {/* <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
                 <img src={Fac39} className="image-cover" />
               </div>
@@ -391,6 +393,25 @@ const Faculty = () => {
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
                 Associate Professor, Business
+              </div>
+            </div> */}
+            <div className="col-md-3 margin-bottom-35">
+              <div className="img-wrapper">
+                <img src={imgFang} className="image-cover" />
+              </div>
+              <h6
+                className="mt-4 prof-name"
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.clarku.edu/faculty/profiles/jin-fang/"
+                  )
+                }
+              >
+                Jin Fang, Ph.D.
+              </h6>
+              <div class="line size-52px grow"></div>
+              <div class="text-uppercase mt-2">
+                Assistant Professor, Business
               </div>
             </div>
             <div className="col-md-3 margin-bottom-35">
@@ -848,7 +869,7 @@ const Faculty = () => {
                   )
                 }
               >
-                Terrasa Ulm, M.F.A.
+              Ulm, M.F.A.
               </h6>
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
@@ -933,6 +954,25 @@ const Faculty = () => {
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">
                 Professor, Mathematics
+              </div>
+            </div>
+            <div className="col-md-3 margin-bottom-35">
+              <div className="img-wrapper">
+                <img src={imgSamani} className="image-cover" />
+              </div>
+              <h6
+                className="mt-4 prof-name"
+                onClick={() =>
+                  openInNewTab(
+                    "https://www.clarku.edu/faculty/profiles/elahe-khalili-samani/"
+                  )
+                }
+              >
+                Elahe Khalili Samani, Ph.D.
+              </h6>
+              <div class="line size-52px grow"></div>
+              <div class="text-uppercase mt-2">
+                Assistant Professor, Mathematics
               </div>
             </div>
             <h2 className="margin-bottom-35">Physics</h2>
