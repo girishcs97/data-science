@@ -179,13 +179,13 @@ const UGProgram = () => {
                         <tbody>
                             <tr>
                                 <td>Data Science</td>
-                                <td>Become a professional with Data Science</td>
+                                <td>Become a Data professional with Data Science</td>
                                 <td>Data Science Major</td>
                             </tr>
                             <tr>
                                 <td>Another Field</td>
                                 <td>Incorporate data science into the main field</td>
-                                <td>Data Science Major<br/>
+                                <td>Data Science Minor<br/>
                                     Business Data Analytics<br/>
                                     Geospatial Data Analytics<br/>
                                     New Concentrations under development

@@ -329,7 +329,7 @@ const Faculty = () => {
 
 
             <h1 className="margin-bottom-35">Program Faculty</h1>
-            <h2 className="margin-bottom-35">Biology</h2>
+            <h2 className="margin-bottom-35">Biology Track</h2>
             <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
                 <img src={Fac2} className="image-cover" />
@@ -353,7 +353,7 @@ const Faculty = () => {
               </div>
             </div>
 
-            <h2 className="margin-bottom-35">Business</h2>
+            <h2 className="margin-bottom-35">Business Track</h2>
             <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
                 <img src={Fac8} className="image-cover" />
@@ -453,7 +453,7 @@ const Faculty = () => {
               </div>
             </div>
             
-            <h2 className="margin-bottom-35">Chemistry</h2>
+            <h2 className="margin-bottom-35">Chemistry Track</h2>
             <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
                 <img src={Fac3} className="image-cover" />
@@ -493,7 +493,7 @@ const Faculty = () => {
               <div class="line size-52px grow"></div>
               <div class="text-uppercase mt-2">Professor, Chemistry</div>
             </div>
-            <h2 className="margin-bottom-35">Computer Science</h2>
+            <h2 className="margin-bottom-35">Computer Science Track</h2>
             <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
                 <img src={Fac1} className="image-cover" />
@@ -596,7 +596,7 @@ const Faculty = () => {
             
             
 
-            <h2 className="margin-bottom-35">Economics</h2>
+            <h2 className="margin-bottom-35">Economics Track</h2>
             <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
                 <img src={Fac4} className="image-cover" />
@@ -655,7 +655,7 @@ const Faculty = () => {
                 Professor, Economics
               </div>
             </div>
-            <h2 className="margin-bottom-35">Environmental Science</h2>
+            <h2 className="margin-bottom-35">Environmental Science Track</h2>
             <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
                 <img src={Fac5} className="image-cover" />
@@ -699,7 +699,7 @@ const Faculty = () => {
                 <br /> Social Justice
               </div>
             </div>
-            <h2 className="margin-bottom-35">Geography</h2>
+            <h2 className="margin-bottom-35">Geography Track</h2>
             <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
                 <img src={Fac7} className="image-cover" />
@@ -815,7 +815,7 @@ const Faculty = () => {
               </div>
             </div>
             
-            <h2 className="margin-bottom-35">Interactive Media</h2>
+            <h2 className="margin-bottom-35">Game Design/Production Track</h2>
             <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
                 <img src={Fac19} className="image-cover" />
@@ -876,7 +876,7 @@ const Faculty = () => {
               Professor of Practice, BECKER SCHOOL OF DESIGN/TECH
               </div>
             </div>
-            <h2 className="margin-bottom-35">Mathematics</h2>
+            <h2 className="margin-bottom-35">Mathematics Track</h2>
             <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
                 <img src={Fac9} className="image-cover" />
@@ -975,7 +975,7 @@ const Faculty = () => {
                 Assistant Professor, Mathematics
               </div>
             </div>
-            <h2 className="margin-bottom-35">Physics</h2>
+            <h2 className="margin-bottom-35">Physics Track</h2>
             <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
                 <img src={Fac10} className="image-cover" />
@@ -1092,7 +1092,7 @@ const Faculty = () => {
               </div>
             </div>
 
-            <h2 className="margin-bottom-35">Psychology</h2>
+            <h2 className="margin-bottom-35">Psychology Track</h2>
             <div className="col-md-3 margin-bottom-35">
               <div className="img-wrapper">
                 <img src={Fac11} className="image-cover" />
