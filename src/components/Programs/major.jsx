@@ -3502,19 +3502,19 @@ const Major = () => {
         <div className="row mb-4"><h4>Data Science Core courses</h4></div>
         <div className="row">
           <div className="col-md-4">
-            <CardDesign pop={true} title={'DS105 - Applied Data Analytics'} content={'An investigation into the fundamental techniques and practices of data analysis, this course focuses on applying tools and techniques to practical problems of analysis, visualization, and discovery.'} image={ADA} onhandleClick={() => {
+            <CardDesign title={'DS105 - Applied Data Analytics'} content={'An investigation into the fundamental techniques and practices of data analysis, this course focuses on applying tools and techniques to practical problems of analysis, visualization, and discovery.'} image={ADA} onhandleClick={() => {
               setType("ADA");
               handleShow();
             }} />
           </div>
           <div className="col-md-4">
-            <CardDesign pop={false} title={'DSCI 122 - Mathematical Foundations of Data Science'} content={'This course provides an introduction to the key mathematical principles underlying data science. The course focuses on linear algebra, probability, statistics, and calculus, as these areas are crucial for understanding.'} image={MFDS} onhandleClick={() => {
+            <CardDesign title={'DSCI 122 - Mathematical Foundations of Data Science'} content={'This course provides an introduction to the key mathematical principles underlying data science. The course focuses on linear algebra, probability, statistics, and calculus, as these areas are crucial for understanding.'} image={MFDS} onhandleClick={() => {
               setType("MFDS");
               handleShow();
             }} />
           </div>
           <div className="col-md-4">
-            <CardDesign pop={false} title={'DSCI 125 - Introduction to Data Science'} content={'This course provides foundational knowledge in statistical and computational concepts essential for data-centered computing and its applications.'} image={IDS} onhandleClick={() => {
+            <CardDesign title={'DSCI 125 - Introduction to Data Science'} content={'This course provides foundational knowledge in statistical and computational concepts essential for data-centered computing and its applications.'} image={IDS} onhandleClick={() => {
               setType("IDS");
               handleShow();
             }} />
@@ -3522,19 +3522,19 @@ const Major = () => {
         </div>
         <div className="row">
           <div className="col-md-4">
-            <CardDesign pop={false} title={'DSCI 215 - Applying Deep Learning to Earth Observation'} content={' Applying Deep Learning to Earth Observation delves into the application of deep learning techniques to analyze and interpret data from Earth observation systems.'} image={ADLE} onhandleClick={() => {
+            <CardDesign title={'DSCI 215 - Applying Deep Learning to Earth Observation'} content={' Applying Deep Learning to Earth Observation delves into the application of deep learning techniques to analyze and interpret data from Earth observation systems.'} image={ADLE} onhandleClick={() => {
               setType("ADL");
               handleShow();
             }} />
           </div>
           <div className="col-md-4">
-            <CardDesign pop={true} title={'DSCI 216 - Stochastic Computing'} content={'Stochastic Computing focuses on addressing the uncertainty inherent in data science and computer science through a combination of problem analysis, theoretical development, and prototype creation.'} image={SC} onhandleClick={() => {
+            <CardDesign title={'DSCI 216 - Stochastic Computing'} content={'Stochastic Computing focuses on addressing the uncertainty inherent in data science and computer science through a combination of problem analysis, theoretical development, and prototype creation.'} image={SC} onhandleClick={() => {
               setType("SC");
               handleShow();
             }} />
           </div>
           <div className="col-md-4">
-            <CardDesign pop={false} title={'DSCI 225 - Applied Machine Learning'} content={' Applied Machine Learning explores the fundamental techniques and practices of machine learning through a series of lectures, lab sessions, programming projects, and written assignments.'} image={AML} onhandleClick={() => {
+            <CardDesign title={'DSCI 225 - Applied Machine Learning'} content={' Applied Machine Learning explores the fundamental techniques and practices of machine learning through a series of lectures, lab sessions, programming projects, and written assignments.'} image={AML} onhandleClick={() => {
               setType("AML");
               handleShow();
             }} />
@@ -3543,13 +3543,13 @@ const Major = () => {
         <div className="row mb-4"><h4>Computer Science Foundational courses</h4></div>
         <div className="row">
           <div className="col-md-4">
-            <CardDesign pop={true} title={'CSCI 120/CSCI 124 - Introduction to Computing'} content={' Introduction to Computing is a foundational course designed to develop computational problem-solving skills through programming while introducing students to various essential topics in computer science.'} image={HCI} onhandleClick={() => {
+            <CardDesign title={'CSCI 120/CSCI 124 - Introduction to Computing'} content={' Introduction to Computing is a foundational course designed to develop computational problem-solving skills through programming while introducing students to various essential topics in computer science.'} image={HCI} onhandleClick={() => {
               setType("IC");
               handleShow();
             }} />
           </div>
           <div className="col-md-4">
-            <CardDesign pop={false} title={'CSCI 121 - Data Structures'} content={'Data Structures provides a comprehensive introduction to the fundamental data structures used in computer science. The course covers a range of data structures including arrays, linked lists, stacks, queues, trees, and graphs.'} image={DS} onhandleClick={() => {
+            <CardDesign title={'CSCI 121 - Data Structures'} content={'Data Structures provides a comprehensive introduction to the fundamental data structures used in computer science. The course covers a range of data structures including arrays, linked lists, stacks, queues, trees, and graphs.'} image={DS} onhandleClick={() => {
               setType("DSA");
               handleShow();
             }} />
@@ -3564,13 +3564,13 @@ const Major = () => {
         <div className="row mb-4"><h4>Mathematics Foundational courses</h4></div>
         <div className="row">
           <div className="col-md-4">
-            <CardDesign pop={true} title={'MATH 120/MATH 124  (Calculus I)'} content={'Calculus I is often the first course in a standard calculus sequence and typically covers topics such as limits,derivatives, and integrals. It is a foundational course for understanding calculus.'} image={MI} onhandleClick={() => {
+            <CardDesign title={'MATH 120/MATH 124  (Calculus I)'} content={'Calculus I is often the first course in a standard calculus sequence and typically covers topics such as limits,derivatives, and integrals. It is a foundational course for understanding calculus.'} image={MI} onhandleClick={() => {
               setType("MI");
               handleShow();
             }} />
           </div>
           <div className="col-md-4">
-            <CardDesign pop={false} title={'MATH 121/MATH 125 (Calculus II)'} content={'Calculus II, typically referred to as MATH 121, is the second course in a standard calculus sequence. It builds upon the concepts introduced in Calculus I, such as limits, derivatives, and integrals, and dives deeper into their applications and extensions.'} image={MII} onhandleClick={() => {
+            <CardDesign title={'MATH 121/MATH 125 (Calculus II)'} content={'Calculus II, typically referred to as MATH 121, is the second course in a standard calculus sequence. It builds upon the concepts introduced in Calculus I, such as limits, derivatives, and integrals, and dives deeper into their applications and extensions.'} image={MII} onhandleClick={() => {
               setType("MII");
               handleShow();
             }} />

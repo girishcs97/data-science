@@ -1,11 +1,11 @@
 .prof-logo {
-    height: 68px;
+    height: 135px;
     object-fit: cover;
     border-radius: 50%;
     margin-bottom: 20px;
     transform: scale(1);
     transition: transform .3s;
-    width: 68px;
+    width: 145px;
     -webkit-transition: transform .3s;
 }
 .subtitle {

@@ -252,7 +252,7 @@ const ResearchLanding = () => {
             </div>
             <div className='container margin-top-40' id={'programs-page'}>
                 <div className="text-center mb-4">
-                    <p className="subtitle mb-2">Fall 2024 Course Spotlight</p>
+                    <p className="subtitle mb-2">Fall 2025 Course Spotlight</p>
                     <p style={{ fontSize: '16px', marginTop: '20px' }}>Learn the latest advancements and essential skills in data science through our comprehensive and hands-on courses.</p>
                 </div>
             </div>
@@ -266,19 +266,19 @@ const ResearchLanding = () => {
                         <div className="container my-5">
                             <div className="row">
                                 <div className="col-md-4">
-                                    <CardDesign pop={true} title={'DS105 - Applied Data Analytics'} content={'An investigation into the fundamental techniques and practices of data analysis, this course focuses on applying tools and techniques to practical problems of analysis, visualization, and discovery.'} image={ADA} onhandleClick={() => {
+                                    <CardDesign title={'DS105 - Applied Data Analytics'} content={'An investigation into the fundamental techniques and practices of data analysis, this course focuses on applying tools and techniques to practical problems of analysis, visualization, and discovery.'} image={ADA} onhandleClick={() => {
                                         setType("ADA");
                                         handleShow();
                                     }} />
                                 </div>
                                 <div className="col-md-4">
-                                    <CardDesign pop={true} title={'DSCI 122 - Mathematical Foundations of Data Science'} content={'This course provides an introduction to the key mathematical principles underlying data science. The course focuses on linear algebra, probability, statistics, and calculus, as these areas are crucial for understanding.'} image={MFDS} onhandleClick={() => {
+                                    <CardDesign title={'DSCI 122 - Mathematical Foundations of Data Science'} content={'This course provides an introduction to the key mathematical principles underlying data science. The course focuses on linear algebra, probability, statistics, and calculus, as these areas are crucial for understanding.'} image={MFDS} onhandleClick={() => {
                                         setType("MFDS");
                                         handleShow();
                                     }} />
                                 </div>
                                 <div className="col-md-4">
-                                    <CardDesign pop={true} title={'DSCI 216 - Stochastic Computing'} content={'Stochastic Computing focuses on addressing the uncertainty inherent in data science and computer science through a combination of problem analysis, theoretical development, and prototype creation.'} image={SC} onhandleClick={() => {
+                                    <CardDesign title={'DSCI 216 - Stochastic Computing'} content={'Stochastic Computing focuses on addressing the uncertainty inherent in data science and computer science through a combination of problem analysis, theoretical development, and prototype creation.'} image={SC} onhandleClick={() => {
                                         setType("SC");
                                         handleShow();
                                     }} />
@@ -291,19 +291,19 @@ const ResearchLanding = () => {
                         <div className="container my-5">
                             <div className="row">
                                 <div className="col-md-4">
-                                    <CardDesign pop={true} title={'DSCI 103 - Data, Computing and Society'} content={'This course introduces students to the Data Science process, including posing questions, gathering data, developing analyses, and making data-informed decisions, while exploring entry-level computational tools. It also addresses privacy, bias, and ethics, aiming to showcase diverse domain applications.'} image={DCS} onhandleClick={() => {
+                                    <CardDesign title={'CSCI 268 Internet of Things'} content={'This course introduces students to the Data Science process, including posing questions, gathering data, developing analyses, and making data-informed decisions, while exploring entry-level computational tools. It also addresses privacy, bias, and ethics, aiming to showcase diverse domain applications.'} image={DCS} onhandleClick={() => {
                                         setType("DCS");
                                         handleShow();
                                     }} />
                                 </div>
                                 <div className="col-md-4">
-                                    <CardDesign pop={true} title={'GEOG 213 Advanced Geospatial Analytics with Python'} content={'This course introduces the principles of open-source software for science and developing reproducible workflows in Python. It focuses on geospatial data analytics, visualization, and accessing geospatial data from various portals, including cloud data stores.'} image={GS} onhandleClick={() => {
+                                    <CardDesign title={'GEOG 213 Advanced Geospatial Analytics with Python'} content={'This course introduces the principles of open-source software for science and developing reproducible workflows in Python. It focuses on geospatial data analytics, visualization, and accessing geospatial data from various portals, including cloud data stores.'} image={GS} onhandleClick={() => {
                                         setType("");
                                         handleShow();
                                     }} />
                                 </div>
                                 <div className="col-md-4">
-                                    <CardDesign pop={true} title={'GAME 265 Artificial Intelligence for Games'} content={'This course offers an overview of artificial intelligence, with a focus on its applications in electronic gaming. Students will develop logic grids for intelligent agents and explore key concepts like learning, communication, cognition, and the Turing test.'} image={AI} onhandleClick={() => {
+                                    <CardDesign title={'GAME 270 Game Analytics'} content={'This course offers an overview of artificial intelligence, with a focus on its applications in electronic gaming. Students will develop logic grids for intelligent agents and explore key concepts like learning, communication, cognition, and the Turing test.'} image={AI} onhandleClick={() => {
                                         setType("");
                                         handleShow();
                                     }} />
